@@ -1,0 +1,12 @@
+/* Custom styling */
+.logo-dark,
+.logo-light {
+  width: 130px !important;
+}
+@media screen and (max-width: 1024px) {
+}
+
+.widget img {
+  width: 130px;
+  filter: invert(1);
+}
