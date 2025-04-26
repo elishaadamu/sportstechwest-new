@@ -6,10 +6,7 @@
       <div class="col-md-4">
         {% if contact_data.icon %}
         <div class="icon icon-svg mb-20">
-          <img
-            src="{{site.url}}{{site.baseurl}}/{{contact_data.icon}}"
-            alt="{{contact_data.info}}"
-          />
+          <img src="{{contact_data.icon}}" alt="{{contact_data.info}}" />
         </div>
         {% endif %} {% if contact_data.info %}
         <p class="mb-0">{{contact_data.info}}</p>
