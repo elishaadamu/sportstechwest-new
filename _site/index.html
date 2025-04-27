@@ -74,11 +74,10 @@ with a variety of UI elements and countless features. A perfect theme to build y
 />
 <!-- Global Color Scheme for all Pages-->
  
-<!-- custom color page wise-->
 <link
   rel="stylesheet"
   type="text/css"
-  href="/assets/css/color/purple.css"
+  href="/assets/css/color/Cobalt.css"
 />
  
 <!-- Global Font Scheme font-->
@@ -100,9 +99,87 @@ with a variety of UI elements and countless features. A perfect theme to build y
 @media screen and (max-width: 1024px) {
 }
 
-.widget img {
+footer .widget img {
   width: 130px;
   filter: invert(1);
+}
+
+@media screen and (min-width: 1024px) {
+  .blog img {
+    width: 75%;
+    display: flex;
+    cursor: zoom-in;
+    margin: auto;
+  }
+  .blog img:hover {
+    box-shadow: 2px 2px 20px lightblue;
+    transition: box-shadow 1s;
+  }
+  .blog video {
+    width: 50%;
+    display: flex;
+    height: 40%;
+    margin-bottom: 20px;
+  }
+  .blog iframe {
+    display: flex;
+    margin-bottom: 20px;
+  }
+  .image-gallery {
+    display: flex;
+    flex-direction: row;
+    width: 70%;
+    margin-left: 15%;
+  }
+  .image-gallery .img-2 {
+    flex: 50%;
+    width: 40%;
+    padding: 0px 2% !important;
+    object-fit: cover;
+  }
+  .image-gallery .img-3 {
+    flex: 33%;
+    width: 30%;
+    padding: 0px 2% !important;
+    object-fit: cover;
+  }
+  .image-gallery .img-4 {
+    flex: 25%;
+    width: 20%;
+    padding: 0px 2% !important;
+    object-fit: cover;
+  }
+  .image-gallery .img-5 {
+    flex: 20%;
+    width: 16%;
+    padding: 0px 2% !important;
+    object-fit: cover;
+  }
+}
+@media screen and (max-width: 768px) {
+  .blog video {
+    width: 100%;
+  }
+  .blog iframe {
+    width: 100%;
+  }
+}
+@media screen and (max-width: 1023px) {
+  .blog video {
+    display: flex;
+    width: 75% !important;
+    margin-bottom: 20px !important;
+  }
+  .blog iframe {
+    display: flex;
+    width: 75% !important;
+    margin-bottom: 20px !important;
+  }
+  .blog img {
+    display: flex;
+    width: 75% !important;
+    margin-bottom: 20px !important;
+  }
 }
 
     </style>
@@ -357,7 +434,7 @@ with a variety of UI elements and countless features. A perfect theme to build y
     <div id="slider8" class="rev_slider fullscreenbanner" data-version="5.4.7">
       <ul>
         <li data-transition="fade" data-thumb="">
-          <img src="/assets/images/art/slider-bg7.webp" alt="Creative. Smart. Awesome."/>
+          <img src="/assets/images/display/Symposium.jpg" alt="Where Sports Meets Innovation"/>
           <div class="tp-caption font-weight-600 color-white text-center" 
           data-x="center" 
           data-y="middle" 
@@ -369,7 +446,7 @@ with a variety of UI elements and countless features. A perfect theme to build y
           data-whitespace="['normal','normal','normal','normal']" 
           data-frames="[{&quot;delay&quot;:1000,&quot;speed&quot;:1200,&quot;frame&quot;:&quot;0&quot;,&quot;from&quot;:&quot;y:-50px;opacity:0;&quot;,&quot;to&quot;:&quot;o:1;&quot;,&quot;ease&quot;:&quot;Power3.easeInOut&quot;},{&quot;delay&quot;:&quot;wait&quot;,&quot;speed&quot;:300,&quot;frame&quot;:&quot;999&quot;,&quot;to&quot;:&quot;auto:auto;&quot;,&quot;ease&quot;:&quot;Power3.easeInOut&quot;}]" 
           data-responsive="on" 
-          data-responsive_offset="on" style="z-index: 9;">Creative. Smart. Awesome.  
+          data-responsive_offset="on" style="z-index: 9;">Where Sports Meets Innovation  
           </div>
           <div class="tp-caption font-weight-400 color-white text-center" 
           data-x="center" data-y="middle" 
@@ -382,7 +459,7 @@ with a variety of UI elements and countless features. A perfect theme to build y
           data-frames="[{&quot;delay&quot;:1500,&quot;speed&quot;:1200,&quot;frame&quot;:&quot;0&quot;,&quot;from&quot;:&quot;x:-50px;opacity:0;&quot;,&quot;to&quot;:&quot;o:1;&quot;,&quot;ease&quot;:&quot;Power3.easeInOut&quot;},{&quot;delay&quot;:&quot;wait&quot;,&quot;speed&quot;:300,&quot;frame&quot;:&quot;999&quot;,&quot;to&quot;:&quot;auto:auto;&quot;,&quot;ease&quot;:&quot;Power3.easeInOut&quot;}]"
           data-responsive="on" 
           data-responsive_offset="on" 
-          style="z-index: 9;">A digital & branding agency based in London
+          style="z-index: 9;">Check out my Journey and Achievements
           </div>
           <a class="tp-caption btn btn-l btn-white btn-strong-hover scroll" 
                data-x="center" 
@@ -589,7 +666,7 @@ with a variety of UI elements and countless features. A perfect theme to build y
 <!--wrapper video CTA-->
 
   <div class="video-area">
-  <div class="wrapper image-wrapper bg-image gradient-overlay inverse-text" data-image-src="/assets/images/art/bg10.webp">
+  <div class="wrapper image-wrapper bg-image gradient-overlay inverse-text" data-image-src="/assets/images/display/Speaker1.webp">
     <div class="container inner pt-140 pb-140 text-center">
       <div class="row">
         <div class="col-md-7 mx-auto">
@@ -614,7 +691,7 @@ with a variety of UI elements and countless features. A perfect theme to build y
       Our Portfolio
     </h2>
     <p class="lead larger text-center">
-      Check out some of our awesome projects
+      Check out some of Projects and Achievements
     </p>
     <div class="space30"></div>
     <div class="grid grid-view boxed">
@@ -905,17 +982,17 @@ with a variety of UI elements and countless features. A perfect theme to build y
           <div class="item-inner">
             <div class="box bg-white shadow">
                 <blockquote>
-                  <p>"Sed posuere consectetur est at lobortis. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis mollis, est non commodo luctus, nisi erat.
+                  <p>"BTE Analytics were very professional and detailed during our meeting. The amount of shared IP was invaluable.
 "</p>
                   <div class="blockquote-details">
                     
                     <div class="img-blob blob1">
-                      <img src="/assets/images/art/t5.webp" alt="Cornelia Gibson"/>
+                      <img src="/assets/images/clients/Hodge__Julius.webp" alt="Julius Melvin Hodge"/>
                     </div>
                     
                     <div class="info">
-                      <h6 class="mb-0">Cornelia Gibson</h6>
-                      <span class="meta mb-0">Financial Analyst</span>
+                      <h6 class="mb-0">Julius Melvin Hodge</h6>
+                      <span class="meta mb-0">Former NBA Player and now Divison 1 Coach</span>
                     </div>
                   </div>
                 </blockquote>
@@ -930,17 +1007,17 @@ with a variety of UI elements and countless features. A perfect theme to build y
           <div class="item-inner">
             <div class="box bg-white shadow">
                 <blockquote>
-                  <p>"Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor. Vestibulum id ligula porta felis euismod semper. Cras justo odio, dapibus.
+                  <p>"Rashad approaches his passion for sports innovation and analytics with the same thorough dedication he had as a high-performing athlete. 
 "</p>
                   <div class="blockquote-details">
                     
                     <div class="img-blob blob1">
-                      <img src="/assets/images/art/t2.webp" alt="Coriss Ambady"/>
+                      <img src="/assets/images/clients/Mac-Wilkinson.png" alt="Mac Wilkerson"/>
                     </div>
                     
                     <div class="info">
-                      <h6 class="mb-0">Coriss Ambady</h6>
-                      <span class="meta mb-0">Marketing Specialist</span>
+                      <h6 class="mb-0">Mac Wilkerson</h6>
+                      <span class="meta mb-0">Founder of Moolathan and Former Professional Basketball player</span>
                     </div>
                   </div>
                 </blockquote>
@@ -955,17 +1032,17 @@ with a variety of UI elements and countless features. A perfect theme to build y
           <div class="item-inner">
             <div class="box bg-white shadow">
                 <blockquote>
-                  <p>"Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit. Cras justo odio, dapibus ac facilisis in, egestas eget.
+                  <p>"Rashad approaches his passion for sports innovation and analytics with the same thorough dedication he had as a high-performing athlete. 
 "</p>
                   <div class="blockquote-details">
                     
                     <div class="img-blob blob1">
-                      <img src="/assets/images/art/t3.webp" alt="Barclay Widerski"/>
+                      <img src="/assets/images/clients/Mac-Wilkinson.png" alt="Mac Wilkerson"/>
                     </div>
                     
                     <div class="info">
-                      <h6 class="mb-0">Barclay Widerski</h6>
-                      <span class="meta mb-0">Sales Manager</span>
+                      <h6 class="mb-0">Mac Wilkerson</h6>
+                      <span class="meta mb-0">Founder of Moolathan and Former Professional Basketball player</span>
                     </div>
                   </div>
                 </blockquote>
@@ -1045,17 +1122,304 @@ with a variety of UI elements and countless features. A perfect theme to build y
         
         
         
+        <div class="item">
+              
+              <figure class="overlay overlay1 rounded mb-30">
+                <a href="/National-Championship-Women's-Soccer"> <img class="post-thumb" src="assets/images/thumbnails/Ncws.jpeg" alt="Analytics Culture: UNC Legacy “From No Control to Comeback”"/></a>
+                <figcaption>
+                  <h5 class="from-top mb-0 text-uppercase">Read More</h5>
+                </figcaption>
+              </figure>
+              
+              <div class="category"><a href="/category/" class="badge  badge-pill bg-leaf"></a></div>
+              <h2 class="post-title"><a href="/National-Championship-Women's-Soccer">Analytics Culture: UNC Legacy “From No Control to Comeback”</a></h2>
+              <div class="meta mb-0"><span class="date">
+                <i class="jam jam-clock"></i>20 Jan 2025</span>
+                
+              </div>
+         
+        </div>
+        
         
         
         
         <div class="item">
               
               <figure class="overlay overlay1 rounded mb-30">
-                <a href="/posts/post-with-carousel"> <img class="post-thumb" src="/assets/images/art/f1.webp" alt="Post with Carousel on main Image"/></a>
+                <a href="/Analytics-Culture-The-Game-Within-the-Game"> <img class="post-thumb" src="assets/images/thumbnails/basketball-history.webp" alt="Analytics Culture: “The Game Within the Game”"/></a>
                 <figcaption>
                   <h5 class="from-top mb-0 text-uppercase">Read More</h5>
                 </figcaption>
               </figure>
+              
+              <div class="category"><a href="/category/" class="badge  badge-pill bg-leaf"></a></div>
+              <h2 class="post-title"><a href="/Analytics-Culture-The-Game-Within-the-Game">Analytics Culture: “The Game Within the Game”</a></h2>
+              <div class="meta mb-0"><span class="date">
+                <i class="jam jam-clock"></i>28 Nov 2024</span>
+                
+              </div>
+         
+        </div>
+        
+        
+        
+        
+        <div class="item">
+              
+              <figure class="overlay overlay1 rounded mb-30">
+                <a href="/From-the-Court-to-the-Tech-World"> <img class="post-thumb" src="assets/images/thumbnails/olympics-paris.webp" alt="From the Court to the Tech World: My Unforgettable Experience at the Paris Olympics and What It Means for BTE Analytics"/></a>
+                <figcaption>
+                  <h5 class="from-top mb-0 text-uppercase">Read More</h5>
+                </figcaption>
+              </figure>
+              
+              <div class="category"><a href="/category/" class="badge  badge-pill bg-leaf"></a></div>
+              <h2 class="post-title"><a href="/From-the-Court-to-the-Tech-World">From the Court to the Tech World: My Unforgettable Experience at the Paris Olympics and What It Means for BTE Analytics</a></h2>
+              <div class="meta mb-0"><span class="date">
+                <i class="jam jam-clock"></i>20 Nov 2024</span>
+                
+              </div>
+         
+        </div>
+        
+        
+        
+        
+        <div class="item">
+              
+              <figure class="overlay overlay1 rounded mb-30">
+                <a href="/Accelerating_Data_Innovation"> <img class="post-thumb" src="assets/images/thumbnails/BTE_Future11.webp" alt="Accelerating Data Innovation: My Journey with Rolling Insights"/></a>
+                <figcaption>
+                  <h5 class="from-top mb-0 text-uppercase">Read More</h5>
+                </figcaption>
+              </figure>
+              
+              <div class="category"><a href="/category/" class="badge  badge-pill bg-leaf"></a></div>
+              <h2 class="post-title"><a href="/Accelerating_Data_Innovation">Accelerating Data Innovation: My Journey with Rolling Insights</a></h2>
+              <div class="meta mb-0"><span class="date">
+                <i class="jam jam-clock"></i>05 Nov 2024</span>
+                
+              </div>
+         
+        </div>
+        
+        
+        
+        
+        <div class="item">
+              
+              <figure class="overlay overlay1 rounded mb-30">
+                <a href="/Discovering_New_Realities"> <img class="post-thumb" src="assets/images/thumbnails/MIT XR Hackathon-thumbnail.webp" alt="Discovering New Realities: My Time at MIT XR Hackathon"/></a>
+                <figcaption>
+                  <h5 class="from-top mb-0 text-uppercase">Read More</h5>
+                </figcaption>
+              </figure>
+              
+              <div class="category"><a href="/category/" class="badge  badge-pill bg-leaf"></a></div>
+              <h2 class="post-title"><a href="/Discovering_New_Realities">Discovering New Realities: My Time at MIT XR Hackathon</a></h2>
+              <div class="meta mb-0"><span class="date">
+                <i class="jam jam-clock"></i>25 Feb 2024</span>
+                
+              </div>
+         
+        </div>
+        
+        
+        
+        
+        <div class="item">
+              
+              <figure class="overlay overlay1 rounded mb-30">
+                <a href="/NBA_All_Star_Weekend_in_Indianapolis"> <img class="post-thumb" src="assets/images/thumbnails/2024_NBA_All_Star_Game_logo.png" alt="NBA All-Star Weekend in Indianapolis: Events, Challenges, and Unforgettable Connections"/></a>
+                <figcaption>
+                  <h5 class="from-top mb-0 text-uppercase">Read More</h5>
+                </figcaption>
+              </figure>
+              
+              <div class="category"><a href="/category/" class="badge  badge-pill bg-leaf"></a></div>
+              <h2 class="post-title"><a href="/NBA_All_Star_Weekend_in_Indianapolis">NBA All-Star Weekend in Indianapolis: Events, Challenges, and Unforgettable Connections</a></h2>
+              <div class="meta mb-0"><span class="date">
+                <i class="jam jam-clock"></i>18 Feb 2024</span>
+                
+              </div>
+         
+        </div>
+        
+        
+        
+        
+        <div class="item">
+              
+              <figure class="overlay overlay1 rounded mb-30">
+                <a href="/Super_Bowl_Weekend_in_Las_Vegas"> <img class="post-thumb" src="assets/images/thumbnails/superbowl-lvii-las-vegas-thumbnail.webp" alt="Super Bowl Weekend in Las Vegas: Connections and Experiences"/></a>
+                <figcaption>
+                  <h5 class="from-top mb-0 text-uppercase">Read More</h5>
+                </figcaption>
+              </figure>
+              
+              <div class="category"><a href="/category/" class="badge  badge-pill bg-leaf"></a></div>
+              <h2 class="post-title"><a href="/Super_Bowl_Weekend_in_Las_Vegas">Super Bowl Weekend in Las Vegas: Connections and Experiences</a></h2>
+              <div class="meta mb-0"><span class="date">
+                <i class="jam jam-clock"></i>12 Feb 2024</span>
+                
+              </div>
+         
+        </div>
+        
+        
+        
+        
+        <div class="item">
+              
+              <figure class="overlay overlay1 rounded mb-30">
+                <a href="/FETC_Future_Education"> <img class="post-thumb" src="assets/img/blog-img/0003.webp" alt="FETC Future Education"/></a>
+                <figcaption>
+                  <h5 class="from-top mb-0 text-uppercase">Read More</h5>
+                </figcaption>
+              </figure>
+              
+              <div class="category"><a href="/category/" class="badge  badge-pill bg-leaf"></a></div>
+              <h2 class="post-title"><a href="/FETC_Future_Education">FETC Future Education</a></h2>
+              <div class="meta mb-0"><span class="date">
+                <i class="jam jam-clock"></i>05 Feb 2024</span>
+                
+              </div>
+         
+        </div>
+        
+        
+        
+        
+        <div class="item">
+              
+              <figure class="overlay overlay1 rounded mb-30">
+                <a href="/CES_Sports_AI_XR"> <img class="post-thumb" src="assets/img/blog-img/20240110_160544.webp" alt="CES Sports AI XR"/></a>
+                <figcaption>
+                  <h5 class="from-top mb-0 text-uppercase">Read More</h5>
+                </figcaption>
+              </figure>
+              
+              <div class="category"><a href="/category/" class="badge  badge-pill bg-leaf"></a></div>
+              <h2 class="post-title"><a href="/CES_Sports_AI_XR">CES Sports AI XR</a></h2>
+              <div class="meta mb-0"><span class="date">
+                <i class="jam jam-clock"></i>21 Jan 2024</span>
+                
+              </div>
+         
+        </div>
+        
+        
+        
+        
+        <div class="item">
+              
+              <figure class="overlay overlay1 rounded mb-30">
+                <a href="/CES_Sports_Innovation_Lab_Lounge"> <img class="post-thumb" src="assets/img/blog-img/Speaker3.webp" alt="CES Sports Innovation Lab Lounge"/></a>
+                <figcaption>
+                  <h5 class="from-top mb-0 text-uppercase">Read More</h5>
+                </figcaption>
+              </figure>
+              
+              <div class="category"><a href="/category/" class="badge  badge-pill bg-leaf"></a></div>
+              <h2 class="post-title"><a href="/CES_Sports_Innovation_Lab_Lounge">CES Sports Innovation Lab Lounge</a></h2>
+              <div class="meta mb-0"><span class="date">
+                <i class="jam jam-clock"></i>20 Jan 2024</span>
+                
+              </div>
+         
+        </div>
+        
+        
+        
+        
+        <div class="item">
+              
+              <figure class="overlay overlay1 rounded mb-30">
+                <a href="/Building_with_Innovators"> <img class="post-thumb" src="assets/img/header/thumbnails/techstars.webp" alt="Building with Innovators: My Journey with Techstars Washington, DC and How It Will Fuel My Sports Analytics Journey"/></a>
+                <figcaption>
+                  <h5 class="from-top mb-0 text-uppercase">Read More</h5>
+                </figcaption>
+              </figure>
+              
+              <div class="category"><a href="/category/" class="badge  badge-pill bg-leaf"></a></div>
+              <h2 class="post-title"><a href="/Building_with_Innovators">Building with Innovators: My Journey with Techstars Washington, DC and How It Will Fuel My Sports Analytics Journey</a></h2>
+              <div class="meta mb-0"><span class="date">
+                <i class="jam jam-clock"></i>01 Jan 2024</span>
+                
+              </div>
+         
+        </div>
+        
+        
+        
+        
+        <div class="item">
+              
+              <figure class="overlay overlay1 rounded mb-30">
+                <a href="/Who_Am_I_"> <img class="post-thumb" src="assets/img/blog-img/0002.webp" alt="Who Am I"/></a>
+                <figcaption>
+                  <h5 class="from-top mb-0 text-uppercase">Read More</h5>
+                </figcaption>
+              </figure>
+              
+              <div class="category"><a href="/category/" class="badge  badge-pill bg-leaf"></a></div>
+              <h2 class="post-title"><a href="/Who_Am_I_">Who Am I</a></h2>
+              <div class="meta mb-0"><span class="date">
+                <i class="jam jam-clock"></i>01 Feb 2023</span>
+                
+              </div>
+         
+        </div>
+        
+        
+        
+        
+        <div class="item">
+              
+              <figure class="overlay overlay1 rounded mb-30">
+                <a href="/Johnson_C_Smith"> <img class="post-thumb" src="assets/img/blog-img/Screen Shot 2020-08-30 at 9.37.28 PM.webp" alt="Johnson C Smith"/></a>
+                <figcaption>
+                  <h5 class="from-top mb-0 text-uppercase">Read More</h5>
+                </figcaption>
+              </figure>
+              
+              <div class="category"><a href="/category/" class="badge  badge-pill bg-leaf"></a></div>
+              <h2 class="post-title"><a href="/Johnson_C_Smith">Johnson C Smith</a></h2>
+              <div class="meta mb-0"><span class="date">
+                <i class="jam jam-clock"></i>18 Oct 2022</span>
+                
+              </div>
+         
+        </div>
+        
+        
+        
+        
+        <div class="item">
+              
+              <figure class="overlay overlay1 rounded mb-30">
+                <a href="/BTE_Analytics_Visualizations"> <img class="post-thumb" src="assets/img/blog-img/Screen Shot 2020-08-30 at 9.37.28 PM.webp" alt="BTE Analytics Visualizations"/></a>
+                <figcaption>
+                  <h5 class="from-top mb-0 text-uppercase">Read More</h5>
+                </figcaption>
+              </figure>
+              
+              <div class="category"><a href="/category/" class="badge  badge-pill bg-leaf"></a></div>
+              <h2 class="post-title"><a href="/BTE_Analytics_Visualizations">BTE Analytics Visualizations</a></h2>
+              <div class="meta mb-0"><span class="date">
+                <i class="jam jam-clock"></i>30 Sep 2022</span>
+                
+              </div>
+         
+        </div>
+        
+        
+        
+        
+        
+        
+        
+        <div class="item">
               
               <div class="category"><a href="/category/wedding" class="badge bg-purple badge-pill bg-leaf">wedding</a></div>
               <h2 class="post-title"><a href="/posts/post-with-carousel">Post with Carousel on main Image</a></h2>
@@ -1074,11 +1438,46 @@ with a variety of UI elements and countless features. A perfect theme to build y
         <div class="item">
               
               <figure class="overlay overlay1 rounded mb-30">
-                <a href="/posts/post-with-code-highlight"> <img class="post-thumb" src="/assets/images/art/b16.webp" alt="Markdown post with code highlighting"/></a>
+                <a href="/Howard_University"> <img class="post-thumb" src="assets/img/blog-img/Screen Shot 2020-08-30 at 9.37.28 PM.webp" alt="Howard University"/></a>
                 <figcaption>
                   <h5 class="from-top mb-0 text-uppercase">Read More</h5>
                 </figcaption>
               </figure>
+              
+              <div class="category"><a href="/category/" class="badge  badge-pill bg-leaf"></a></div>
+              <h2 class="post-title"><a href="/Howard_University">Howard University</a></h2>
+              <div class="meta mb-0"><span class="date">
+                <i class="jam jam-clock"></i>16 Sep 2022</span>
+                
+              </div>
+         
+        </div>
+        
+        
+        
+        
+        <div class="item">
+              
+              <figure class="overlay overlay1 rounded mb-30">
+                <a href="/Color_Grid"> <img class="post-thumb" src="assets/img/blog-img/Screen Shot 2020-08-30 at 9.37.28 PM.webp" alt="Color Grid"/></a>
+                <figcaption>
+                  <h5 class="from-top mb-0 text-uppercase">Read More</h5>
+                </figcaption>
+              </figure>
+              
+              <div class="category"><a href="/category/" class="badge  badge-pill bg-leaf"></a></div>
+              <h2 class="post-title"><a href="/Color_Grid">Color Grid</a></h2>
+              <div class="meta mb-0"><span class="date">
+                <i class="jam jam-clock"></i>14 Sep 2022</span>
+                
+              </div>
+         
+        </div>
+        
+        
+        
+        
+        <div class="item">
               
               <div class="category"><a href="/category/couples" class="badge bg-meander badge-pill bg-leaf">couples</a></div>
               <h2 class="post-title"><a href="/posts/post-with-code-highlight">Markdown post with code highlighting</a></h2>
@@ -1096,13 +1495,6 @@ with a variety of UI elements and countless features. A perfect theme to build y
         
         <div class="item">
               
-              <figure class="overlay overlay1 rounded mb-30">
-                <a href="/posts/post-boxed"> <img class="post-thumb" src="/assets/images/art/tb2.webp" alt="Boxed Post"/></a>
-                <figcaption>
-                  <h5 class="from-top mb-0 text-uppercase">Read More</h5>
-                </figcaption>
-              </figure>
-              
               <div class="category"><a href="/category/architecture" class="badge bg-leaf badge-pill bg-leaf">architecture</a></div>
               <h2 class="post-title"><a href="/posts/post-boxed">Boxed Post</a></h2>
               <div class="meta mb-0"><span class="date">
@@ -1118,13 +1510,6 @@ with a variety of UI elements and countless features. A perfect theme to build y
         
         
         <div class="item">
-              
-              <figure class="overlay overlay1 rounded mb-30">
-                <a href="/posts/post-boxed-sidebar"> <img class="post-thumb" src="/assets/images/art/tb2.webp" alt="Boxed Post with Sidebar"/></a>
-                <figcaption>
-                  <h5 class="from-top mb-0 text-uppercase">Read More</h5>
-                </figcaption>
-              </figure>
               
               <div class="category"><a href="/category/architecture" class="badge bg-leaf badge-pill bg-leaf">architecture</a></div>
               <h2 class="post-title"><a href="/posts/post-boxed-sidebar">Boxed Post with Sidebar</a></h2>
@@ -1143,11 +1528,25 @@ with a variety of UI elements and countless features. A perfect theme to build y
         <div class="item">
               
               <figure class="overlay overlay1 rounded mb-30">
-                <a href="/posts/post-with-video"> <img class="post-thumb" src="/assets/images/art/b15.webp" alt="Markdown Post With Video"/></a>
+                <a href="/BTE_Analytics_Speaking1_Episode_19"> <img class="post-thumb" src="assets/img/blog-img/Screen Shot 2020-08-30 at 9.37.28 PM.webp" alt="BTE Analytics Speaking1 Episode 19"/></a>
                 <figcaption>
                   <h5 class="from-top mb-0 text-uppercase">Read More</h5>
                 </figcaption>
               </figure>
+              
+              <div class="category"><a href="/category/" class="badge  badge-pill bg-leaf"></a></div>
+              <h2 class="post-title"><a href="/BTE_Analytics_Speaking1_Episode_19">BTE Analytics Speaking1 Episode 19</a></h2>
+              <div class="meta mb-0"><span class="date">
+                <i class="jam jam-clock"></i>27 Aug 2022</span>
+                
+              </div>
+         
+        </div>
+        
+        
+        
+        
+        <div class="item">
               
               <div class="category"><a href="/category/engagement" class="badge bg-purple badge-pill bg-leaf">engagement</a></div>
               <h2 class="post-title"><a href="/posts/post-with-video">Markdown Post With Video</a></h2>
@@ -1165,13 +1564,6 @@ with a variety of UI elements and countless features. A perfect theme to build y
         
         <div class="item">
               
-              <figure class="overlay overlay1 rounded mb-30">
-                <a href="/posts/post-with-image"> <img class="post-thumb" src="/assets/images/art/bg17.webp" alt="Markdown Post with image"/></a>
-                <figcaption>
-                  <h5 class="from-top mb-0 text-uppercase">Read More</h5>
-                </figcaption>
-              </figure>
-              
               <div class="category"><a href="/category/engagement" class="badge bg-leaf badge-pill bg-leaf">engagement</a></div>
               <h2 class="post-title"><a href="/posts/post-with-image">Markdown Post with image</a></h2>
               <div class="meta mb-0"><span class="date">
@@ -1187,13 +1579,6 @@ with a variety of UI elements and countless features. A perfect theme to build y
         
         
         <div class="item">
-              
-              <figure class="overlay overlay1 rounded mb-30">
-                <a href="/posts/markdown-post"> <img class="post-thumb" src="/assets/images/art/bg18.webp" alt="Markdown Post"/></a>
-                <figcaption>
-                  <h5 class="from-top mb-0 text-uppercase">Read More</h5>
-                </figcaption>
-              </figure>
               
               <div class="category"><a href="/category/wedding" class="badge bg-violet badge-pill bg-leaf">wedding</a></div>
               <h2 class="post-title"><a href="/posts/markdown-post">Markdown Post</a></h2>
@@ -1212,11 +1597,571 @@ with a variety of UI elements and countless features. A perfect theme to build y
         <div class="item">
               
               <figure class="overlay overlay1 rounded mb-30">
-                <a href="/posts/simple-post-with-sidebar"> <img class="post-thumb" src="/assets/images/art/tb1.webp" alt="Simple Post With Sidebar"/></a>
+                <a href="/BTE_Analytics_VideoAnalysis_Episode_18"> <img class="post-thumb" src="assets/img/blog-img/Screen Shot 2020-08-30 at 9.37.28 PM.webp" alt="BTE Analytics VideoAnalysis Episode 18"/></a>
                 <figcaption>
                   <h5 class="from-top mb-0 text-uppercase">Read More</h5>
                 </figcaption>
               </figure>
+              
+              <div class="category"><a href="/category/" class="badge  badge-pill bg-leaf"></a></div>
+              <h2 class="post-title"><a href="/BTE_Analytics_VideoAnalysis_Episode_18">BTE Analytics VideoAnalysis Episode 18</a></h2>
+              <div class="meta mb-0"><span class="date">
+                <i class="jam jam-clock"></i>28 Jun 2022</span>
+                
+              </div>
+         
+        </div>
+        
+        
+        
+        
+        <div class="item">
+              
+              <figure class="overlay overlay1 rounded mb-30">
+                <a href="/BTE_Analytics_M2E_Episode_17"> <img class="post-thumb" src="assets/img/blog-img/Screen Shot 2020-08-30 at 9.37.28 PM.webp" alt="BTE Analytics M2E Episode 17"/></a>
+                <figcaption>
+                  <h5 class="from-top mb-0 text-uppercase">Read More</h5>
+                </figcaption>
+              </figure>
+              
+              <div class="category"><a href="/category/" class="badge  badge-pill bg-leaf"></a></div>
+              <h2 class="post-title"><a href="/BTE_Analytics_M2E_Episode_17">BTE Analytics M2E Episode 17</a></h2>
+              <div class="meta mb-0"><span class="date">
+                <i class="jam jam-clock"></i>27 Jun 2022</span>
+                
+              </div>
+         
+        </div>
+        
+        
+        
+        
+        <div class="item">
+              
+              <figure class="overlay overlay1 rounded mb-30">
+                <a href="/BTE_Analytics_BallEd2_Episode_16"> <img class="post-thumb" src="assets/img/blog-img/Screen Shot 2020-08-30 at 9.37.28 PM.webp" alt="BTE Analytics BallEd2 Episode 16"/></a>
+                <figcaption>
+                  <h5 class="from-top mb-0 text-uppercase">Read More</h5>
+                </figcaption>
+              </figure>
+              
+              <div class="category"><a href="/category/" class="badge  badge-pill bg-leaf"></a></div>
+              <h2 class="post-title"><a href="/BTE_Analytics_BallEd2_Episode_16">BTE Analytics BallEd2 Episode 16</a></h2>
+              <div class="meta mb-0"><span class="date">
+                <i class="jam jam-clock"></i>26 Jun 2022</span>
+                
+              </div>
+         
+        </div>
+        
+        
+        
+        
+        <div class="item">
+              
+              <figure class="overlay overlay1 rounded mb-30">
+                <a href="/BTE_Analytics_BallEd_Episode_15"> <img class="post-thumb" src="assets/img/blog-img/Screen Shot 2020-08-30 at 9.37.28 PM.webp" alt="BTE Analytics BallEd Episode 15"/></a>
+                <figcaption>
+                  <h5 class="from-top mb-0 text-uppercase">Read More</h5>
+                </figcaption>
+              </figure>
+              
+              <div class="category"><a href="/category/" class="badge  badge-pill bg-leaf"></a></div>
+              <h2 class="post-title"><a href="/BTE_Analytics_BallEd_Episode_15">BTE Analytics BallEd Episode 15</a></h2>
+              <div class="meta mb-0"><span class="date">
+                <i class="jam jam-clock"></i>24 Jun 2022</span>
+                
+              </div>
+         
+        </div>
+        
+        
+        
+        
+        <div class="item">
+              
+              <figure class="overlay overlay1 rounded mb-30">
+                <a href="/BTE_Analytics_BTEBallCode_Episode_14"> <img class="post-thumb" src="assets/img/blog-img/Screen Shot 2020-08-30 at 9.37.28 PM.webp" alt="BTE Analytics BTEBallCode Episode 14"/></a>
+                <figcaption>
+                  <h5 class="from-top mb-0 text-uppercase">Read More</h5>
+                </figcaption>
+              </figure>
+              
+              <div class="category"><a href="/category/" class="badge  badge-pill bg-leaf"></a></div>
+              <h2 class="post-title"><a href="/BTE_Analytics_BTEBallCode_Episode_14">BTE Analytics BTEBallCode Episode 14</a></h2>
+              <div class="meta mb-0"><span class="date">
+                <i class="jam jam-clock"></i>24 Jun 2022</span>
+                
+              </div>
+         
+        </div>
+        
+        
+        
+        
+        <div class="item">
+              
+              <figure class="overlay overlay1 rounded mb-30">
+                <a href="/BTE_ComputerVision_Episode_13"> <img class="post-thumb" src="assets/img/blog-img/Screen Shot 2020-08-30 at 9.37.28 PM.webp" alt="BTE ComputerVision Episode 13"/></a>
+                <figcaption>
+                  <h5 class="from-top mb-0 text-uppercase">Read More</h5>
+                </figcaption>
+              </figure>
+              
+              <div class="category"><a href="/category/" class="badge  badge-pill bg-leaf"></a></div>
+              <h2 class="post-title"><a href="/BTE_ComputerVision_Episode_13">BTE ComputerVision Episode 13</a></h2>
+              <div class="meta mb-0"><span class="date">
+                <i class="jam jam-clock"></i>22 Jun 2022</span>
+                
+              </div>
+         
+        </div>
+        
+        
+        
+        
+        <div class="item">
+              
+              <figure class="overlay overlay1 rounded mb-30">
+                <a href="/BTE_Analytics_AnalyzingGames_Episode_13"> <img class="post-thumb" src="assets/img/blog-img/Screen Shot 2020-08-30 at 9.37.28 PM.webp" alt="BTE Analytics AnalyzingGames Episode 13"/></a>
+                <figcaption>
+                  <h5 class="from-top mb-0 text-uppercase">Read More</h5>
+                </figcaption>
+              </figure>
+              
+              <div class="category"><a href="/category/" class="badge  badge-pill bg-leaf"></a></div>
+              <h2 class="post-title"><a href="/BTE_Analytics_AnalyzingGames_Episode_13">BTE Analytics AnalyzingGames Episode 13</a></h2>
+              <div class="meta mb-0"><span class="date">
+                <i class="jam jam-clock"></i>22 Jun 2022</span>
+                
+              </div>
+         
+        </div>
+        
+        
+        
+        
+        <div class="item">
+              
+              <figure class="overlay overlay1 rounded mb-30">
+                <a href="/BTE_Analytics_BTEMoves_Episode_12"> <img class="post-thumb" src="assets/img/blog-img/Screen Shot 2020-08-30 at 9.37.28 PM.webp" alt="BTE Analytics BTEMoves Episode 12"/></a>
+                <figcaption>
+                  <h5 class="from-top mb-0 text-uppercase">Read More</h5>
+                </figcaption>
+              </figure>
+              
+              <div class="category"><a href="/category/" class="badge  badge-pill bg-leaf"></a></div>
+              <h2 class="post-title"><a href="/BTE_Analytics_BTEMoves_Episode_12">BTE Analytics BTEMoves Episode 12</a></h2>
+              <div class="meta mb-0"><span class="date">
+                <i class="jam jam-clock"></i>13 Jun 2022</span>
+                
+              </div>
+         
+        </div>
+        
+        
+        
+        
+        <div class="item">
+              
+              <figure class="overlay overlay1 rounded mb-30">
+                <a href="/BTE_Analytics_AdvancedAnalytics_Episode_11"> <img class="post-thumb" src="assets/img/blog-img/Screen Shot 2020-08-30 at 9.37.28 PM.webp" alt="BTE Analytics AdvancedAnalytics Episode 11"/></a>
+                <figcaption>
+                  <h5 class="from-top mb-0 text-uppercase">Read More</h5>
+                </figcaption>
+              </figure>
+              
+              <div class="category"><a href="/category/" class="badge  badge-pill bg-leaf"></a></div>
+              <h2 class="post-title"><a href="/BTE_Analytics_AdvancedAnalytics_Episode_11">BTE Analytics AdvancedAnalytics Episode 11</a></h2>
+              <div class="meta mb-0"><span class="date">
+                <i class="jam jam-clock"></i>30 May 2022</span>
+                
+              </div>
+         
+        </div>
+        
+        
+        
+        
+        <div class="item">
+              
+              <figure class="overlay overlay1 rounded mb-30">
+                <a href="/BTE_Analytics_CodingRebound_Episode_10"> <img class="post-thumb" src="assets/img/blog-img/Screen Shot 2020-08-30 at 9.37.28 PM.webp" alt="BTE Analytics CodingRebound Episode 10"/></a>
+                <figcaption>
+                  <h5 class="from-top mb-0 text-uppercase">Read More</h5>
+                </figcaption>
+              </figure>
+              
+              <div class="category"><a href="/category/" class="badge  badge-pill bg-leaf"></a></div>
+              <h2 class="post-title"><a href="/BTE_Analytics_CodingRebound_Episode_10">BTE Analytics CodingRebound Episode 10</a></h2>
+              <div class="meta mb-0"><span class="date">
+                <i class="jam jam-clock"></i>26 May 2022</span>
+                
+              </div>
+         
+        </div>
+        
+        
+        
+        
+        <div class="item">
+              
+              <figure class="overlay overlay1 rounded mb-30">
+                <a href="/BTE_Analytics_AdvancedAnalytics_Episode_11"> <img class="post-thumb" src="assets/img/blog-img/Screen Shot 2020-08-30 at 9.37.28 PM.webp" alt="BTE Analytics AdvancedAnalytics Episode 11"/></a>
+                <figcaption>
+                  <h5 class="from-top mb-0 text-uppercase">Read More</h5>
+                </figcaption>
+              </figure>
+              
+              <div class="category"><a href="/category/" class="badge  badge-pill bg-leaf"></a></div>
+              <h2 class="post-title"><a href="/BTE_Analytics_AdvancedAnalytics_Episode_11">BTE Analytics AdvancedAnalytics Episode 11</a></h2>
+              <div class="meta mb-0"><span class="date">
+                <i class="jam jam-clock"></i>26 May 2022</span>
+                
+              </div>
+         
+        </div>
+        
+        
+        
+        
+        <div class="item">
+              
+              <figure class="overlay overlay1 rounded mb-30">
+                <a href="/BTE_Analytics_CodingStruggles_Episode_9"> <img class="post-thumb" src="assets/img/blog-img/Screen Shot 2020-08-30 at 9.37.28 PM.webp" alt="BTE Analytics CodingStruggles Episode 9"/></a>
+                <figcaption>
+                  <h5 class="from-top mb-0 text-uppercase">Read More</h5>
+                </figcaption>
+              </figure>
+              
+              <div class="category"><a href="/category/" class="badge  badge-pill bg-leaf"></a></div>
+              <h2 class="post-title"><a href="/BTE_Analytics_CodingStruggles_Episode_9">BTE Analytics CodingStruggles Episode 9</a></h2>
+              <div class="meta mb-0"><span class="date">
+                <i class="jam jam-clock"></i>25 May 2022</span>
+                
+              </div>
+         
+        </div>
+        
+        
+        
+        
+        <div class="item">
+              
+              <figure class="overlay overlay1 rounded mb-30">
+                <a href="/BTE_Analytics_MovesHacker_Episode_8"> <img class="post-thumb" src="assets/img/blog-img/Screen Shot 2020-08-30 at 9.37.28 PM.webp" alt="BTE Analytics MovesHacker Episode 8"/></a>
+                <figcaption>
+                  <h5 class="from-top mb-0 text-uppercase">Read More</h5>
+                </figcaption>
+              </figure>
+              
+              <div class="category"><a href="/category/" class="badge  badge-pill bg-leaf"></a></div>
+              <h2 class="post-title"><a href="/BTE_Analytics_MovesHacker_Episode_8">BTE Analytics MovesHacker Episode 8</a></h2>
+              <div class="meta mb-0"><span class="date">
+                <i class="jam jam-clock"></i>24 May 2022</span>
+                
+              </div>
+         
+        </div>
+        
+        
+        
+        
+        <div class="item">
+              
+              <figure class="overlay overlay1 rounded mb-30">
+                <a href="/Coding_Moves_201"> <img class="post-thumb" src="assets/img/blog-img/Screen Shot 2020-08-30 at 9.37.28 PM.webp" alt="Coding Moves 201"/></a>
+                <figcaption>
+                  <h5 class="from-top mb-0 text-uppercase">Read More</h5>
+                </figcaption>
+              </figure>
+              
+              <div class="category"><a href="/category/" class="badge  badge-pill bg-leaf"></a></div>
+              <h2 class="post-title"><a href="/Coding_Moves_201">Coding Moves 201</a></h2>
+              <div class="meta mb-0"><span class="date">
+                <i class="jam jam-clock"></i>23 May 2022</span>
+                
+              </div>
+         
+        </div>
+        
+        
+        
+        
+        <div class="item">
+              
+              <figure class="overlay overlay1 rounded mb-30">
+                <a href="/Coding_Moves_200"> <img class="post-thumb" src="assets/img/blog-img/Screen Shot 2020-08-30 at 9.37.28 PM.webp" alt="Coding Moves 200"/></a>
+                <figcaption>
+                  <h5 class="from-top mb-0 text-uppercase">Read More</h5>
+                </figcaption>
+              </figure>
+              
+              <div class="category"><a href="/category/" class="badge  badge-pill bg-leaf"></a></div>
+              <h2 class="post-title"><a href="/Coding_Moves_200">Coding Moves 200</a></h2>
+              <div class="meta mb-0"><span class="date">
+                <i class="jam jam-clock"></i>22 May 2022</span>
+                
+              </div>
+         
+        </div>
+        
+        
+        
+        
+        <div class="item">
+              
+              <figure class="overlay overlay1 rounded mb-30">
+                <a href="/Coding_Moves_102"> <img class="post-thumb" src="assets/img/blog-img/Screen Shot 2020-08-30 at 9.37.28 PM.webp" alt="Coding Moves 102"/></a>
+                <figcaption>
+                  <h5 class="from-top mb-0 text-uppercase">Read More</h5>
+                </figcaption>
+              </figure>
+              
+              <div class="category"><a href="/category/" class="badge  badge-pill bg-leaf"></a></div>
+              <h2 class="post-title"><a href="/Coding_Moves_102">Coding Moves 102</a></h2>
+              <div class="meta mb-0"><span class="date">
+                <i class="jam jam-clock"></i>22 May 2022</span>
+                
+              </div>
+         
+        </div>
+        
+        
+        
+        
+        <div class="item">
+              
+              <figure class="overlay overlay1 rounded mb-30">
+                <a href="/Coding_Moves_101"> <img class="post-thumb" src="assets/img/blog-img/Screen Shot 2020-08-30 at 9.37.28 PM.webp" alt="Coding Moves 101"/></a>
+                <figcaption>
+                  <h5 class="from-top mb-0 text-uppercase">Read More</h5>
+                </figcaption>
+              </figure>
+              
+              <div class="category"><a href="/category/" class="badge  badge-pill bg-leaf"></a></div>
+              <h2 class="post-title"><a href="/Coding_Moves_101">Coding Moves 101</a></h2>
+              <div class="meta mb-0"><span class="date">
+                <i class="jam jam-clock"></i>21 May 2022</span>
+                
+              </div>
+         
+        </div>
+        
+        
+        
+        
+        <div class="item">
+              
+              <figure class="overlay overlay1 rounded mb-30">
+                <a href="/BTE_AnalyticsAgent_Episode_7"> <img class="post-thumb" src="assets/img/blog-img/Screen Shot 2020-08-30 at 9.37.28 PM.webp" alt="BTE AnalyticsAgent Episode 7"/></a>
+                <figcaption>
+                  <h5 class="from-top mb-0 text-uppercase">Read More</h5>
+                </figcaption>
+              </figure>
+              
+              <div class="category"><a href="/category/" class="badge  badge-pill bg-leaf"></a></div>
+              <h2 class="post-title"><a href="/BTE_AnalyticsAgent_Episode_7">BTE AnalyticsAgent Episode 7</a></h2>
+              <div class="meta mb-0"><span class="date">
+                <i class="jam jam-clock"></i>18 May 2022</span>
+                
+              </div>
+         
+        </div>
+        
+        
+        
+        
+        <div class="item">
+              
+              <figure class="overlay overlay1 rounded mb-30">
+                <a href="/BTE_Analytics_Episode_6"> <img class="post-thumb" src="assets/img/blog-img/Screen Shot 2020-08-30 at 9.37.28 PM.webp" alt="BTE Analytics Episode 6"/></a>
+                <figcaption>
+                  <h5 class="from-top mb-0 text-uppercase">Read More</h5>
+                </figcaption>
+              </figure>
+              
+              <div class="category"><a href="/category/" class="badge  badge-pill bg-leaf"></a></div>
+              <h2 class="post-title"><a href="/BTE_Analytics_Episode_6">BTE Analytics Episode 6</a></h2>
+              <div class="meta mb-0"><span class="date">
+                <i class="jam jam-clock"></i>17 May 2022</span>
+                
+              </div>
+         
+        </div>
+        
+        
+        
+        
+        <div class="item">
+              
+              <figure class="overlay overlay1 rounded mb-30">
+                <a href="/BTE_Analytics_Episode_6"> <img class="post-thumb" src="assets/img/blog-img/Screen Shot 2020-08-30 at 9.37.28 PM.webp" alt="BTE Analytics Episode 6"/></a>
+                <figcaption>
+                  <h5 class="from-top mb-0 text-uppercase">Read More</h5>
+                </figcaption>
+              </figure>
+              
+              <div class="category"><a href="/category/" class="badge  badge-pill bg-leaf"></a></div>
+              <h2 class="post-title"><a href="/BTE_Analytics_Episode_6">BTE Analytics Episode 6</a></h2>
+              <div class="meta mb-0"><span class="date">
+                <i class="jam jam-clock"></i>16 May 2022</span>
+                
+              </div>
+         
+        </div>
+        
+        
+        
+        
+        <div class="item">
+              
+              <figure class="overlay overlay1 rounded mb-30">
+                <a href="/BTE_Analytics_Episode_5"> <img class="post-thumb" src="assets/img/blog-img/Screen Shot 2020-08-30 at 9.37.28 PM.webp" alt="BTE Analytics Episode 5"/></a>
+                <figcaption>
+                  <h5 class="from-top mb-0 text-uppercase">Read More</h5>
+                </figcaption>
+              </figure>
+              
+              <div class="category"><a href="/category/" class="badge  badge-pill bg-leaf"></a></div>
+              <h2 class="post-title"><a href="/BTE_Analytics_Episode_5">BTE Analytics Episode 5</a></h2>
+              <div class="meta mb-0"><span class="date">
+                <i class="jam jam-clock"></i>16 May 2022</span>
+                
+              </div>
+         
+        </div>
+        
+        
+        
+        
+        <div class="item">
+              
+              <figure class="overlay overlay1 rounded mb-30">
+                <a href="/BTE_Analytics_Episode_4"> <img class="post-thumb" src="assets/img/blog-img/Screen Shot 2020-08-30 at 9.37.28 PM.webp" alt="BTE Analytics Episode 4"/></a>
+                <figcaption>
+                  <h5 class="from-top mb-0 text-uppercase">Read More</h5>
+                </figcaption>
+              </figure>
+              
+              <div class="category"><a href="/category/" class="badge  badge-pill bg-leaf"></a></div>
+              <h2 class="post-title"><a href="/BTE_Analytics_Episode_4">BTE Analytics Episode 4</a></h2>
+              <div class="meta mb-0"><span class="date">
+                <i class="jam jam-clock"></i>15 May 2022</span>
+                
+              </div>
+         
+        </div>
+        
+        
+        
+        
+        <div class="item">
+              
+              <figure class="overlay overlay1 rounded mb-30">
+                <a href="/BTE_Analytics_Episode_3"> <img class="post-thumb" src="assets/img/blog-img/Screen Shot 2020-08-30 at 9.37.28 PM.webp" alt="BTE Analytics Episode 3"/></a>
+                <figcaption>
+                  <h5 class="from-top mb-0 text-uppercase">Read More</h5>
+                </figcaption>
+              </figure>
+              
+              <div class="category"><a href="/category/" class="badge  badge-pill bg-leaf"></a></div>
+              <h2 class="post-title"><a href="/BTE_Analytics_Episode_3">BTE Analytics Episode 3</a></h2>
+              <div class="meta mb-0"><span class="date">
+                <i class="jam jam-clock"></i>02 May 2022</span>
+                
+              </div>
+         
+        </div>
+        
+        
+        
+        
+        <div class="item">
+              
+              <figure class="overlay overlay1 rounded mb-30">
+                <a href="/BTE_Analytics_Episode_2"> <img class="post-thumb" src="assets/img/blog-img/Screen Shot 2020-08-30 at 9.37.28 PM.webp" alt="BTE Analytics Episode 2"/></a>
+                <figcaption>
+                  <h5 class="from-top mb-0 text-uppercase">Read More</h5>
+                </figcaption>
+              </figure>
+              
+              <div class="category"><a href="/category/" class="badge  badge-pill bg-leaf"></a></div>
+              <h2 class="post-title"><a href="/BTE_Analytics_Episode_2">BTE Analytics Episode 2</a></h2>
+              <div class="meta mb-0"><span class="date">
+                <i class="jam jam-clock"></i>30 Apr 2022</span>
+                
+              </div>
+         
+        </div>
+        
+        
+        
+        
+        <div class="item">
+              
+              <figure class="overlay overlay1 rounded mb-30">
+                <a href="/BTE_Analytics_Episode_1"> <img class="post-thumb" src="assets/img/blog-img/Screen Shot 2020-08-30 at 9.37.28 PM.webp" alt="BTE Analytics Episode 1"/></a>
+                <figcaption>
+                  <h5 class="from-top mb-0 text-uppercase">Read More</h5>
+                </figcaption>
+              </figure>
+              
+              <div class="category"><a href="/category/" class="badge  badge-pill bg-leaf"></a></div>
+              <h2 class="post-title"><a href="/BTE_Analytics_Episode_1">BTE Analytics Episode 1</a></h2>
+              <div class="meta mb-0"><span class="date">
+                <i class="jam jam-clock"></i>28 Apr 2022</span>
+                
+              </div>
+         
+        </div>
+        
+        
+        
+        
+        <div class="item">
+              
+              <figure class="overlay overlay1 rounded mb-30">
+                <a href="/BTE_Basketball_GPS"> <img class="post-thumb" src="assets/img/blog-img/Screen Shot 2020-08-30 at 9.37.28 PM.webp" alt="BTE Basketball GPS"/></a>
+                <figcaption>
+                  <h5 class="from-top mb-0 text-uppercase">Read More</h5>
+                </figcaption>
+              </figure>
+              
+              <div class="category"><a href="/category/" class="badge  badge-pill bg-leaf"></a></div>
+              <h2 class="post-title"><a href="/BTE_Basketball_GPS">BTE Basketball GPS</a></h2>
+              <div class="meta mb-0"><span class="date">
+                <i class="jam jam-clock"></i>25 Nov 2021</span>
+                
+              </div>
+         
+        </div>
+        
+        
+        
+        
+        <div class="item">
+              
+              <figure class="overlay overlay1 rounded mb-30">
+                <a href="/Best_Analytic_Yet"> <img class="post-thumb" src="assets/img/blog-img/Screen Shot 2020-08-30 at 9.37.28 PM.webp" alt="Best Analytic Yet"/></a>
+                <figcaption>
+                  <h5 class="from-top mb-0 text-uppercase">Read More</h5>
+                </figcaption>
+              </figure>
+              
+              <div class="category"><a href="/category/" class="badge  badge-pill bg-leaf"></a></div>
+              <h2 class="post-title"><a href="/Best_Analytic_Yet">Best Analytic Yet</a></h2>
+              <div class="meta mb-0"><span class="date">
+                <i class="jam jam-clock"></i>23 Oct 2021</span>
+                
+              </div>
+         
+        </div>
+        
+        
+        
+        
+        <div class="item">
               
               <div class="category"><a href="/category/places" class="badge bg-purple badge-pill bg-leaf">places</a></div>
               <h2 class="post-title"><a href="/posts/simple-post-with-sidebar">Simple Post With Sidebar</a></h2>
@@ -1232,8 +2177,23 @@ with a variety of UI elements and countless features. A perfect theme to build y
         
         
         
-        
-        
+        <div class="item">
+              
+              <figure class="overlay overlay1 rounded mb-30">
+                <a href="/Stephs_Divine_Timing"> <img class="post-thumb" src="assets/img/blog-img/Screen Shot 2020-08-30 at 9.37.28 PM.webp" alt="Stephs Divine Timing"/></a>
+                <figcaption>
+                  <h5 class="from-top mb-0 text-uppercase">Read More</h5>
+                </figcaption>
+              </figure>
+              
+              <div class="category"><a href="/category/" class="badge  badge-pill bg-leaf"></a></div>
+              <h2 class="post-title"><a href="/Stephs_Divine_Timing">Stephs Divine Timing</a></h2>
+              <div class="meta mb-0"><span class="date">
+                <i class="jam jam-clock"></i>13 May 2021</span>
+                
+              </div>
+         
+        </div>
         
         
         
@@ -1241,11 +2201,241 @@ with a variety of UI elements and countless features. A perfect theme to build y
         <div class="item">
               
               <figure class="overlay overlay1 rounded mb-30">
-                <a href="/maecenas-sed-diam"> <img class="post-thumb" src="/assets/images/art/f2.webp" alt="Maecenas sed diam eget risus varius blandit sit amet non"/></a>
+                <a href="/MIT_Sports_Analytics_Hackathon_Recap"> <img class="post-thumb" src="assets/img/blog-img/Screen Shot 2020-08-30 at 9.37.28 PM.webp" alt="MIT Sports Analytics Hackathon Recap"/></a>
                 <figcaption>
                   <h5 class="from-top mb-0 text-uppercase">Read More</h5>
                 </figcaption>
               </figure>
+              
+              <div class="category"><a href="/category/" class="badge  badge-pill bg-leaf"></a></div>
+              <h2 class="post-title"><a href="/MIT_Sports_Analytics_Hackathon_Recap">MIT Sports Analytics Hackathon Recap</a></h2>
+              <div class="meta mb-0"><span class="date">
+                <i class="jam jam-clock"></i>15 Apr 2021</span>
+                
+              </div>
+         
+        </div>
+        
+        
+        
+        
+        <div class="item">
+              
+              <figure class="overlay overlay1 rounded mb-30">
+                <a href="/Analytics_Culture"> <img class="post-thumb" src="assets/img/blog-img/Screen Shot 2020-08-30 at 9.37.28 PM.webp" alt="Analytics Culture"/></a>
+                <figcaption>
+                  <h5 class="from-top mb-0 text-uppercase">Read More</h5>
+                </figcaption>
+              </figure>
+              
+              <div class="category"><a href="/category/" class="badge  badge-pill bg-leaf"></a></div>
+              <h2 class="post-title"><a href="/Analytics_Culture">Analytics Culture</a></h2>
+              <div class="meta mb-0"><span class="date">
+                <i class="jam jam-clock"></i>16 Feb 2021</span>
+                
+              </div>
+         
+        </div>
+        
+        
+        
+        
+        <div class="item">
+              
+              <figure class="overlay overlay1 rounded mb-30">
+                <a href="/New_Analytic"> <img class="post-thumb" src="assets/img/blog-img/Screen Shot 2020-08-30 at 9.37.28 PM.webp" alt="New Analytic"/></a>
+                <figcaption>
+                  <h5 class="from-top mb-0 text-uppercase">Read More</h5>
+                </figcaption>
+              </figure>
+              
+              <div class="category"><a href="/category/" class="badge  badge-pill bg-leaf"></a></div>
+              <h2 class="post-title"><a href="/New_Analytic">New Analytic</a></h2>
+              <div class="meta mb-0"><span class="date">
+                <i class="jam jam-clock"></i>05 Feb 2021</span>
+                
+              </div>
+         
+        </div>
+        
+        
+        
+        
+        <div class="item">
+              
+              <figure class="overlay overlay1 rounded mb-30">
+                <a href="/Dribble_Tree_Work"> <img class="post-thumb" src="assets/img/blog-img/Screen Shot 2020-08-30 at 9.37.28 PM.webp" alt="Dribble Tree Work"/></a>
+                <figcaption>
+                  <h5 class="from-top mb-0 text-uppercase">Read More</h5>
+                </figcaption>
+              </figure>
+              
+              <div class="category"><a href="/category/" class="badge  badge-pill bg-leaf"></a></div>
+              <h2 class="post-title"><a href="/Dribble_Tree_Work">Dribble Tree Work</a></h2>
+              <div class="meta mb-0"><span class="date">
+                <i class="jam jam-clock"></i>31 Dec 2020</span>
+                
+              </div>
+         
+        </div>
+        
+        
+        
+        
+        <div class="item">
+              
+              <figure class="overlay overlay1 rounded mb-30">
+                <a href="/Dribble_Project"> <img class="post-thumb" src="assets/img/blog-img/Screen Shot 2020-08-30 at 9.37.28 PM.webp" alt="Dribble Project"/></a>
+                <figcaption>
+                  <h5 class="from-top mb-0 text-uppercase">Read More</h5>
+                </figcaption>
+              </figure>
+              
+              <div class="category"><a href="/category/" class="badge  badge-pill bg-leaf"></a></div>
+              <h2 class="post-title"><a href="/Dribble_Project">Dribble Project</a></h2>
+              <div class="meta mb-0"><span class="date">
+                <i class="jam jam-clock"></i>31 Dec 2020</span>
+                
+              </div>
+         
+        </div>
+        
+        
+        
+        
+        <div class="item">
+              
+              <figure class="overlay overlay1 rounded mb-30">
+                <a href="/Data_Science_is_storytelling"> <img class="post-thumb" src="assets/img/blog-img/Screen Shot 2020-08-30 at 9.37.28 PM.webp" alt="Data Science is storytelling"/></a>
+                <figcaption>
+                  <h5 class="from-top mb-0 text-uppercase">Read More</h5>
+                </figcaption>
+              </figure>
+              
+              <div class="category"><a href="/category/" class="badge  badge-pill bg-leaf"></a></div>
+              <h2 class="post-title"><a href="/Data_Science_is_storytelling">Data Science is storytelling</a></h2>
+              <div class="meta mb-0"><span class="date">
+                <i class="jam jam-clock"></i>18 Nov 2020</span>
+                
+              </div>
+         
+        </div>
+        
+        
+        
+        
+        <div class="item">
+              
+              <figure class="overlay overlay1 rounded mb-30">
+                <a href="/Marbury_analyst_thoughts"> <img class="post-thumb" src="assets/img/blog-img/Screen Shot 2020-08-30 at 9.37.28 PM.webp" alt="Marbury analyst thoughts"/></a>
+                <figcaption>
+                  <h5 class="from-top mb-0 text-uppercase">Read More</h5>
+                </figcaption>
+              </figure>
+              
+              <div class="category"><a href="/category/" class="badge  badge-pill bg-leaf"></a></div>
+              <h2 class="post-title"><a href="/Marbury_analyst_thoughts">Marbury analyst thoughts</a></h2>
+              <div class="meta mb-0"><span class="date">
+                <i class="jam jam-clock"></i>03 Nov 2020</span>
+                
+              </div>
+         
+        </div>
+        
+        
+        
+        
+        <div class="item">
+              
+              <figure class="overlay overlay1 rounded mb-30">
+                <a href="/Is_Marbury_right_about_analysts_"> <img class="post-thumb" src="assets/img/blog-img/Screen Shot 2020-08-30 at 9.37.28 PM.webp" alt="Is Marbury right about analysts"/></a>
+                <figcaption>
+                  <h5 class="from-top mb-0 text-uppercase">Read More</h5>
+                </figcaption>
+              </figure>
+              
+              <div class="category"><a href="/category/" class="badge  badge-pill bg-leaf"></a></div>
+              <h2 class="post-title"><a href="/Is_Marbury_right_about_analysts_">Is Marbury right about analysts</a></h2>
+              <div class="meta mb-0"><span class="date">
+                <i class="jam jam-clock"></i>02 Nov 2020</span>
+                
+              </div>
+         
+        </div>
+        
+        
+        
+        
+        <div class="item">
+              
+              <figure class="overlay overlay1 rounded mb-30">
+                <a href="/Building_Value_in_AI"> <img class="post-thumb" src="assets/img/blog-img/Screen Shot 2020-08-30 at 9.37.28 PM.webp" alt="Building Value in AI"/></a>
+                <figcaption>
+                  <h5 class="from-top mb-0 text-uppercase">Read More</h5>
+                </figcaption>
+              </figure>
+              
+              <div class="category"><a href="/category/" class="badge  badge-pill bg-leaf"></a></div>
+              <h2 class="post-title"><a href="/Building_Value_in_AI">Building Value in AI</a></h2>
+              <div class="meta mb-0"><span class="date">
+                <i class="jam jam-clock"></i>01 Nov 2020</span>
+                
+              </div>
+         
+        </div>
+        
+        
+        
+        
+        <div class="item">
+              
+              <figure class="overlay overlay1 rounded mb-30">
+                <a href="/Halloween_NBA_Shotchart"> <img class="post-thumb" src="assets/img/blog-img/Screen Shot 2020-08-30 at 9.37.28 PM.webp" alt="Halloween NBA Shotchart"/></a>
+                <figcaption>
+                  <h5 class="from-top mb-0 text-uppercase">Read More</h5>
+                </figcaption>
+              </figure>
+              
+              <div class="category"><a href="/category/" class="badge  badge-pill bg-leaf"></a></div>
+              <h2 class="post-title"><a href="/Halloween_NBA_Shotchart">Halloween NBA Shotchart</a></h2>
+              <div class="meta mb-0"><span class="date">
+                <i class="jam jam-clock"></i>31 Oct 2020</span>
+                
+              </div>
+         
+        </div>
+        
+        
+        
+        
+        <div class="item">
+              
+              <figure class="overlay overlay1 rounded mb-30">
+                <a href="/Big_Data_in_Sports"> <img class="post-thumb" src="assets/img/blog-img/Screen Shot 2020-08-30 at 9.37.28 PM.webp" alt="Big Data in Sports"/></a>
+                <figcaption>
+                  <h5 class="from-top mb-0 text-uppercase">Read More</h5>
+                </figcaption>
+              </figure>
+              
+              <div class="category"><a href="/category/" class="badge  badge-pill bg-leaf"></a></div>
+              <h2 class="post-title"><a href="/Big_Data_in_Sports">Big Data in Sports</a></h2>
+              <div class="meta mb-0"><span class="date">
+                <i class="jam jam-clock"></i>20 Oct 2020</span>
+                
+              </div>
+         
+        </div>
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        <div class="item">
               
               <div class="category"><a href="/category/jekyll" class="badge bg-leaf badge-pill bg-leaf">jekyll</a></div>
               <h2 class="post-title"><a href="/maecenas-sed-diam">Maecenas sed diam eget risus varius blandit sit amet non</a></h2>
@@ -1264,11 +2454,46 @@ with a variety of UI elements and countless features. A perfect theme to build y
         <div class="item">
               
               <figure class="overlay overlay1 rounded mb-30">
-                <a href="/the-natural-places-in-brazil"> <img class="post-thumb" src="/assets/images/art/tb7.webp" alt="The Natural Places in Brazil"/></a>
+                <a href="/Real-time_Analytics"> <img class="post-thumb" src="assets/img/blog-img/Screen Shot 2020-08-30 at 9.37.28 PM.webp" alt="2020-10-4-Real-time Analytics"/></a>
                 <figcaption>
                   <h5 class="from-top mb-0 text-uppercase">Read More</h5>
                 </figcaption>
               </figure>
+              
+              <div class="category"><a href="/category/" class="badge  badge-pill bg-leaf"></a></div>
+              <h2 class="post-title"><a href="/Real-time_Analytics">2020-10-4-Real-time Analytics</a></h2>
+              <div class="meta mb-0"><span class="date">
+                <i class="jam jam-clock"></i>04 Oct 2020</span>
+                
+              </div>
+         
+        </div>
+        
+        
+        
+        
+        <div class="item">
+              
+              <figure class="overlay overlay1 rounded mb-30">
+                <a href="/4-Dimensional_Space"> <img class="post-thumb" src="assets/img/blog-img/Screen Shot 2020-08-30 at 9.37.28 PM.webp" alt="4-Dimensional Space"/></a>
+                <figcaption>
+                  <h5 class="from-top mb-0 text-uppercase">Read More</h5>
+                </figcaption>
+              </figure>
+              
+              <div class="category"><a href="/category/" class="badge  badge-pill bg-leaf"></a></div>
+              <h2 class="post-title"><a href="/4-Dimensional_Space">4-Dimensional Space</a></h2>
+              <div class="meta mb-0"><span class="date">
+                <i class="jam jam-clock"></i>07 Sep 2020</span>
+                
+              </div>
+         
+        </div>
+        
+        
+        
+        
+        <div class="item">
               
               <div class="category"><a href="/category/wedding" class="badge bg-green badge-pill bg-leaf">wedding</a></div>
               <h2 class="post-title"><a href="/the-natural-places-in-brazil">The Natural Places in Brazil</a></h2>
@@ -1285,13 +2510,6 @@ with a variety of UI elements and countless features. A perfect theme to build y
         
         
         <div class="item">
-              
-              <figure class="overlay overlay1 rounded mb-30">
-                <a href="/24-the-biggest-train-station-in-europe"> <img class="post-thumb" src="/assets/images/art/tb6.webp" alt="The Biggest Train Station in Europe"/></a>
-                <figcaption>
-                  <h5 class="from-top mb-0 text-uppercase">Read More</h5>
-                </figcaption>
-              </figure>
               
               <div class="category"><a href="/category/vlog" class="badge bg-pink badge-pill bg-leaf">vlog</a></div>
               <h2 class="post-title"><a href="/24-the-biggest-train-station-in-europe">The Biggest Train Station in Europe</a></h2>
@@ -1310,11 +2528,25 @@ with a variety of UI elements and countless features. A perfect theme to build y
         <div class="item">
               
               <figure class="overlay overlay1 rounded mb-30">
-                <a href="/24-hours-in-the-village-of-valencia"> <img class="post-thumb" src="/assets/images/art/tb5.webp" alt="24 Hours in the Village of Valencia"/></a>
+                <a href="/Basketball_Execution"> <img class="post-thumb" src="assets/img/blog-img/Screen Shot 2020-08-30 at 9.37.28 PM.webp" alt="Basketball Execution"/></a>
                 <figcaption>
                   <h5 class="from-top mb-0 text-uppercase">Read More</h5>
                 </figcaption>
               </figure>
+              
+              <div class="category"><a href="/category/" class="badge  badge-pill bg-leaf"></a></div>
+              <h2 class="post-title"><a href="/Basketball_Execution">Basketball Execution</a></h2>
+              <div class="meta mb-0"><span class="date">
+                <i class="jam jam-clock"></i>06 Sep 2020</span>
+                
+              </div>
+         
+        </div>
+        
+        
+        
+        
+        <div class="item">
               
               <div class="category"><a href="/category/travel" class="badge bg-green badge-pill bg-leaf">travel</a></div>
               <h2 class="post-title"><a href="/24-hours-in-the-village-of-valencia">24 Hours in the Village of Valencia</a></h2>
@@ -1333,11 +2565,25 @@ with a variety of UI elements and countless features. A perfect theme to build y
         <div class="item">
               
               <figure class="overlay overlay1 rounded mb-30">
-                <a href="/my-love-affair-with-cappadocia"> <img class="post-thumb" src="/assets/images/art/tb4.webp" alt="My Love Affair with Cappadocia"/></a>
+                <a href="/Sports_Data_Analyst_vs_Sports_Analyst"> <img class="post-thumb" src="assets/img/blog-img/Screen Shot 2020-08-30 at 9.37.28 PM.webp" alt="Sports Data Analyst vs Sports Analyst"/></a>
                 <figcaption>
                   <h5 class="from-top mb-0 text-uppercase">Read More</h5>
                 </figcaption>
               </figure>
+              
+              <div class="category"><a href="/category/" class="badge  badge-pill bg-leaf"></a></div>
+              <h2 class="post-title"><a href="/Sports_Data_Analyst_vs_Sports_Analyst">Sports Data Analyst vs Sports Analyst</a></h2>
+              <div class="meta mb-0"><span class="date">
+                <i class="jam jam-clock"></i>05 Sep 2020</span>
+                
+              </div>
+         
+        </div>
+        
+        
+        
+        
+        <div class="item">
               
               <div class="category"><a href="/category/historic" class="badge bg-violet badge-pill bg-leaf">historic</a></div>
               <h2 class="post-title"><a href="/my-love-affair-with-cappadocia">My Love Affair with Cappadocia</a></h2>
@@ -1356,11 +2602,25 @@ with a variety of UI elements and countless features. A perfect theme to build y
         <div class="item">
               
               <figure class="overlay overlay1 rounded mb-30">
-                <a href="/a-dreamy-roadtrip-in-australia"> <img class="post-thumb" src="/assets/images/art/tb3.webp" alt="A Dreamy Roadtrip in Australia"/></a>
+                <a href="/Player_Development"> <img class="post-thumb" src="assets/img/blog-img/wip2.webp" alt="Player Development"/></a>
                 <figcaption>
                   <h5 class="from-top mb-0 text-uppercase">Read More</h5>
                 </figcaption>
               </figure>
+              
+              <div class="category"><a href="/category/" class="badge  badge-pill bg-leaf"></a></div>
+              <h2 class="post-title"><a href="/Player_Development">Player Development</a></h2>
+              <div class="meta mb-0"><span class="date">
+                <i class="jam jam-clock"></i>04 Sep 2020</span>
+                
+              </div>
+         
+        </div>
+        
+        
+        
+        
+        <div class="item">
               
               <div class="category"><a href="/category/roadtrip" class="badge bg-pink badge-pill bg-leaf">roadtrip</a></div>
               <h2 class="post-title"><a href="/a-dreamy-roadtrip-in-australia">A Dreamy Roadtrip in Australia</a></h2>
@@ -1368,6 +2628,1350 @@ with a variety of UI elements and countless features. A perfect theme to build y
                 <i class="jam jam-clock"></i>03 Sep 2020</span>
                 
                  <span class="comments"><a href="/authors/tortoiz-themes"><i class="jam jam-user"></i> Tortoiz Themes</a></span>
+                
+              </div>
+         
+        </div>
+        
+        
+        
+        
+        <div class="item">
+              
+              <figure class="overlay overlay1 rounded mb-30">
+                <a href="/Coaches_vs_Players_Analytics"> <img class="post-thumb" src="assets/img/blog-img/Screen Shot 2020-08-30 at 9.37.28 PM.webp" alt="Coaches vs Players Analytics"/></a>
+                <figcaption>
+                  <h5 class="from-top mb-0 text-uppercase">Read More</h5>
+                </figcaption>
+              </figure>
+              
+              <div class="category"><a href="/category/" class="badge  badge-pill bg-leaf"></a></div>
+              <h2 class="post-title"><a href="/Coaches_vs_Players_Analytics">Coaches vs Players Analytics</a></h2>
+              <div class="meta mb-0"><span class="date">
+                <i class="jam jam-clock"></i>03 Sep 2020</span>
+                
+              </div>
+         
+        </div>
+        
+        
+        
+        
+        <div class="item">
+              
+              <figure class="overlay overlay1 rounded mb-30">
+                <a href="/Numbering_Dribbles"> <img class="post-thumb" src="assets/img/blog-img/Screen Shot 2020-08-30 at 9.37.28 PM.webp" alt="Numbering Dribbles"/></a>
+                <figcaption>
+                  <h5 class="from-top mb-0 text-uppercase">Read More</h5>
+                </figcaption>
+              </figure>
+              
+              <div class="category"><a href="/category/" class="badge  badge-pill bg-leaf"></a></div>
+              <h2 class="post-title"><a href="/Numbering_Dribbles">Numbering Dribbles</a></h2>
+              <div class="meta mb-0"><span class="date">
+                <i class="jam jam-clock"></i>01 Sep 2020</span>
+                
+              </div>
+         
+        </div>
+        
+        
+        
+        
+        <div class="item">
+              
+              <figure class="overlay overlay1 rounded mb-30">
+                <a href="/Bubble_Innovation_Opportunities"> <img class="post-thumb" src="assets/img/blog-img/Screen Shot 2020-08-30 at 9.37.28 PM.webp" alt="Bubble Innovation Opportunities"/></a>
+                <figcaption>
+                  <h5 class="from-top mb-0 text-uppercase">Read More</h5>
+                </figcaption>
+              </figure>
+              
+              <div class="category"><a href="/category/" class="badge  badge-pill bg-leaf"></a></div>
+              <h2 class="post-title"><a href="/Bubble_Innovation_Opportunities">Bubble Innovation Opportunities</a></h2>
+              <div class="meta mb-0"><span class="date">
+                <i class="jam jam-clock"></i>16 Aug 2020</span>
+                
+              </div>
+         
+        </div>
+        
+        
+        
+        
+        <div class="item">
+              
+              <figure class="overlay overlay1 rounded mb-30">
+                <a href="/Touch_Tech"> <img class="post-thumb" src="assets/img/blog-img/Screen Shot 2020-08-30 at 9.37.28 PM.webp" alt="Touch Tech"/></a>
+                <figcaption>
+                  <h5 class="from-top mb-0 text-uppercase">Read More</h5>
+                </figcaption>
+              </figure>
+              
+              <div class="category"><a href="/category/" class="badge  badge-pill bg-leaf"></a></div>
+              <h2 class="post-title"><a href="/Touch_Tech">Touch Tech</a></h2>
+              <div class="meta mb-0"><span class="date">
+                <i class="jam jam-clock"></i>15 Aug 2020</span>
+                
+              </div>
+         
+        </div>
+        
+        
+        
+        
+        <div class="item">
+              
+              <figure class="overlay overlay1 rounded mb-30">
+                <a href="/Sports_Video_Gamish"> <img class="post-thumb" src="assets/img/blog-img/Screen Shot 2020-08-30 at 9.37.28 PM.webp" alt="Sports Video Gamish"/></a>
+                <figcaption>
+                  <h5 class="from-top mb-0 text-uppercase">Read More</h5>
+                </figcaption>
+              </figure>
+              
+              <div class="category"><a href="/category/" class="badge  badge-pill bg-leaf"></a></div>
+              <h2 class="post-title"><a href="/Sports_Video_Gamish">Sports Video Gamish</a></h2>
+              <div class="meta mb-0"><span class="date">
+                <i class="jam jam-clock"></i>15 Aug 2020</span>
+                
+              </div>
+         
+        </div>
+        
+        
+        
+        
+        <div class="item">
+              
+              <figure class="overlay overlay1 rounded mb-30">
+                <a href="/Offensive_Efficiency_Rating"> <img class="post-thumb" src="assets/img/blog-img/Screen Shot 2020-08-30 at 9.37.28 PM.webp" alt="Offensive Efficiency Rating"/></a>
+                <figcaption>
+                  <h5 class="from-top mb-0 text-uppercase">Read More</h5>
+                </figcaption>
+              </figure>
+              
+              <div class="category"><a href="/category/" class="badge  badge-pill bg-leaf"></a></div>
+              <h2 class="post-title"><a href="/Offensive_Efficiency_Rating">Offensive Efficiency Rating</a></h2>
+              <div class="meta mb-0"><span class="date">
+                <i class="jam jam-clock"></i>14 Aug 2020</span>
+                
+              </div>
+         
+        </div>
+        
+        
+        
+        
+        <div class="item">
+              
+              <figure class="overlay overlay1 rounded mb-30">
+                <a href="/Dribble_Tree"> <img class="post-thumb" src="assets/img/blog-img/Screen Shot 2020-08-30 at 9.37.28 PM.webp" alt="Dribble Tree"/></a>
+                <figcaption>
+                  <h5 class="from-top mb-0 text-uppercase">Read More</h5>
+                </figcaption>
+              </figure>
+              
+              <div class="category"><a href="/category/" class="badge  badge-pill bg-leaf"></a></div>
+              <h2 class="post-title"><a href="/Dribble_Tree">Dribble Tree</a></h2>
+              <div class="meta mb-0"><span class="date">
+                <i class="jam jam-clock"></i>13 Aug 2020</span>
+                
+              </div>
+         
+        </div>
+        
+        
+        
+        
+        <div class="item">
+              
+              <figure class="overlay overlay1 rounded mb-30">
+                <a href="/Scatter_Plots"> <img class="post-thumb" src="assets/img/blog-img/Screen Shot 2020-08-30 at 9.37.28 PM.webp" alt="Scatter Plots"/></a>
+                <figcaption>
+                  <h5 class="from-top mb-0 text-uppercase">Read More</h5>
+                </figcaption>
+              </figure>
+              
+              <div class="category"><a href="/category/" class="badge  badge-pill bg-leaf"></a></div>
+              <h2 class="post-title"><a href="/Scatter_Plots">Scatter Plots</a></h2>
+              <div class="meta mb-0"><span class="date">
+                <i class="jam jam-clock"></i>12 Aug 2020</span>
+                
+              </div>
+         
+        </div>
+        
+        
+        
+        
+        <div class="item">
+              
+              <figure class="overlay overlay1 rounded mb-30">
+                <a href="/Point_Guard_in_Business"> <img class="post-thumb" src="assets/img/blog-img/Screen Shot 2020-08-30 at 9.37.28 PM.webp" alt="Point Guard in Business"/></a>
+                <figcaption>
+                  <h5 class="from-top mb-0 text-uppercase">Read More</h5>
+                </figcaption>
+              </figure>
+              
+              <div class="category"><a href="/category/" class="badge  badge-pill bg-leaf"></a></div>
+              <h2 class="post-title"><a href="/Point_Guard_in_Business">Point Guard in Business</a></h2>
+              <div class="meta mb-0"><span class="date">
+                <i class="jam jam-clock"></i>11 Aug 2020</span>
+                
+              </div>
+         
+        </div>
+        
+        
+        
+        
+        <div class="item">
+              
+              <figure class="overlay overlay1 rounded mb-30">
+                <a href="/4th_Industrial_Revolution"> <img class="post-thumb" src="assets/img/blog-img/Screen Shot 2020-08-30 at 9.37.28 PM.webp" alt="4th Industrial Revolution"/></a>
+                <figcaption>
+                  <h5 class="from-top mb-0 text-uppercase">Read More</h5>
+                </figcaption>
+              </figure>
+              
+              <div class="category"><a href="/category/" class="badge  badge-pill bg-leaf"></a></div>
+              <h2 class="post-title"><a href="/4th_Industrial_Revolution">4th Industrial Revolution</a></h2>
+              <div class="meta mb-0"><span class="date">
+                <i class="jam jam-clock"></i>11 Aug 2020</span>
+                
+              </div>
+         
+        </div>
+        
+        
+        
+        
+        <div class="item">
+              
+              <figure class="overlay overlay1 rounded mb-30">
+                <a href="/Analytics_Self_Reflection"> <img class="post-thumb" src="assets/img/blog-img/Screen Shot 2020-08-30 at 9.37.28 PM.webp" alt="Analytics Self Reflection"/></a>
+                <figcaption>
+                  <h5 class="from-top mb-0 text-uppercase">Read More</h5>
+                </figcaption>
+              </figure>
+              
+              <div class="category"><a href="/category/" class="badge  badge-pill bg-leaf"></a></div>
+              <h2 class="post-title"><a href="/Analytics_Self_Reflection">Analytics Self Reflection</a></h2>
+              <div class="meta mb-0"><span class="date">
+                <i class="jam jam-clock"></i>10 Aug 2020</span>
+                
+              </div>
+         
+        </div>
+        
+        
+        
+        
+        <div class="item">
+              
+              <figure class="overlay overlay1 rounded mb-30">
+                <a href="/Positionless_Basketball"> <img class="post-thumb" src="assets/img/blog-img/Screen Shot 2020-08-30 at 9.37.28 PM.webp" alt="Positionless Basketball"/></a>
+                <figcaption>
+                  <h5 class="from-top mb-0 text-uppercase">Read More</h5>
+                </figcaption>
+              </figure>
+              
+              <div class="category"><a href="/category/" class="badge  badge-pill bg-leaf"></a></div>
+              <h2 class="post-title"><a href="/Positionless_Basketball">Positionless Basketball</a></h2>
+              <div class="meta mb-0"><span class="date">
+                <i class="jam jam-clock"></i>09 Aug 2020</span>
+                
+              </div>
+         
+        </div>
+        
+        
+        
+        
+        <div class="item">
+              
+              <figure class="overlay overlay1 rounded mb-30">
+                <a href="/Defensive_Analytics"> <img class="post-thumb" src="assets/img/blog-img/Screen Shot 2020-08-30 at 9.37.28 PM.webp" alt="Defensive Analytics"/></a>
+                <figcaption>
+                  <h5 class="from-top mb-0 text-uppercase">Read More</h5>
+                </figcaption>
+              </figure>
+              
+              <div class="category"><a href="/category/" class="badge  badge-pill bg-leaf"></a></div>
+              <h2 class="post-title"><a href="/Defensive_Analytics">Defensive Analytics</a></h2>
+              <div class="meta mb-0"><span class="date">
+                <i class="jam jam-clock"></i>08 Aug 2020</span>
+                
+              </div>
+         
+        </div>
+        
+        
+        
+        
+        <div class="item">
+              
+              <figure class="overlay overlay1 rounded mb-30">
+                <a href="/SportsTechWest_the_Analytics_Translator"> <img class="post-thumb" src="assets/img/blog-img/Screen Shot 2020-08-30 at 9.37.28 PM.webp" alt="SportsTechWest the Analytics Translator"/></a>
+                <figcaption>
+                  <h5 class="from-top mb-0 text-uppercase">Read More</h5>
+                </figcaption>
+              </figure>
+              
+              <div class="category"><a href="/category/" class="badge  badge-pill bg-leaf"></a></div>
+              <h2 class="post-title"><a href="/SportsTechWest_the_Analytics_Translator">SportsTechWest the Analytics Translator</a></h2>
+              <div class="meta mb-0"><span class="date">
+                <i class="jam jam-clock"></i>07 Aug 2020</span>
+                
+              </div>
+         
+        </div>
+        
+        
+        
+        
+        <div class="item">
+              
+              <figure class="overlay overlay1 rounded mb-30">
+                <a href="/800_Sports!"> <img class="post-thumb" src="assets/img/blog-img/Screen Shot 2020-08-30 at 9.37.28 PM.webp" alt="800 Sports!"/></a>
+                <figcaption>
+                  <h5 class="from-top mb-0 text-uppercase">Read More</h5>
+                </figcaption>
+              </figure>
+              
+              <div class="category"><a href="/category/" class="badge  badge-pill bg-leaf"></a></div>
+              <h2 class="post-title"><a href="/800_Sports!">800 Sports!</a></h2>
+              <div class="meta mb-0"><span class="date">
+                <i class="jam jam-clock"></i>07 Aug 2020</span>
+                
+              </div>
+         
+        </div>
+        
+        
+        
+        
+        <div class="item">
+              
+              <figure class="overlay overlay1 rounded mb-30">
+                <a href="/Speaking_Education"> <img class="post-thumb" src="assets/img/blog-img/Screen Shot 2020-08-30 at 9.37.28 PM.webp" alt="Speaking Education"/></a>
+                <figcaption>
+                  <h5 class="from-top mb-0 text-uppercase">Read More</h5>
+                </figcaption>
+              </figure>
+              
+              <div class="category"><a href="/category/" class="badge  badge-pill bg-leaf"></a></div>
+              <h2 class="post-title"><a href="/Speaking_Education">Speaking Education</a></h2>
+              <div class="meta mb-0"><span class="date">
+                <i class="jam jam-clock"></i>06 Aug 2020</span>
+                
+              </div>
+         
+        </div>
+        
+        
+        
+        
+        <div class="item">
+              
+              <figure class="overlay overlay1 rounded mb-30">
+                <a href="/NBA_Analytics_Restart"> <img class="post-thumb" src="assets/img/blog-img/Screen Shot 2020-08-30 at 9.37.28 PM.webp" alt="NBA Analytics Restart"/></a>
+                <figcaption>
+                  <h5 class="from-top mb-0 text-uppercase">Read More</h5>
+                </figcaption>
+              </figure>
+              
+              <div class="category"><a href="/category/" class="badge  badge-pill bg-leaf"></a></div>
+              <h2 class="post-title"><a href="/NBA_Analytics_Restart">NBA Analytics Restart</a></h2>
+              <div class="meta mb-0"><span class="date">
+                <i class="jam jam-clock"></i>06 Aug 2020</span>
+                
+              </div>
+         
+        </div>
+        
+        
+        
+        
+        <div class="item">
+              
+              <figure class="overlay overlay1 rounded mb-30">
+                <a href="/Going_to_Jupyter"> <img class="post-thumb" src="assets/img/blog-img/Screen Shot 2020-08-30 at 9.37.28 PM.webp" alt="Going to Jupyter"/></a>
+                <figcaption>
+                  <h5 class="from-top mb-0 text-uppercase">Read More</h5>
+                </figcaption>
+              </figure>
+              
+              <div class="category"><a href="/category/" class="badge  badge-pill bg-leaf"></a></div>
+              <h2 class="post-title"><a href="/Going_to_Jupyter">Going to Jupyter</a></h2>
+              <div class="meta mb-0"><span class="date">
+                <i class="jam jam-clock"></i>03 Aug 2020</span>
+                
+              </div>
+         
+        </div>
+        
+        
+        
+        
+        <div class="item">
+              
+              <figure class="overlay overlay1 rounded mb-30">
+                <a href="/Probabilty_Mass_Function"> <img class="post-thumb" src="assets/img/blog-img/Screen Shot 2020-08-30 at 9.37.28 PM.webp" alt="Probabilty Mass Function"/></a>
+                <figcaption>
+                  <h5 class="from-top mb-0 text-uppercase">Read More</h5>
+                </figcaption>
+              </figure>
+              
+              <div class="category"><a href="/category/" class="badge  badge-pill bg-leaf"></a></div>
+              <h2 class="post-title"><a href="/Probabilty_Mass_Function">Probabilty Mass Function</a></h2>
+              <div class="meta mb-0"><span class="date">
+                <i class="jam jam-clock"></i>02 Aug 2020</span>
+                
+              </div>
+         
+        </div>
+        
+        
+        
+        
+        <div class="item">
+              
+              <figure class="overlay overlay1 rounded mb-30">
+                <a href="/Intro_to_Computer_Vision"> <img class="post-thumb" src="assets/img/blog-img/Screen Shot 2020-08-30 at 9.37.28 PM.webp" alt="Intro to Computer Vision"/></a>
+                <figcaption>
+                  <h5 class="from-top mb-0 text-uppercase">Read More</h5>
+                </figcaption>
+              </figure>
+              
+              <div class="category"><a href="/category/" class="badge  badge-pill bg-leaf"></a></div>
+              <h2 class="post-title"><a href="/Intro_to_Computer_Vision">Intro to Computer Vision</a></h2>
+              <div class="meta mb-0"><span class="date">
+                <i class="jam jam-clock"></i>02 Aug 2020</span>
+                
+              </div>
+         
+        </div>
+        
+        
+        
+        
+        <div class="item">
+              
+              <figure class="overlay overlay1 rounded mb-30">
+                <a href="/Histogram_flow"> <img class="post-thumb" src="assets/img/blog-img/Screen Shot 2020-08-30 at 9.37.28 PM.webp" alt="Histogram flow"/></a>
+                <figcaption>
+                  <h5 class="from-top mb-0 text-uppercase">Read More</h5>
+                </figcaption>
+              </figure>
+              
+              <div class="category"><a href="/category/" class="badge  badge-pill bg-leaf"></a></div>
+              <h2 class="post-title"><a href="/Histogram_flow">Histogram flow</a></h2>
+              <div class="meta mb-0"><span class="date">
+                <i class="jam jam-clock"></i>02 Aug 2020</span>
+                
+              </div>
+         
+        </div>
+        
+        
+        
+        
+        <div class="item">
+              
+              <figure class="overlay overlay1 rounded mb-30">
+                <a href="/Cumulative_Distribution_Function"> <img class="post-thumb" src="assets/img/blog-img/Screen Shot 2020-08-30 at 9.37.28 PM.webp" alt="Cumulative Distribution Function"/></a>
+                <figcaption>
+                  <h5 class="from-top mb-0 text-uppercase">Read More</h5>
+                </figcaption>
+              </figure>
+              
+              <div class="category"><a href="/category/" class="badge  badge-pill bg-leaf"></a></div>
+              <h2 class="post-title"><a href="/Cumulative_Distribution_Function">Cumulative Distribution Function</a></h2>
+              <div class="meta mb-0"><span class="date">
+                <i class="jam jam-clock"></i>02 Aug 2020</span>
+                
+              </div>
+         
+        </div>
+        
+        
+        
+        
+        <div class="item">
+              
+              <figure class="overlay overlay1 rounded mb-30">
+                <a href="/Active_Education!"> <img class="post-thumb" src="assets/img/blog-img/Screen Shot 2020-08-30 at 9.37.28 PM.webp" alt="Active Education!"/></a>
+                <figcaption>
+                  <h5 class="from-top mb-0 text-uppercase">Read More</h5>
+                </figcaption>
+              </figure>
+              
+              <div class="category"><a href="/category/" class="badge  badge-pill bg-leaf"></a></div>
+              <h2 class="post-title"><a href="/Active_Education!">Active Education!</a></h2>
+              <div class="meta mb-0"><span class="date">
+                <i class="jam jam-clock"></i>01 Aug 2020</span>
+                
+              </div>
+         
+        </div>
+        
+        
+        
+        
+        <div class="item">
+              
+              <figure class="overlay overlay1 rounded mb-30">
+                <a href="/Data_strolling!"> <img class="post-thumb" src="assets/img/blog-img/Screen Shot 2020-08-30 at 9.37.28 PM.webp" alt="Data strolling!"/></a>
+                <figcaption>
+                  <h5 class="from-top mb-0 text-uppercase">Read More</h5>
+                </figcaption>
+              </figure>
+              
+              <div class="category"><a href="/category/" class="badge  badge-pill bg-leaf"></a></div>
+              <h2 class="post-title"><a href="/Data_strolling!">Data strolling!</a></h2>
+              <div class="meta mb-0"><span class="date">
+                <i class="jam jam-clock"></i>31 Jul 2020</span>
+                
+              </div>
+         
+        </div>
+        
+        
+        
+        
+        <div class="item">
+              
+              <figure class="overlay overlay1 rounded mb-30">
+                <a href="/Leaders_in_Basketball_Analytics"> <img class="post-thumb" src="assets/img/blog-img/Screen Shot 2020-08-30 at 9.37.28 PM.webp" alt="Leaders in Basketball Analytics"/></a>
+                <figcaption>
+                  <h5 class="from-top mb-0 text-uppercase">Read More</h5>
+                </figcaption>
+              </figure>
+              
+              <div class="category"><a href="/category/" class="badge  badge-pill bg-leaf"></a></div>
+              <h2 class="post-title"><a href="/Leaders_in_Basketball_Analytics">Leaders in Basketball Analytics</a></h2>
+              <div class="meta mb-0"><span class="date">
+                <i class="jam jam-clock"></i>29 Jul 2020</span>
+                
+              </div>
+         
+        </div>
+        
+        
+        
+        
+        <div class="item">
+              
+              <figure class="overlay overlay1 rounded mb-30">
+                <a href="/42_Analytics"> <img class="post-thumb" src="assets/img/blog-img/Screen Shot 2020-08-30 at 9.37.28 PM.webp" alt="42 Analytics"/></a>
+                <figcaption>
+                  <h5 class="from-top mb-0 text-uppercase">Read More</h5>
+                </figcaption>
+              </figure>
+              
+              <div class="category"><a href="/category/" class="badge  badge-pill bg-leaf"></a></div>
+              <h2 class="post-title"><a href="/42_Analytics">42 Analytics</a></h2>
+              <div class="meta mb-0"><span class="date">
+                <i class="jam jam-clock"></i>29 Jul 2020</span>
+                
+              </div>
+         
+        </div>
+        
+        
+        
+        
+        <div class="item">
+              
+              <figure class="overlay overlay1 rounded mb-30">
+                <a href="/Model_Ideation"> <img class="post-thumb" src="assets/img/blog-img/Screen Shot 2020-08-30 at 9.37.28 PM.webp" alt="Model Ideation"/></a>
+                <figcaption>
+                  <h5 class="from-top mb-0 text-uppercase">Read More</h5>
+                </figcaption>
+              </figure>
+              
+              <div class="category"><a href="/category/" class="badge  badge-pill bg-leaf"></a></div>
+              <h2 class="post-title"><a href="/Model_Ideation">Model Ideation</a></h2>
+              <div class="meta mb-0"><span class="date">
+                <i class="jam jam-clock"></i>28 Jul 2020</span>
+                
+              </div>
+         
+        </div>
+        
+        
+        
+        
+        <div class="item">
+              
+              <figure class="overlay overlay1 rounded mb-30">
+                <a href="/Creating_A_Presentation"> <img class="post-thumb" src="assets/img/blog-img/Screen Shot 2020-08-30 at 9.37.28 PM.webp" alt="Creating A Presentation"/></a>
+                <figcaption>
+                  <h5 class="from-top mb-0 text-uppercase">Read More</h5>
+                </figcaption>
+              </figure>
+              
+              <div class="category"><a href="/category/" class="badge  badge-pill bg-leaf"></a></div>
+              <h2 class="post-title"><a href="/Creating_A_Presentation">Creating A Presentation</a></h2>
+              <div class="meta mb-0"><span class="date">
+                <i class="jam jam-clock"></i>28 Jul 2020</span>
+                
+              </div>
+         
+        </div>
+        
+        
+        
+        
+        <div class="item">
+              
+              <figure class="overlay overlay1 rounded mb-30">
+                <a href="/No_Excuses"> <img class="post-thumb" src="assets/img/blog-img/Screen Shot 2020-08-30 at 9.37.28 PM.webp" alt="No Excuses"/></a>
+                <figcaption>
+                  <h5 class="from-top mb-0 text-uppercase">Read More</h5>
+                </figcaption>
+              </figure>
+              
+              <div class="category"><a href="/category/" class="badge  badge-pill bg-leaf"></a></div>
+              <h2 class="post-title"><a href="/No_Excuses">No Excuses</a></h2>
+              <div class="meta mb-0"><span class="date">
+                <i class="jam jam-clock"></i>25 Jul 2020</span>
+                
+              </div>
+         
+        </div>
+        
+        
+        
+        
+        <div class="item">
+              
+              <figure class="overlay overlay1 rounded mb-30">
+                <a href="/Cloud_Computing"> <img class="post-thumb" src="assets/img/blog-img/Screen Shot 2020-08-30 at 9.37.28 PM.webp" alt="Cloud Computing"/></a>
+                <figcaption>
+                  <h5 class="from-top mb-0 text-uppercase">Read More</h5>
+                </figcaption>
+              </figure>
+              
+              <div class="category"><a href="/category/" class="badge  badge-pill bg-leaf"></a></div>
+              <h2 class="post-title"><a href="/Cloud_Computing">Cloud Computing</a></h2>
+              <div class="meta mb-0"><span class="date">
+                <i class="jam jam-clock"></i>24 Jul 2020</span>
+                
+              </div>
+         
+        </div>
+        
+        
+        
+        
+        <div class="item">
+              
+              <figure class="overlay overlay1 rounded mb-30">
+                <a href="/Shot_Plot"> <img class="post-thumb" src="assets/img/blog-img/Screen Shot 2020-08-30 at 9.37.28 PM.webp" alt="Shot Plot"/></a>
+                <figcaption>
+                  <h5 class="from-top mb-0 text-uppercase">Read More</h5>
+                </figcaption>
+              </figure>
+              
+              <div class="category"><a href="/category/" class="badge  badge-pill bg-leaf"></a></div>
+              <h2 class="post-title"><a href="/Shot_Plot">Shot Plot</a></h2>
+              <div class="meta mb-0"><span class="date">
+                <i class="jam jam-clock"></i>23 Jul 2020</span>
+                
+              </div>
+         
+        </div>
+        
+        
+        
+        
+        <div class="item">
+              
+              <figure class="overlay overlay1 rounded mb-30">
+                <a href="/Data_Science_Fundamentals"> <img class="post-thumb" src="assets/img/blog-img/Screen Shot 2020-08-30 at 9.37.28 PM.webp" alt="Data Science Fundamentals"/></a>
+                <figcaption>
+                  <h5 class="from-top mb-0 text-uppercase">Read More</h5>
+                </figcaption>
+              </figure>
+              
+              <div class="category"><a href="/category/" class="badge  badge-pill bg-leaf"></a></div>
+              <h2 class="post-title"><a href="/Data_Science_Fundamentals">Data Science Fundamentals</a></h2>
+              <div class="meta mb-0"><span class="date">
+                <i class="jam jam-clock"></i>23 Jul 2020</span>
+                
+              </div>
+         
+        </div>
+        
+        
+        
+        
+        <div class="item">
+              
+              <figure class="overlay overlay1 rounded mb-30">
+                <a href="/Python_be_nice!"> <img class="post-thumb" src="assets/img/blog-img/Screen Shot 2020-08-30 at 9.37.28 PM.webp" alt="Python be nice!"/></a>
+                <figcaption>
+                  <h5 class="from-top mb-0 text-uppercase">Read More</h5>
+                </figcaption>
+              </figure>
+              
+              <div class="category"><a href="/category/" class="badge  badge-pill bg-leaf"></a></div>
+              <h2 class="post-title"><a href="/Python_be_nice!">Python be nice!</a></h2>
+              <div class="meta mb-0"><span class="date">
+                <i class="jam jam-clock"></i>21 Jul 2020</span>
+                
+              </div>
+         
+        </div>
+        
+        
+        
+        
+        <div class="item">
+              
+              <figure class="overlay overlay1 rounded mb-30">
+                <a href="/Code_editors"> <img class="post-thumb" src="assets/img/blog-img/Screen Shot 2020-08-30 at 9.37.28 PM.webp" alt="Code editors"/></a>
+                <figcaption>
+                  <h5 class="from-top mb-0 text-uppercase">Read More</h5>
+                </figcaption>
+              </figure>
+              
+              <div class="category"><a href="/category/" class="badge  badge-pill bg-leaf"></a></div>
+              <h2 class="post-title"><a href="/Code_editors">Code editors</a></h2>
+              <div class="meta mb-0"><span class="date">
+                <i class="jam jam-clock"></i>21 Jul 2020</span>
+                
+              </div>
+         
+        </div>
+        
+        
+        
+        
+        <div class="item">
+              
+              <figure class="overlay overlay1 rounded mb-30">
+                <a href="/Coding_baby"> <img class="post-thumb" src="assets/img/blog-img/Screen Shot 2020-08-30 at 9.37.28 PM.webp" alt="Coding baby"/></a>
+                <figcaption>
+                  <h5 class="from-top mb-0 text-uppercase">Read More</h5>
+                </figcaption>
+              </figure>
+              
+              <div class="category"><a href="/category/" class="badge  badge-pill bg-leaf"></a></div>
+              <h2 class="post-title"><a href="/Coding_baby">Coding baby</a></h2>
+              <div class="meta mb-0"><span class="date">
+                <i class="jam jam-clock"></i>19 Jul 2020</span>
+                
+              </div>
+         
+        </div>
+        
+        
+        
+        
+        <div class="item">
+              
+              <figure class="overlay overlay1 rounded mb-30">
+                <a href="/NBA_Data_Ideation"> <img class="post-thumb" src="assets/img/blog-img/Screen Shot 2020-08-30 at 9.37.28 PM.webp" alt="NBA Data Ideation"/></a>
+                <figcaption>
+                  <h5 class="from-top mb-0 text-uppercase">Read More</h5>
+                </figcaption>
+              </figure>
+              
+              <div class="category"><a href="/category/" class="badge  badge-pill bg-leaf"></a></div>
+              <h2 class="post-title"><a href="/NBA_Data_Ideation">NBA Data Ideation</a></h2>
+              <div class="meta mb-0"><span class="date">
+                <i class="jam jam-clock"></i>16 Jul 2020</span>
+                
+              </div>
+         
+        </div>
+        
+        
+        
+        
+        <div class="item">
+              
+              <figure class="overlay overlay1 rounded mb-30">
+                <a href="/Building_Algorithms"> <img class="post-thumb" src="assets/img/blog-img/Screen Shot 2020-08-30 at 9.37.28 PM.webp" alt="Building Algorithms"/></a>
+                <figcaption>
+                  <h5 class="from-top mb-0 text-uppercase">Read More</h5>
+                </figcaption>
+              </figure>
+              
+              <div class="category"><a href="/category/" class="badge  badge-pill bg-leaf"></a></div>
+              <h2 class="post-title"><a href="/Building_Algorithms">Building Algorithms</a></h2>
+              <div class="meta mb-0"><span class="date">
+                <i class="jam jam-clock"></i>16 Jul 2020</span>
+                
+              </div>
+         
+        </div>
+        
+        
+        
+        
+        <div class="item">
+              
+              <figure class="overlay overlay1 rounded mb-30">
+                <a href="/Visualize_&_Explore"> <img class="post-thumb" src="assets/img/blog-img/Screen Shot 2020-08-30 at 9.37.28 PM.webp" alt="Visualize & Explore"/></a>
+                <figcaption>
+                  <h5 class="from-top mb-0 text-uppercase">Read More</h5>
+                </figcaption>
+              </figure>
+              
+              <div class="category"><a href="/category/" class="badge  badge-pill bg-leaf"></a></div>
+              <h2 class="post-title"><a href="/Visualize_&_Explore">Visualize & Explore</a></h2>
+              <div class="meta mb-0"><span class="date">
+                <i class="jam jam-clock"></i>14 Jul 2020</span>
+                
+              </div>
+         
+        </div>
+        
+        
+        
+        
+        <div class="item">
+              
+              <figure class="overlay overlay1 rounded mb-30">
+                <a href="/Strong_fundamentals!"> <img class="post-thumb" src="assets/img/blog-img/Screen Shot 2020-08-30 at 9.37.28 PM.webp" alt="Strong fundamentals!"/></a>
+                <figcaption>
+                  <h5 class="from-top mb-0 text-uppercase">Read More</h5>
+                </figcaption>
+              </figure>
+              
+              <div class="category"><a href="/category/" class="badge  badge-pill bg-leaf"></a></div>
+              <h2 class="post-title"><a href="/Strong_fundamentals!">Strong fundamentals!</a></h2>
+              <div class="meta mb-0"><span class="date">
+                <i class="jam jam-clock"></i>14 Jul 2020</span>
+                
+              </div>
+         
+        </div>
+        
+        
+        
+        
+        <div class="item">
+              
+              <figure class="overlay overlay1 rounded mb-30">
+                <a href="/Seeing_is_Believing"> <img class="post-thumb" src="assets/img/blog-img/Screen Shot 2020-08-30 at 9.37.28 PM.webp" alt="Seeing is Believing"/></a>
+                <figcaption>
+                  <h5 class="from-top mb-0 text-uppercase">Read More</h5>
+                </figcaption>
+              </figure>
+              
+              <div class="category"><a href="/category/" class="badge  badge-pill bg-leaf"></a></div>
+              <h2 class="post-title"><a href="/Seeing_is_Believing">Seeing is Believing</a></h2>
+              <div class="meta mb-0"><span class="date">
+                <i class="jam jam-clock"></i>14 Jul 2020</span>
+                
+              </div>
+         
+        </div>
+        
+        
+        
+        
+        <div class="item">
+              
+              <figure class="overlay overlay1 rounded mb-30">
+                <a href="/First_week_of_Python"> <img class="post-thumb" src="assets/img/blog-img/Screen Shot 2020-08-30 at 9.37.28 PM.webp" alt="First week of Python"/></a>
+                <figcaption>
+                  <h5 class="from-top mb-0 text-uppercase">Read More</h5>
+                </figcaption>
+              </figure>
+              
+              <div class="category"><a href="/category/" class="badge  badge-pill bg-leaf"></a></div>
+              <h2 class="post-title"><a href="/First_week_of_Python">First week of Python</a></h2>
+              <div class="meta mb-0"><span class="date">
+                <i class="jam jam-clock"></i>12 Jul 2020</span>
+                
+              </div>
+         
+        </div>
+        
+        
+        
+        
+        <div class="item">
+              
+              <figure class="overlay overlay1 rounded mb-30">
+                <a href="/Datacamping"> <img class="post-thumb" src="assets/img/blog-img/Screen Shot 2020-08-30 at 9.37.28 PM.webp" alt="Datacamping"/></a>
+                <figcaption>
+                  <h5 class="from-top mb-0 text-uppercase">Read More</h5>
+                </figcaption>
+              </figure>
+              
+              <div class="category"><a href="/category/" class="badge  badge-pill bg-leaf"></a></div>
+              <h2 class="post-title"><a href="/Datacamping">Datacamping</a></h2>
+              <div class="meta mb-0"><span class="date">
+                <i class="jam jam-clock"></i>09 Jul 2020</span>
+                
+              </div>
+         
+        </div>
+        
+        
+        
+        
+        <div class="item">
+              
+              <figure class="overlay overlay1 rounded mb-30">
+                <a href="/Data_Science_Class"> <img class="post-thumb" src="assets/img/blog-img/Screen Shot 2020-08-30 at 9.37.28 PM.webp" alt="Data Science Class"/></a>
+                <figcaption>
+                  <h5 class="from-top mb-0 text-uppercase">Read More</h5>
+                </figcaption>
+              </figure>
+              
+              <div class="category"><a href="/category/" class="badge  badge-pill bg-leaf"></a></div>
+              <h2 class="post-title"><a href="/Data_Science_Class">Data Science Class</a></h2>
+              <div class="meta mb-0"><span class="date">
+                <i class="jam jam-clock"></i>09 Jul 2020</span>
+                
+              </div>
+         
+        </div>
+        
+        
+        
+        
+        <div class="item">
+              
+              <figure class="overlay overlay1 rounded mb-30">
+                <a href="/Youth_Basketball_Analytics"> <img class="post-thumb" src="assets/img/blog-img/Screen Shot 2020-08-30 at 9.37.28 PM.webp" alt="Youth Basketball Analytics"/></a>
+                <figcaption>
+                  <h5 class="from-top mb-0 text-uppercase">Read More</h5>
+                </figcaption>
+              </figure>
+              
+              <div class="category"><a href="/category/" class="badge  badge-pill bg-leaf"></a></div>
+              <h2 class="post-title"><a href="/Youth_Basketball_Analytics">Youth Basketball Analytics</a></h2>
+              <div class="meta mb-0"><span class="date">
+                <i class="jam jam-clock"></i>08 Jul 2020</span>
+                
+              </div>
+         
+        </div>
+        
+        
+        
+        
+        <div class="item">
+              
+              <figure class="overlay overlay1 rounded mb-30">
+                <a href="/Project"> <img class="post-thumb" src="assets/img/blog-img/Screen Shot 2020-08-30 at 9.37.28 PM.webp" alt="Project"/></a>
+                <figcaption>
+                  <h5 class="from-top mb-0 text-uppercase">Read More</h5>
+                </figcaption>
+              </figure>
+              
+              <div class="category"><a href="/category/" class="badge  badge-pill bg-leaf"></a></div>
+              <h2 class="post-title"><a href="/Project">Project</a></h2>
+              <div class="meta mb-0"><span class="date">
+                <i class="jam jam-clock"></i>08 Jul 2020</span>
+                
+              </div>
+         
+        </div>
+        
+        
+        
+        
+        <div class="item">
+              
+              <figure class="overlay overlay1 rounded mb-30">
+                <a href="/Numbers_dont_lie"> <img class="post-thumb" src="assets/img/blog-img/Screen Shot 2020-08-30 at 9.37.28 PM.webp" alt="Numbers dont lie"/></a>
+                <figcaption>
+                  <h5 class="from-top mb-0 text-uppercase">Read More</h5>
+                </figcaption>
+              </figure>
+              
+              <div class="category"><a href="/category/" class="badge  badge-pill bg-leaf"></a></div>
+              <h2 class="post-title"><a href="/Numbers_dont_lie">Numbers dont lie</a></h2>
+              <div class="meta mb-0"><span class="date">
+                <i class="jam jam-clock"></i>08 Jul 2020</span>
+                
+              </div>
+         
+        </div>
+        
+        
+        
+        
+        <div class="item">
+              
+              <figure class="overlay overlay1 rounded mb-30">
+                <a href="/Coding"> <img class="post-thumb" src="assets/img/blog-img/Screen Shot 2020-08-30 at 9.37.28 PM.webp" alt="Coding"/></a>
+                <figcaption>
+                  <h5 class="from-top mb-0 text-uppercase">Read More</h5>
+                </figcaption>
+              </figure>
+              
+              <div class="category"><a href="/category/" class="badge  badge-pill bg-leaf"></a></div>
+              <h2 class="post-title"><a href="/Coding">Coding</a></h2>
+              <div class="meta mb-0"><span class="date">
+                <i class="jam jam-clock"></i>07 Jul 2020</span>
+                
+              </div>
+         
+        </div>
+        
+        
+        
+        
+        <div class="item">
+              
+              <figure class="overlay overlay1 rounded mb-30">
+                <a href="/Web_framework"> <img class="post-thumb" src="assets/img/blog-img/Screen Shot 2020-08-30 at 9.37.28 PM.webp" alt="Web framework"/></a>
+                <figcaption>
+                  <h5 class="from-top mb-0 text-uppercase">Read More</h5>
+                </figcaption>
+              </figure>
+              
+              <div class="category"><a href="/category/" class="badge  badge-pill bg-leaf"></a></div>
+              <h2 class="post-title"><a href="/Web_framework">Web framework</a></h2>
+              <div class="meta mb-0"><span class="date">
+                <i class="jam jam-clock"></i>06 Jul 2020</span>
+                
+              </div>
+         
+        </div>
+        
+        
+        
+        
+        <div class="item">
+              
+              <figure class="overlay overlay1 rounded mb-30">
+                <a href="/50_40_90"> <img class="post-thumb" src="assets/img/blog-img/Screen Shot 2020-08-30 at 9.37.28 PM.webp" alt="50 40 90"/></a>
+                <figcaption>
+                  <h5 class="from-top mb-0 text-uppercase">Read More</h5>
+                </figcaption>
+              </figure>
+              
+              <div class="category"><a href="/category/" class="badge  badge-pill bg-leaf"></a></div>
+              <h2 class="post-title"><a href="/50_40_90">50 40 90</a></h2>
+              <div class="meta mb-0"><span class="date">
+                <i class="jam jam-clock"></i>03 Jul 2020</span>
+                
+              </div>
+         
+        </div>
+        
+        
+        
+        
+        <div class="item">
+              
+              <figure class="overlay overlay1 rounded mb-30">
+                <a href="/Project_Rundown"> <img class="post-thumb" src="assets/img/blog-img/Screen Shot 2020-08-30 at 9.37.28 PM.webp" alt="Project Rundown"/></a>
+                <figcaption>
+                  <h5 class="from-top mb-0 text-uppercase">Read More</h5>
+                </figcaption>
+              </figure>
+              
+              <div class="category"><a href="/category/" class="badge  badge-pill bg-leaf"></a></div>
+              <h2 class="post-title"><a href="/Project_Rundown">Project Rundown</a></h2>
+              <div class="meta mb-0"><span class="date">
+                <i class="jam jam-clock"></i>02 Jul 2020</span>
+                
+              </div>
+         
+        </div>
+        
+        
+        
+        
+        <div class="item">
+              
+              <figure class="overlay overlay1 rounded mb-30">
+                <a href="/variables"> <img class="post-thumb" src="assets/img/blog-img/Screen Shot 2020-08-30 at 9.37.28 PM.webp" alt="variables"/></a>
+                <figcaption>
+                  <h5 class="from-top mb-0 text-uppercase">Read More</h5>
+                </figcaption>
+              </figure>
+              
+              <div class="category"><a href="/category/" class="badge  badge-pill bg-leaf"></a></div>
+              <h2 class="post-title"><a href="/variables">variables</a></h2>
+              <div class="meta mb-0"><span class="date">
+                <i class="jam jam-clock"></i>01 Jul 2020</span>
+                
+              </div>
+         
+        </div>
+        
+        
+        
+        
+        <div class="item">
+              
+              <figure class="overlay overlay1 rounded mb-30">
+                <a href="/Codeeditors"> <img class="post-thumb" src="assets/img/blog-img/Screen Shot 2020-08-30 at 9.37.28 PM.webp" alt="Codeeditors"/></a>
+                <figcaption>
+                  <h5 class="from-top mb-0 text-uppercase">Read More</h5>
+                </figcaption>
+              </figure>
+              
+              <div class="category"><a href="/category/" class="badge  badge-pill bg-leaf"></a></div>
+              <h2 class="post-title"><a href="/Codeeditors">Codeeditors</a></h2>
+              <div class="meta mb-0"><span class="date">
+                <i class="jam jam-clock"></i>01 Jul 2020</span>
+                
+              </div>
+         
+        </div>
+        
+        
+        
+        
+        <div class="item">
+              
+              <figure class="overlay overlay1 rounded mb-30">
+                <a href="/Terminal_Command-LIne"> <img class="post-thumb" src="assets/img/blog-img/Screen Shot 2020-08-30 at 9.37.28 PM.webp" alt="Terminal Command LIne"/></a>
+                <figcaption>
+                  <h5 class="from-top mb-0 text-uppercase">Read More</h5>
+                </figcaption>
+              </figure>
+              
+              <div class="category"><a href="/category/" class="badge  badge-pill bg-leaf"></a></div>
+              <h2 class="post-title"><a href="/Terminal_Command-LIne">Terminal Command LIne</a></h2>
+              <div class="meta mb-0"><span class="date">
+                <i class="jam jam-clock"></i>30 Jun 2020</span>
+                
+              </div>
+         
+        </div>
+        
+        
+        
+        
+        <div class="item">
+              
+              <figure class="overlay overlay1 rounded mb-30">
+                <a href="/Monday"> <img class="post-thumb" src="assets/img/blog-img/Screen Shot 2020-08-30 at 9.37.28 PM.webp" alt="Monday"/></a>
+                <figcaption>
+                  <h5 class="from-top mb-0 text-uppercase">Read More</h5>
+                </figcaption>
+              </figure>
+              
+              <div class="category"><a href="/category/" class="badge  badge-pill bg-leaf"></a></div>
+              <h2 class="post-title"><a href="/Monday">Monday</a></h2>
+              <div class="meta mb-0"><span class="date">
+                <i class="jam jam-clock"></i>29 Jun 2020</span>
+                
+              </div>
+         
+        </div>
+        
+        
+        
+        
+        <div class="item">
+              
+              <figure class="overlay overlay1 rounded mb-30">
+                <a href="/Rubbing_off_on_my_teacher"> <img class="post-thumb" src="assets/img/blog-img/Screen Shot 2020-08-30 at 9.37.28 PM.webp" alt="Rubbing off on my teacher"/></a>
+                <figcaption>
+                  <h5 class="from-top mb-0 text-uppercase">Read More</h5>
+                </figcaption>
+              </figure>
+              
+              <div class="category"><a href="/category/" class="badge  badge-pill bg-leaf"></a></div>
+              <h2 class="post-title"><a href="/Rubbing_off_on_my_teacher">Rubbing off on my teacher</a></h2>
+              <div class="meta mb-0"><span class="date">
+                <i class="jam jam-clock"></i>28 Jun 2020</span>
+                
+              </div>
+         
+        </div>
+        
+        
+        
+        
+        <div class="item">
+              
+              <figure class="overlay overlay1 rounded mb-30">
+                <a href="/Major_Payne"> <img class="post-thumb" src="assets/img/blog-img/Screen Shot 2020-08-30 at 9.37.28 PM.webp" alt="Major Payne"/></a>
+                <figcaption>
+                  <h5 class="from-top mb-0 text-uppercase">Read More</h5>
+                </figcaption>
+              </figure>
+              
+              <div class="category"><a href="/category/" class="badge  badge-pill bg-leaf"></a></div>
+              <h2 class="post-title"><a href="/Major_Payne">Major Payne</a></h2>
+              <div class="meta mb-0"><span class="date">
+                <i class="jam jam-clock"></i>28 Jun 2020</span>
+                
+              </div>
+         
+        </div>
+        
+        
+        
+        
+        <div class="item">
+              
+              <figure class="overlay overlay1 rounded mb-30">
+                <a href="/You_Got_This!"> <img class="post-thumb" src="assets/img/blog-img/Screen Shot 2020-08-30 at 9.37.28 PM.webp" alt="You Got This!"/></a>
+                <figcaption>
+                  <h5 class="from-top mb-0 text-uppercase">Read More</h5>
+                </figcaption>
+              </figure>
+              
+              <div class="category"><a href="/category/" class="badge  badge-pill bg-leaf"></a></div>
+              <h2 class="post-title"><a href="/You_Got_This!">You Got This!</a></h2>
+              <div class="meta mb-0"><span class="date">
+                <i class="jam jam-clock"></i>27 Jun 2020</span>
+                
+              </div>
+         
+        </div>
+        
+        
+        
+        
+        <div class="item">
+              
+              <figure class="overlay overlay1 rounded mb-30">
+                <a href="/learning_how_to_learn"> <img class="post-thumb" src="assets/img/blog-img/Screen Shot 2020-08-30 at 9.37.28 PM.webp" alt="learning how to learn"/></a>
+                <figcaption>
+                  <h5 class="from-top mb-0 text-uppercase">Read More</h5>
+                </figcaption>
+              </figure>
+              
+              <div class="category"><a href="/category/" class="badge  badge-pill bg-leaf"></a></div>
+              <h2 class="post-title"><a href="/learning_how_to_learn">learning how to learn</a></h2>
+              <div class="meta mb-0"><span class="date">
+                <i class="jam jam-clock"></i>26 Jun 2020</span>
+                
+              </div>
+         
+        </div>
+        
+        
+        
+        
+        <div class="item">
+              
+              <figure class="overlay overlay1 rounded mb-30">
+                <a href="/Lets_get_organized"> <img class="post-thumb" src="assets/img/blog-img/Screen Shot 2020-08-30 at 9.37.28 PM.webp" alt="Lets get organized"/></a>
+                <figcaption>
+                  <h5 class="from-top mb-0 text-uppercase">Read More</h5>
+                </figcaption>
+              </figure>
+              
+              <div class="category"><a href="/category/" class="badge  badge-pill bg-leaf"></a></div>
+              <h2 class="post-title"><a href="/Lets_get_organized">Lets get organized</a></h2>
+              <div class="meta mb-0"><span class="date">
+                <i class="jam jam-clock"></i>26 Jun 2020</span>
+                
+              </div>
+         
+        </div>
+        
+        
+        
+        
+        <div class="item">
+              
+              <figure class="overlay overlay1 rounded mb-30">
+                <a href="/Suport_Data"> <img class="post-thumb" src="assets/img/blog-img/Screen Shot 2020-08-30 at 9.37.28 PM.webp" alt="Suport Data"/></a>
+                <figcaption>
+                  <h5 class="from-top mb-0 text-uppercase">Read More</h5>
+                </figcaption>
+              </figure>
+              
+              <div class="category"><a href="/category/" class="badge  badge-pill bg-leaf"></a></div>
+              <h2 class="post-title"><a href="/Suport_Data">Suport Data</a></h2>
+              <div class="meta mb-0"><span class="date">
+                <i class="jam jam-clock"></i>25 Jun 2020</span>
+                
+              </div>
+         
+        </div>
+        
+        
+        
+        
+        <div class="item">
+              
+              <figure class="overlay overlay1 rounded mb-30">
+                <a href="/Understanding_Data_Sciences_Purpose"> <img class="post-thumb" src="assets/img/blog-img/Screen Shot 2020-08-30 at 9.37.28 PM.webp" alt="Understanding Data Sciences Purpose"/></a>
+                <figcaption>
+                  <h5 class="from-top mb-0 text-uppercase">Read More</h5>
+                </figcaption>
+              </figure>
+              
+              <div class="category"><a href="/category/" class="badge  badge-pill bg-leaf"></a></div>
+              <h2 class="post-title"><a href="/Understanding_Data_Sciences_Purpose">Understanding Data Sciences Purpose</a></h2>
+              <div class="meta mb-0"><span class="date">
+                <i class="jam jam-clock"></i>24 Jun 2020</span>
+                
+              </div>
+         
+        </div>
+        
+        
+        
+        
+        <div class="item">
+              
+              <figure class="overlay overlay1 rounded mb-30">
+                <a href="/Debugging"> <img class="post-thumb" src="assets/img/blog-img/Screen Shot 2020-08-30 at 9.37.28 PM.webp" alt="Debugging"/></a>
+                <figcaption>
+                  <h5 class="from-top mb-0 text-uppercase">Read More</h5>
+                </figcaption>
+              </figure>
+              
+              <div class="category"><a href="/category/" class="badge  badge-pill bg-leaf"></a></div>
+              <h2 class="post-title"><a href="/Debugging">Debugging</a></h2>
+              <div class="meta mb-0"><span class="date">
+                <i class="jam jam-clock"></i>24 Jun 2020</span>
+                
+              </div>
+         
+        </div>
+        
+        
+        
+        
+        <div class="item">
+              
+              <figure class="overlay overlay1 rounded mb-30">
+                <a href="/I_wil_be_a_Leading_Data_Scientist"> <img class="post-thumb" src="assets/img/blog-img/Screen Shot 2020-08-30 at 9.37.28 PM.webp" alt="I wil be a Leading Data Scientist"/></a>
+                <figcaption>
+                  <h5 class="from-top mb-0 text-uppercase">Read More</h5>
+                </figcaption>
+              </figure>
+              
+              <div class="category"><a href="/category/" class="badge  badge-pill bg-leaf"></a></div>
+              <h2 class="post-title"><a href="/I_wil_be_a_Leading_Data_Scientist">I wil be a Leading Data Scientist</a></h2>
+              <div class="meta mb-0"><span class="date">
+                <i class="jam jam-clock"></i>23 Jun 2020</span>
+                
+              </div>
+         
+        </div>
+        
+        
+        
+        
+        <div class="item">
+              
+              <figure class="overlay overlay1 rounded mb-30">
+                <a href="/GitHub"> <img class="post-thumb" src="assets/img/blog-img/Screen Shot 2020-08-30 at 9.37.28 PM.webp" alt="GitHub"/></a>
+                <figcaption>
+                  <h5 class="from-top mb-0 text-uppercase">Read More</h5>
+                </figcaption>
+              </figure>
+              
+              <div class="category"><a href="/category/" class="badge  badge-pill bg-leaf"></a></div>
+              <h2 class="post-title"><a href="/GitHub">GitHub</a></h2>
+              <div class="meta mb-0"><span class="date">
+                <i class="jam jam-clock"></i>23 Jun 2020</span>
                 
               </div>
          

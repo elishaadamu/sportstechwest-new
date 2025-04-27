@@ -70,7 +70,13 @@
   href="/assets/css/style.css"
 />
 <!-- Global Color Scheme for all Pages-->
-
+ 
+<link
+  rel="stylesheet"
+  type="text/css"
+  href="/assets/css/color/Cobalt.css"
+/>
+ 
 <!-- Global Font Scheme font-->
 
  
@@ -83,9 +89,87 @@
 @media screen and (max-width: 1024px) {
 }
 
-.widget img {
+footer .widget img {
   width: 130px;
   filter: invert(1);
+}
+
+@media screen and (min-width: 1024px) {
+  .blog img {
+    width: 75%;
+    display: flex;
+    cursor: zoom-in;
+    margin: auto;
+  }
+  .blog img:hover {
+    box-shadow: 2px 2px 20px lightblue;
+    transition: box-shadow 1s;
+  }
+  .blog video {
+    width: 50%;
+    display: flex;
+    height: 40%;
+    margin-bottom: 20px;
+  }
+  .blog iframe {
+    display: flex;
+    margin-bottom: 20px;
+  }
+  .image-gallery {
+    display: flex;
+    flex-direction: row;
+    width: 70%;
+    margin-left: 15%;
+  }
+  .image-gallery .img-2 {
+    flex: 50%;
+    width: 40%;
+    padding: 0px 2% !important;
+    object-fit: cover;
+  }
+  .image-gallery .img-3 {
+    flex: 33%;
+    width: 30%;
+    padding: 0px 2% !important;
+    object-fit: cover;
+  }
+  .image-gallery .img-4 {
+    flex: 25%;
+    width: 20%;
+    padding: 0px 2% !important;
+    object-fit: cover;
+  }
+  .image-gallery .img-5 {
+    flex: 20%;
+    width: 16%;
+    padding: 0px 2% !important;
+    object-fit: cover;
+  }
+}
+@media screen and (max-width: 768px) {
+  .blog video {
+    width: 100%;
+  }
+  .blog iframe {
+    width: 100%;
+  }
+}
+@media screen and (max-width: 1023px) {
+  .blog video {
+    display: flex;
+    width: 75% !important;
+    margin-bottom: 20px !important;
+  }
+  .blog iframe {
+    display: flex;
+    width: 75% !important;
+    margin-bottom: 20px !important;
+  }
+  .blog img {
+    display: flex;
+    width: 75% !important;
+    margin-bottom: 20px !important;
+  }
 }
 
     </style>
@@ -460,151 +544,20 @@
           
           
           
-            <div class="post">
-  <div class="box bg-white shadow">
-    <div class="post-slider">
-      <div class="basic-slider owl-carousel" data-margin="5">
-        
-         <div class="item"><img src="/assets/images/art/bs1.webp" alt=""/></div>
-        
-         <div class="item"><img src="/assets/images/art/bs2.webp" alt=""/></div>
-        
-         <div class="item"><img src="/assets/images/art/bs3.webp" alt=""/></div>
-        
-      </div>
-    </div>
-    <div class="space60"></div>
-    <div class="post-content">
-      <div class="category text-center"><a href="/category/wedding" class="badge rounded-pill bg-purple">wedding</a></div>
-      <h2 class="post-title text-center"><a href="/posts/post-with-carousel">Post with Carousel on main Image</a></h2>
-      <div class="meta text-center">
-        <span class="date"><i class="jam jam-clock"></i>28 Sep 2022</span>
-        
-         <span class="author"><i class="jam jam-user"></i><a href="/tortoiz-themes">By Tortoiz Themes</a></span>
-        
-      </div>
-      <p> 11 time-saving pro tips for web designers working in Webflow11 time-saving pro tips for web designers working in Webflow Consectetuer magna vivamus varius. Faucibus vestibulum faucibus elementum vulputate suscipit. Sit convallis litora nunc, vestibulum nibh tincidunt, in qui vel dui elit feugiat nulla, vehicula eos nec dolor conubia, aliquam proinEtiam id euismod. Purus ut dis feugiat, ac massa error leo sed fermentum, non sem velit eget arcu, lectus luctus congue leo dapibus tincidunt. Nunc vitae quis eu. Sit id ullamcorper semper ridiculus, accumsan augue ullamcorper eros viverra neque, libero est metus libero. Lacinia wisi feugiat tellus neque dui pellentesque, libero...</p>
-      <div class="text-center"><a href="/posts/post-with-carousel" class="more">Read more</a></div>
-    </div>
-  </div>
-</div>
-<!-- /.post -->
-          
-          
-          
-          
-              <div class="post">
-    <div class="box bg-white shadow">
-      <div class="post-gallery light-gallery-wrapper">
-        <div class="tiles tiles-s">
-          <div class="items row">
-            
-            
-            <div class="item col-md-6">
-              <figure class="overlay overlay1 rounded"><a href="/assets/images/art/bgi1-full.webp" class="lightbox">
-                <img src="/assets/images/art/bgi1-full.webp" alt="/assets/images/art/bgi1-full.webp"></a>
-                <figcaption>
-                  <h5 class="from-top mb-0">View Larger</h5>
-                </figcaption>
-              </figure>
-            </div>
-            
-            
-            
-            <div class="item col-md-6">
-              <figure class="overlay overlay1 rounded"><a href="/assets/images/art/bgi2-full.webp" class="lightbox">
-                <img src="/assets/images/art/bgi2-full.webp" alt="/assets/images/art/bgi2-full.webp"></a>
-                <figcaption>
-                  <h5 class="from-top mb-0">View Larger</h5>
-                </figcaption>
-              </figure>
-            </div>
-            
-            
-            
-            <div class="item col-md-4">
-              <figure class="overlay overlay1 rounded"><a href="/assets/images/art/bgi3-full.webp" class="lightbox">
-                <img src="/assets/images/art/bgi3-full.webp" alt="/assets/images/art/bgi3-full.webp"></a>
-                <figcaption>
-                  <h5 class="from-top mb-0">View Larger</h5>
-                </figcaption>
-              </figure>
-            </div>
-            
-            
-            
-            <div class="item col-md-4">
-              <figure class="overlay overlay1 rounded"><a href="/assets/images/art/bgi4-full.webp" class="lightbox">
-                <img src="/assets/images/art/bgi4-full.webp" alt="/assets/images/art/bgi4-full.webp"></a>
-                <figcaption>
-                  <h5 class="from-top mb-0">View Larger</h5>
-                </figcaption>
-              </figure>
-            </div>
-            
-            
-            
-            <div class="item col-md-4">
-              <figure class="overlay overlay1 rounded"><a href="/assets/images/art/bgi5-full.webp" class="lightbox">
-                <img src="/assets/images/art/bgi5-full.webp" alt="/assets/images/art/bgi5-full.webp"></a>
-                <figcaption>
-                  <h5 class="from-top mb-0">View Larger</h5>
-                </figcaption>
-              </figure>
-            </div>
-            
-            
-            <!--/.item -->
-          </div>
-          <!--/.items -->
-        </div>
-        <!--/.tiles -->
-      </div>
-      <!--/.post-gallery -->
-      <div class="space40"></div>
-      <div class="post-content">
-        <div class="category text-center"><a href="/category/couples" class="badge rounded-pill bg-meander">couples</a></div>
-        <h2 class="post-title text-center"><a href="/posts/post-with-gallery">Post with Gallery</a></h2>
-        <div class="meta text-center">
-          <span class="date"><i class="jam jam-clock"></i>28 Sep 2022</span>
-          
-          <span class="author"><i class="jam jam-user"></i><a href="/tortoiz-themes">By Tortoiz Themes</a></span>
-          
-        </div>
-        <p>First Level Header 11 time-saving pro tips for web designers working in Webflow11 link tips for web designers working in Webflow Consectetuer magna vivamus varius. Faucibus vestibulum faucibus elementum vulputate suscipit. Sit convallis litora nunc, vestibulum nibh tincidunt, in qui vel dui elit feugiat nulla, vehicula eos nec dolor conubia, aliquam proinEtiam id euismod. Purus ut dis feugiat, ac massa error leo sed fermentum, non sem velit eget arcu, lectus luctus congue leo dapibus tincidunt. Nunc vitae quis eu. Sit id ullamcorper semper ridiculus, accumsan augue ullamcorper eros viverra neque, libero est metus libero. Lacinia wisi feugiat tellus neque dui...</p>
-        <div class="text-center"><a href="/posts/post-with-gallery" class="more">Read more</a></div>
-      </div>
-    </div>
-    <!-- /.post -->
-  </div>
-          
-          
-          
-          
           <div class="post">
   <div class="box bg-white shadow">
     
-    <figure class="main overlay overlay1 rounded">
-      <a href="/posts/post-with-code-highlight">
-       <img src="/assets/images/art/b16.webp" alt="Markdown post with code highlighting"/></a>
-      <figcaption>
-        <h5 class="from-top mb-0">Read More</h5>
-      </figcaption>
-    </figure>
-    
     <div class="space40"></div>
     <div class="post-content">
-      <div class="category text-center"><a href="/category/couples" class="badge rounded-pill bg-meander">couples</a></div>
-      <h2 class="post-title text-center"><a href="/posts/post-with-code-highlight">Markdown post with code highlighting</a></h2>
+      <div class="category text-center"><a href="/category/" class="badge rounded-pill "></a></div>
+      <h2 class="post-title text-center"><a href="/National-Championship-Women's-Soccer">Analytics Culture: UNC Legacy “From No Control to Comeback”</a></h2>
       <div class="meta text-center">
-        <span class="date"><i class="jam jam-clock"></i>03 Sep 2022</span>
-        
-        <span class="author"><i class="jam jam-user"></i><a href="/tortoiz-themes">By Tortoiz Themes</a></span>
+        <span class="date"><i class="jam jam-clock"></i>20 Jan 2025</span>
         
       </div>
-      <p>First Level Header - Create a code highlighting block in jekyll
+      <p>The Decision to Go
 </p>
-      <div class="text-center"><a href="/posts/post-with-code-highlight" class="more">Read more</a></div>
+      <div class="text-center"><a href="/National-Championship-Women's-Soccer" class="more">Read more</a></div>
     </div>
   </div>
 </div>
@@ -616,26 +569,17 @@
           <div class="post">
   <div class="box bg-white shadow">
     
-    <figure class="main overlay overlay1 rounded">
-      <a href="/posts/post-boxed-sidebar">
-       <img src="/assets/images/art/tb2.webp" alt="Boxed Post with Sidebar"/></a>
-      <figcaption>
-        <h5 class="from-top mb-0">Read More</h5>
-      </figcaption>
-    </figure>
-    
     <div class="space40"></div>
     <div class="post-content">
-      <div class="category text-center"><a href="/category/architecture" class="badge rounded-pill bg-leaf">architecture</a></div>
-      <h2 class="post-title text-center"><a href="/posts/post-boxed-sidebar">Boxed Post with Sidebar</a></h2>
+      <div class="category text-center"><a href="/category/" class="badge rounded-pill "></a></div>
+      <h2 class="post-title text-center"><a href="/Analytics-Culture-The-Game-Within-the-Game">Analytics Culture: “The Game Within the Game”</a></h2>
       <div class="meta text-center">
-        <span class="date"><i class="jam jam-clock"></i>02 Sep 2022</span>
-        
-        <span class="author"><i class="jam jam-user"></i><a href="/tortoiz-themes">By Tortoiz Themes</a></span>
+        <span class="date"><i class="jam jam-clock"></i>28 Nov 2024</span>
         
       </div>
-      <p>11 time-saving pro tips for web designers working in Webflow11 time-saving pro tips for web designers working in Webflow Consectetuer magna vivamus varius. Faucibus vestibulum faucibus elementum vulputate suscipit. Sit convallis litora nunc, vestibulum nibh tincidunt, in qui vel dui elit feugiat nulla, vehicula eos nec dolor conubia, aliquam proinEtiam id euismod. Purus ut dis feugiat, ac massa error leo sed fermentum, non sem velit eget arcu, lectus luctus congue leo dapibus tincidunt. Nunc vitae quis eu. Sit id ullamcorper...</p>
-      <div class="text-center"><a href="/posts/post-boxed-sidebar" class="more">Read more</a></div>
+      <p>At BTE Analytics, we’re not just about numbers. We’re about what makes you, you. Coming from my own background as a basketball player, I’ve always believed that what truly separates good players from great ones isn’t just the stats you see on paper. It’s the subtle stuff. The tendencies, the rhythm, the style. That’s the soul of the game.
+</p>
+      <div class="text-center"><a href="/Analytics-Culture-The-Game-Within-the-Game" class="more">Read more</a></div>
     </div>
   </div>
 </div>
@@ -647,59 +591,19 @@
           <div class="post">
   <div class="box bg-white shadow">
     
-    <figure class="main overlay overlay1 rounded">
-      <a href="/posts/post-boxed">
-       <img src="/assets/images/art/tb2.webp" alt="Boxed Post"/></a>
-      <figcaption>
-        <h5 class="from-top mb-0">Read More</h5>
-      </figcaption>
-    </figure>
-    
     <div class="space40"></div>
     <div class="post-content">
-      <div class="category text-center"><a href="/category/architecture" class="badge rounded-pill bg-leaf">architecture</a></div>
-      <h2 class="post-title text-center"><a href="/posts/post-boxed">Boxed Post</a></h2>
+      <div class="category text-center"><a href="/category/" class="badge rounded-pill "></a></div>
+      <h2 class="post-title text-center"><a href="/From-the-Court-to-the-Tech-World">From the Court to the Tech World: My Unforgettable Experience at the Paris Olympics and What It Means for BTE Analytics</a></h2>
       <div class="meta text-center">
-        <span class="date"><i class="jam jam-clock"></i>02 Sep 2022</span>
-        
-        <span class="author"><i class="jam jam-user"></i><a href="/tortoiz-themes">By Tortoiz Themes</a></span>
+        <span class="date"><i class="jam jam-clock"></i>20 Nov 2024</span>
         
       </div>
-      <p>11 time-saving pro tips for web designers working in Webflow11 time-saving pro tips for web designers working in Webflow Consectetuer magna vivamus varius. Faucibus vestibulum faucibus elementum vulputate suscipit. Sit convallis litora nunc, vestibulum nibh tincidunt, in qui vel dui elit feugiat nulla, vehicula eos nec dolor conubia, aliquam proinEtiam id euismod. Purus ut dis feugiat, ac massa error leo sed fermentum, non sem velit eget arcu, lectus luctus congue leo dapibus tincidunt. Nunc vitae quis eu. Sit id ullamcorper...</p>
-      <div class="text-center"><a href="/posts/post-boxed" class="more">Read more</a></div>
+      <p>As a former athlete turned tech entrepreneur, I’ve had my share of unforgettable moments on and off the court. But my trip to the Paris Olympics this year was an extraordinary milestone. It was more than just an event it was a pivotal moment in my journey with BTE Analytics and our mission to revolutionize data equity for athletes.
+</p>
+      <div class="text-center"><a href="/From-the-Court-to-the-Tech-World" class="more">Read more</a></div>
     </div>
   </div>
-</div>
-<!-- /.post -->
-          
-          
-          
-          
-             <div class="post">
-  <div class="box bg-white shadow">
-    
-    <div class="player-wrapper">
-      <div class="player" data-plyr-provider="vimeo" data-plyr-embed-id="90355541"></div>
-    </div>
-    
-    <div class="space40"></div>
-    <div class="post-content">
-      
-      <div class="category text-center"><a href="/category/engagement" class="badge rounded-pill bg-purple">engagement</a></div>
-      
-      <h2 class="post-title text-center"><a href="/posts/post-with-video">Markdown Post With Video</a></h2>
-      <div class="meta text-center">
-        <span class="date"><i class="jam jam-clock"></i>04 Aug 2022</span>
-        
-         <span class="author"><i class="jam jam-user"></i><a href="/tortoiz-themes">By Tortoiz Themes</a></span>
-        
-      </div>
-      <p>First Level Header 11 time-saving pro tips for web designers working in Webflow11 link tips for web designers working in Webflow Consectetuer magna vivamus varius. Faucibus vestibulum faucibus elementum vulputate suscipit. Sit convallis litora nunc, vestibulum nibh tincidunt, in qui vel dui elit feugiat nulla, vehicula eos nec dolor conubia, aliquam proinEtiam id euismod. Purus ut dis feugiat, ac massa error leo sed fermentum, non sem velit eget arcu, lectus luctus congue leo dapibus tincidunt. Nunc vitae quis eu. Sit id ullamcorper semper ridiculus, accumsan augue ullamcorper eros viverra neque, libero est metus libero. Lacinia wisi feugiat tellus neque dui...</p>
-      <div class="text-center"><a href="/posts/post-with-video" class="more">Read more</a></div>
-    </div>
-    <!-- /.post-content -->
-  </div>
-  <!-- /.box -->
 </div>
 <!-- /.post -->
           
@@ -709,26 +613,83 @@
           <div class="post">
   <div class="box bg-white shadow">
     
-    <figure class="main overlay overlay1 rounded">
-      <a href="/posts/markdown-post">
-       <img src="/assets/images/art/bg18.webp" alt="Markdown Post"/></a>
-      <figcaption>
-        <h5 class="from-top mb-0">Read More</h5>
-      </figcaption>
-    </figure>
+    <div class="space40"></div>
+    <div class="post-content">
+      <div class="category text-center"><a href="/category/" class="badge rounded-pill "></a></div>
+      <h2 class="post-title text-center"><a href="/Accelerating_Data_Innovation">Accelerating Data Innovation: My Journey with Rolling Insights</a></h2>
+      <div class="meta text-center">
+        <span class="date"><i class="jam jam-clock"></i>05 Nov 2024</span>
+        
+      </div>
+      <p>Advancing Data and Analytics with the Rolling Insights Accelerator
+</p>
+      <div class="text-center"><a href="/Accelerating_Data_Innovation" class="more">Read more</a></div>
+    </div>
+  </div>
+</div>
+<!-- /.post -->
+          
+          
+          
+          
+          <div class="post">
+  <div class="box bg-white shadow">
     
     <div class="space40"></div>
     <div class="post-content">
-      <div class="category text-center"><a href="/category/wedding" class="badge rounded-pill bg-violet">wedding</a></div>
-      <h2 class="post-title text-center"><a href="/posts/markdown-post">Markdown Post</a></h2>
+      <div class="category text-center"><a href="/category/" class="badge rounded-pill "></a></div>
+      <h2 class="post-title text-center"><a href="/Discovering_New_Realities">Discovering New Realities: My Time at MIT XR Hackathon</a></h2>
       <div class="meta text-center">
-        <span class="date"><i class="jam jam-clock"></i>02 Aug 2022</span>
-        
-        <span class="author"><i class="jam jam-user"></i><a href="/tortoiz-themes">By Tortoiz Themes</a></span>
+        <span class="date"><i class="jam jam-clock"></i>25 Feb 2024</span>
         
       </div>
-      <p>First Level Header 11 time-saving pro tips for web designers working in Webflow11 link tips for web designers working in Webflow Consectetuer magna vivamus varius. Faucibus vestibulum faucibus elementum vulputate suscipit. Sit convallis litora nunc, vestibulum nibh tincidunt, in qui vel dui elit feugiat nulla, vehicula eos nec dolor conubia, aliquam proinEtiam id euismod. Purus ut dis feugiat, ac massa error leo sed fermentum, non sem velit eget arcu, lectus luctus congue leo dapibus tincidunt. Nunc vitae quis eu. Sit...</p>
-      <div class="text-center"><a href="/posts/markdown-post" class="more">Read more</a></div>
+      <p>Witnessing the Growth of XR at MIT
+</p>
+      <div class="text-center"><a href="/Discovering_New_Realities" class="more">Read more</a></div>
+    </div>
+  </div>
+</div>
+<!-- /.post -->
+          
+          
+          
+          
+          <div class="post">
+  <div class="box bg-white shadow">
+    
+    <div class="space40"></div>
+    <div class="post-content">
+      <div class="category text-center"><a href="/category/" class="badge rounded-pill "></a></div>
+      <h2 class="post-title text-center"><a href="/NBA_All_Star_Weekend_in_Indianapolis">NBA All-Star Weekend in Indianapolis: Events, Challenges, and Unforgettable Connections</a></h2>
+      <div class="meta text-center">
+        <span class="date"><i class="jam jam-clock"></i>18 Feb 2024</span>
+        
+      </div>
+      <p>A Memorable Weekend with Sports Executives
+</p>
+      <div class="text-center"><a href="/NBA_All_Star_Weekend_in_Indianapolis" class="more">Read more</a></div>
+    </div>
+  </div>
+</div>
+<!-- /.post -->
+          
+          
+          
+          
+          <div class="post">
+  <div class="box bg-white shadow">
+    
+    <div class="space40"></div>
+    <div class="post-content">
+      <div class="category text-center"><a href="/category/" class="badge rounded-pill "></a></div>
+      <h2 class="post-title text-center"><a href="/Super_Bowl_Weekend_in_Las_Vegas">Super Bowl Weekend in Las Vegas: Connections and Experiences</a></h2>
+      <div class="meta text-center">
+        <span class="date"><i class="jam jam-clock"></i>12 Feb 2024</span>
+        
+      </div>
+      <p>Unforgettable Connections with NFL Legends
+</p>
+      <div class="text-center"><a href="/Super_Bowl_Weekend_in_Las_Vegas" class="more">Read more</a></div>
     </div>
   </div>
 </div>
@@ -765,16 +726,16 @@
     <li>
       
       <figure class="rounded"><a href="blog-post.html">
-        <img src="/assets/images/art/fs2.webp" alt="Post with Gallery"/></a>
+        <img src="http://localhost:4000/assets/images/thumbnails/Ncws.jpeg" alt="Analytics Culture: UNC Legacy “From No Control to Comeback”"/></a>
       </figure>
       
       <div class="post-content">
         <h6 class="post-title"> 
-          <a href="/posts/post-with-gallery">Post with Gallery</a> 
+          <a href="/National-Championship-Women's-Soccer">Analytics Culture: UNC Legacy “From No Control to Comeback”</a> 
         </h6>
         <div class="meta">
           
-           <span class="date"><i class="jam jam-clock"></i> 28 Sep 2022</span>
+           <span class="date"><i class="jam jam-clock"></i> 20 Jan 2025</span>
           
         </div>
       </div>
@@ -783,16 +744,16 @@
     <li>
       
       <figure class="rounded"><a href="blog-post.html">
-        <img src="/assets/images/art/f1.webp" alt="Post with Carousel on main Image"/></a>
+        <img src="http://localhost:4000/assets/images/thumbnails/basketball-history.webp" alt="Analytics Culture: “The Game Within the Game”"/></a>
       </figure>
       
       <div class="post-content">
         <h6 class="post-title"> 
-          <a href="/posts/post-with-carousel">Post with Carousel on main Image</a> 
+          <a href="/Analytics-Culture-The-Game-Within-the-Game">Analytics Culture: “The Game Within the Game”</a> 
         </h6>
         <div class="meta">
           
-           <span class="date"><i class="jam jam-clock"></i> 28 Sep 2022</span>
+           <span class="date"><i class="jam jam-clock"></i> 28 Nov 2024</span>
           
         </div>
       </div>
@@ -801,16 +762,16 @@
     <li>
       
       <figure class="rounded"><a href="blog-post.html">
-        <img src="/assets/images/art/b16.webp" alt="Markdown post with code highlighting"/></a>
+        <img src="http://localhost:4000/assets/images/thumbnails/olympics-paris.webp" alt="From the Court to the Tech World: My Unforgettable Experience at the Paris Olympics and What It Means for BTE Analytics"/></a>
       </figure>
       
       <div class="post-content">
         <h6 class="post-title"> 
-          <a href="/posts/post-with-code-highlight">Markdown post with code highlighting</a> 
+          <a href="/From-the-Court-to-the-Tech-World">From the Court to the Tech World: My Unforgettable Experience at the Paris Olympics and What It Means for BTE Analytics</a> 
         </h6>
         <div class="meta">
           
-           <span class="date"><i class="jam jam-clock"></i> 03 Sep 2022</span>
+           <span class="date"><i class="jam jam-clock"></i> 20 Nov 2024</span>
           
         </div>
       </div>
@@ -819,16 +780,16 @@
     <li>
       
       <figure class="rounded"><a href="blog-post.html">
-        <img src="/assets/images/art/tb2.webp" alt="Boxed Post"/></a>
+        <img src="http://localhost:4000/assets/images/thumbnails/BTE_Future11.webp" alt="Accelerating Data Innovation: My Journey with Rolling Insights"/></a>
       </figure>
       
       <div class="post-content">
         <h6 class="post-title"> 
-          <a href="/posts/post-boxed">Boxed Post</a> 
+          <a href="/Accelerating_Data_Innovation">Accelerating Data Innovation: My Journey with Rolling Insights</a> 
         </h6>
         <div class="meta">
           
-           <span class="date"><i class="jam jam-clock"></i> 02 Sep 2022</span>
+           <span class="date"><i class="jam jam-clock"></i> 05 Nov 2024</span>
           
         </div>
       </div>
@@ -837,16 +798,16 @@
     <li>
       
       <figure class="rounded"><a href="blog-post.html">
-        <img src="/assets/images/art/tb2.webp" alt="Boxed Post with Sidebar"/></a>
+        <img src="http://localhost:4000/assets/images/thumbnails/MIT XR Hackathon-thumbnail.webp" alt="Discovering New Realities: My Time at MIT XR Hackathon"/></a>
       </figure>
       
       <div class="post-content">
         <h6 class="post-title"> 
-          <a href="/posts/post-boxed-sidebar">Boxed Post with Sidebar</a> 
+          <a href="/Discovering_New_Realities">Discovering New Realities: My Time at MIT XR Hackathon</a> 
         </h6>
         <div class="meta">
           
-           <span class="date"><i class="jam jam-clock"></i> 02 Sep 2022</span>
+           <span class="date"><i class="jam jam-clock"></i> 25 Feb 2024</span>
           
         </div>
       </div>
@@ -895,39 +856,39 @@
       
     </li>
       
-        <li data-sort="0012">
+        <li data-sort="0137">
            <a class="btn btn-s" href="/tag/education">education <span> (5)</span></a>
         </li>
       
-        <li data-sort="0012">
+        <li data-sort="0137">
            <a class="btn btn-s" href="/tag/technology">technology <span> (5)</span></a>
         </li>
       
-        <li data-sort="0014">
+        <li data-sort="0139">
            <a class="btn btn-s" href="/tag/travel">Travel <span> (3)</span></a>
         </li>
       
-        <li data-sort="0015">
+        <li data-sort="0140">
            <a class="btn btn-s" href="/tag/architecture">Architecture <span> (2)</span></a>
         </li>
       
-        <li data-sort="0016">
+        <li data-sort="0141">
            <a class="btn btn-s" href="/tag/ecommerce">ecommerce <span> (1)</span></a>
         </li>
       
-        <li data-sort="0016">
+        <li data-sort="0141">
            <a class="btn btn-s" href="/tag/history">History <span> (1)</span></a>
         </li>
       
-        <li data-sort="0016">
+        <li data-sort="0141">
            <a class="btn btn-s" href="/tag/kramdown">kramdown <span> (1)</span></a>
         </li>
       
-        <li data-sort="0016">
+        <li data-sort="0141">
            <a class="btn btn-s" href="/tag/shopping">Shopping <span> (1)</span></a>
         </li>
       
-        <li data-sort="0016">
+        <li data-sort="0141">
            <a class="btn btn-s" href="/tag/wedding">wedding <span> (1)</span></a>
         
 </ul>

@@ -10,9 +10,9 @@ custom_font: font4
 
 hero_area:
   enable: true
-  bg_image: "/assets/images/art/slider-bg7.webp"
-  title: "Creative. Smart. Awesome."
-  sub_title: "A digital & branding agency based in London"
+  bg_image: "/assets/images/display/Symposium.jpg"
+  title: "Where Sports Meets Innovation"
+  sub_title: "Check out my Journey and Achievements"
   btn_text: "See Projects"
   btn_url: "#"
 
@@ -73,13 +73,13 @@ video_area:
   enable: true
   title: "How We Do It?"
   sub_title: "Find out everything you need to know <br>about creating a business process model."
-  image: "/assets/images/art/bg10.webp"
+  image: "/assets/images/display/Speaker1.webp"
   video_url: "https://www.youtube.com/watch?v=26TbMXXOe0I"
 
 portfolios_area:
   enable: true
   title: "Our Portfolio"
-  sub_title: "Check out some of our awesome projects"
+  sub_title: "Check out some of Projects and Achievements"
   button_url: "#"
   button_text: "Start a Project"
   categories:
@@ -209,22 +209,22 @@ testimonials:
   feedback:
 
     - quote: |
-        Sed posuere consectetur est at lobortis. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis mollis, est non commodo luctus, nisi erat.
-      image: "/assets/images/art/t5.webp" 
-      name: "Cornelia Gibson"
-      designation: "Financial Analyst"
+        BTE Analytics were very professional and detailed during our meeting. The amount of shared IP was invaluable.
+      image: "/assets/images/clients/Hodge__Julius.webp" 
+      name: "Julius Melvin Hodge"
+      designation: "Former NBA Player and now Divison 1 Coach"
   
     - quote: |
-        Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor. Vestibulum id ligula porta felis euismod semper. Cras justo odio, dapibus.
-      image: "/assets/images/art/t2.webp" 
-      name: "Coriss Ambady"
-      designation: "Marketing Specialist"
-  
+        Rashad approaches his passion for sports innovation and analytics with the same thorough dedication he had as a high-performing athlete. 
+      image: "/assets/images/clients/Mac-Wilkinson.png" 
+      name: "Mac Wilkerson"
+      designation: "Founder of Moolathan and Former Professional Basketball player"
+
     - quote: |
-        Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit. Cras justo odio, dapibus ac facilisis in, egestas eget.
-      image: "/assets/images/art/t3.webp" 
-      name: "Barclay Widerski"
-      designation: "Sales Manager"
+        Rashad approaches his passion for sports innovation and analytics with the same thorough dedication he had as a high-performing athlete. 
+      image: "/assets/images/clients/Mac-Wilkinson.png" 
+      name: "Mac Wilkerson"
+      designation: "Founder of Moolathan and Former Professional Basketball player"
 
 clients_carousel:
   enable: true
@@ -563,7 +563,7 @@ contact_area:
           <div class="item-inner">
             <div class="box bg-white shadow">
                 <blockquote>
-                  <p>"{{feedback.quote}}"</p>
+                  <p>"{{feedback.quote | truncate: 150}}"</p>
                   <div class="blockquote-details">
                     {% if feedback.image %}
                     <div class="img-blob blob1">
@@ -617,9 +617,9 @@ contact_area:
         {% assign trending = post.trending %}
         {% unless trending %}
         <div class="item">
-              {% if post.post_image %}
+              {% if post.thumbnail %}
               <figure class="overlay overlay1 rounded mb-30">
-                <a href="{{post.url}}"> <img class="post-thumb" src="{{post.post_image}}" alt="{{post.title}}"/></a>
+                <a href="{{post.url}}"> <img class="post-thumb" src="{{post.thumbnail}}" alt="{{post.title}}"/></a>
                 <figcaption>
                   <h5 class="from-top mb-0 text-uppercase">Read More</h5>
                 </figcaption>
