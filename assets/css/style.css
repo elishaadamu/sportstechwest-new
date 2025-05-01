@@ -1533,9 +1533,9 @@ footer.dark-wrapper,
     rgba(88, 73, 170, 0.55) 100%
   );
   background-image: linear-gradient(
-    135deg,
-    rgba(111, 63, 124, 0.55) 0%,
-    rgba(88, 73, 170, 0.55) 100%
+    85deg,
+    rgba(116, 161, 245, 0.55) 0%,
+    rgba(123, 211, 255, 0.55) 100%
   );
 }
 .image-wrapper.no-overlay:before {
@@ -7494,4 +7494,3 @@ footer.inverse-text address {
 .overflow-hidden {
   overflow: hidden;
 }
-
