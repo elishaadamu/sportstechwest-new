@@ -3,7 +3,7 @@ main_menu:
     url: "/"
 
   - text: "Portfolios"
-    url: "/portfolios/grid-portfolio-details"
+    url: "/portfolios"
 
   - text: "About"
     url: "/about/about"

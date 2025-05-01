@@ -1,0 +1,77 @@
+<div class="wrapper light-wrapper">
+  <div class="container inner">
+    {% if site.data.services_index.services_area.enable %}
+    <div class="services-wrapper">
+      <div class="row align-items-center">
+        <div class="col-xl-6 order-lg-2 pl-60 pl-md-15">
+          {% if site.data.services_index.services_area.title %}
+          <h2 class="section-title">
+            {{site.data.services_index.services_area.title}}
+          </h2>
+          {% endif %} {% if site.data.services_index.services_area.sub_title %}
+          <p class="lead larger">
+            {{site.data.services_index.services_area.sub_title}}
+          </p>
+          {% endif %}
+          <div class="space20"></div>
+          {% if site.data.services_index.services_area.description %}
+          <p>{{site.data.services_index.services_area.description}}</p>
+          {% endif %} {% if site.data.services_index.services_area.button_text
+          %}
+          <div class="space20"></div>
+          <a
+            href="{{site.data.services_index.services_area.button_url}}"
+            class="btn"
+            >{{site.data.services_index.services_area.button_text}}</a
+          >
+          {% endif %}
+        </div>
+        <!--/column -->
+        <div class="space50 d-none d-md-block d-xl-none"></div>
+        <div class="col-xl-6 text-center grid">
+          <div class="row isotope">
+            {% for service in site.data.services_index.services_area.services %}
+            {% assign check_index = forloop.index | modulo: 2 %} {% unless
+            check_index == 1 %}
+            <div class="col-md-6 item grid-sizer">
+              <div class="space30"></div>
+              <div class="box {{service.bg_color}} shadow inverse-text">
+                {% if service.icon %}
+                <div class="icon color-white fs-42 mb-20">
+                  <i class="{{service.icon}}"></i>
+                </div>
+                {% endif %}
+                <h5>{{service.title}}</h5>
+                <p>{{service.description}}</p>
+              </div>
+              <!--/.box -->
+            </div>
+            <!--/column -->
+            {% else %}
+            <div class="col-md-6 item grid-sizer">
+              {% unless forloop.index == 1 %}
+              <div class="space30 d-none d-md-block"></div>
+              {% endunless %}
+              <div class="box {{service.bg_color}} shadow inverse-text">
+                {% if service.icon %}
+                <div class="icon color-white fs-42 mb-20">
+                  <i class="{{service.icon}}"></i>
+                </div>
+                {% endif %}
+                <h5>{{service.title}}</h5>
+                <p>{{service.description}}</p>
+              </div>
+              <!--/.box -->
+            </div>
+            <!--/column -->
+            {% endunless %} {% endfor %}
+          </div>
+          <!--/.row -->
+        </div>
+        <!--/column -->
+      </div>
+      <!--/.row -->
+    </div>
+    {% endif %}
+  </div>
+</div>

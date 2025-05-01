@@ -1,0 +1,15 @@
+completed_projects:
+  enable: true
+  bg_image: "/assets/images/art/bg15.webp"
+  lists:
+    - numbers: "7518"
+      title: "Completed Projects"
+
+    - numbers: "3472"
+      title: "Satisfied Customers"
+
+    - numbers: "2184"
+      title: "Expert Employees"
+
+    - numbers: "4523"
+      title: "Awards Won"

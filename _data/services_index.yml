@@ -1,0 +1,28 @@
+services_area:
+  enable: true
+  title: "Our Services"
+  sub_title: "The full service we are offering is specifically designed to meet your business needs."
+  description: |
+    Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Cras justo odio, dapibus ac facilisis in, egestas eget quam. Praesent commodo cursus magna, vel scelerisque nisl consectetur et. Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio. Vestibulum id ligula porta felis euismod semper. Maecenas sed diam eget risus varius blandit sit amet non magna. Donec sed odio dui.
+  button_text: "More Details"
+  button_url: "#"
+  services:
+    - title: "Web Development"
+      description: "Nulla vitae elit libero, a pharetra augue. Donec id elit non mi porta gravida."
+      icon: "icofont-code"
+      bg_color: "bg-pink"
+
+    - title: "Product Design"
+      description: "Nulla vitae elit libero, a pharetra augue. Donec id elit non mi porta gravida."
+      icon: "icofont-magic-alt"
+      bg_color: "bg-blue"
+
+    - title: "Identity & Branding"
+      description: "Nulla vitae elit libero, a pharetra augue. Donec id elit non mi porta gravida."
+      icon: "icofont-paint"
+      bg_color: "bg-green"
+
+    - title: "Mobile Design"
+      description: "Nulla vitae elit libero, a pharetra augue. Donec id elit non mi porta gravida."
+      icon: "icofont-smart-phone"
+      bg_color: "bg-purple"

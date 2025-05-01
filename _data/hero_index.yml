@@ -1,0 +1,7 @@
+hero_area:
+  enable: true
+  bg_image: "/assets/images/display/Symposium.jpg"
+  title: "Where Sports Meets Innovation"
+  sub_title: "Check out my Journey and Achievements"
+  btn_text: "See Projects"
+  btn_url: "#"
