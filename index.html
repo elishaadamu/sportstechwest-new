@@ -22,7 +22,7 @@ about_area:
   sub_title: "We specialize in web, mobile, brand & product design. We love to turn ideas into beautiful things."
   projects_number: 450
   project_tag: "Completed Projects"
-  image: "/assets/images/art/about7.webp"
+  image: "/assets/images/art/"
   skills:
     - title: "Web Development"
       numbers: 100
@@ -334,10 +334,10 @@ contact_area:
           <div class="position-relative">
             {% if page.about_area.image %}
             <figure>
-              <img src="{{page.about_area.image}}" alt="{{page.about_area.title}}"/>
+              <div class="img-blob blob12"><img src="{{relative_url}}/assets/images/display/Newest_STW.gif" style="width: 30rem" alt="" /></div>
             </figure>
             {% endif %}
-            <div class="row counter counter-s position-absolute" style="top: 45%; right: 8%;">
+            <!-- <div class="row counter counter-s position-absolute" style="top: 45%; right: 8%;">
               <div class="col-md-10 text-center">
                 <div class="box bg-white shadow">
                   {% if page.about_area.projects_number %}
@@ -347,31 +347,37 @@ contact_area:
                    <p>{{page.about_area.project_tag}}</p>
                   {% endif %}
                 </div>
-                <!--/.box -->
+                /.box
               </div>
-              <!--/column -->
-            </div>
+              /column
+            </div> -->
             <!--/.row -->
           </div>
         </div>
         <!--/column -->
         <div class="space30 d-none d-md-block d-lg-none"></div>
         <div class="col-lg-6 pr-60 pr-md-15">
-          {% if page.about_area.title %}
+          <!-- {% if page.about_area.title %}
            <h2 class="section-title mb-20">{{ page.about_area.title }}</h2>
-          {% endif %}
-          {% if  page.about_area.sub_title %}
-           <p class="lead larger">{{page.about_area.sub_title}}</p>
-          {% endif %}
+          {% endif %} -->
+          
+          <h2 class="display-1 larger">Where Sports Meets <br><span class="typer color-default" data-bs-delay="100" data-delim=":" data-words="Innovation.:Talent.: and Creativity."></span><span class="cursor color-default" data-owner="typer"></span></h2>
+            <p class="fs-21"><span class="dropcap color-default">W</span class="fw-bold">elcome to SportsTechWest</span>, a
+              blog exploring the journey from professional athlete to sports tech
+              vagabonder. Join us in discovering the global intersection of sport,
+              science and technology.</p>
+           
           <div class="space20"></div>
-          <ul class="progress-list">
+          <a href="/about/about.html" class="btn btn-dark btn-l">About Us</a>
+          <div class="space20"></div>
+          <!-- <ul class="progress-list">
             {% for skills in page.about_area.skills %}
             <li>
               <p>{{skills.title}}</p>
               <div class="progressbar line {{skills.style}}" data-value="{{skills.numbers}}"></div>
             </li>
             {% endfor %}
-          </ul>
+          </ul> -->
           <!-- /.progress-list -->
         </div>
         <!--/column -->
@@ -611,9 +617,11 @@ contact_area:
       {{page.blogs_area.description}}
     </p>
     <div class="space20"></div>
+    {% include button-1.html %}
+    <div class="space20"></div>
     <div class="grid-view">
       <div class="carousel owl-carousel gap-small" data-margin="30" data-dots="true" data-autoplay="false" data-autoplay-timeout="5000" data-responsive='{"0":{"items": "1"}, "768":{"items": "2"}, "992":{"items": "3"}}'>
-        {% for post in site.posts %}
+        {% for post in site.posts | limit: 7 %}
         {% assign trending = post.trending %}
         {% unless trending %}
         <div class="item">
