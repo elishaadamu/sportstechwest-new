@@ -11,8 +11,11 @@ main_menu:
   - text: "Services"
     url: "/services/index"
 
-  - text: "Contact Us"
-    url: "/contact/contact-1"
+  - text: "Insights"
+    url: "#"
+
+  - text: "Our Mission"
+    url: "#"
 
   - text: "Blog"
     url: "/blogs/index-4"

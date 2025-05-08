@@ -11,7 +11,11 @@
           Convinced yet? Let's make something great together.
         </h3>
         <div class="space30 d-md-none"></div>
-        <a href="#" class="btn btn-white btn-strong-hover mb-0">Contact Us</a>
+        <a
+          href="mailto:sportstechwest@sportstechwest.com"
+          class="btn btn-white btn-strong-hover mb-0"
+          >Contact Us</a
+        >
       </div>
       <!--/.box -->
     </div>
@@ -23,9 +27,9 @@
 <footer
   class="{% if include.extra_class %} {{include.extra_class}} {% else %} dark-wrapper inverse-text {% endif %}"
 >
-  <div class="container inner">
+  <div class="container inner align-content-center">
     <div class="row">
-      <div class="col-md-4 col-lg-3">
+      <div class="col-md-4 col-lg-4">
         <div class="widget">
           <a href="{{site.url}}">
             {% if include.light_logo %}
@@ -55,22 +59,9 @@
         </div>
         <!-- /.widget -->
       </div>
+
       <!-- /column -->
-      <div class="col-md-4 col-lg-3">
-        <div class="widget">
-          <h3 class="widget-title">Get in Touch</h3>
-          {% if site.data.general_settings.address_01 %}
-          <address>{{site.data.general_settings.address_01}}</address>
-          {% endif %}
-          <a href="mailto:{{site.data.general_settings.email}}"
-            >{{site.data.general_settings.email}}</a
-          ><br />
-          {{site.data.general_settings.phone_number}}
-        </div>
-        <!-- /.widget -->
-      </div>
-      <!-- /column -->
-      <div class="col-md-4 col-lg-3">
+      <div class="col-md-4 col-lg-4 d-flex justify-content-center">
         {% assign external_links = site.data.general_settings.external_links %}
         <div class="widget">
           {% if external_links.title %}
@@ -86,7 +77,7 @@
       </div>
       <!-- /column -->
       <div class="space30 d-none d-md-block d-lg-none"></div>
-      <div class="col-md-12 col-lg-3">
+      <div class="col-md-12 col-lg-4">
         <div class="widget">
           {% if site.data.general_settings.footer_newsletter.title %}
           <h3 class="widget-title">
