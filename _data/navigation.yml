@@ -15,7 +15,7 @@ main_menu:
     url: "#"
 
   - text: "Blog"
-    url: "/blogs/index-4"
+    url: "/blogs"
 
   # - text: "Pages"
   #   url: "/"

@@ -4,7 +4,7 @@
   <div class="container">
     <div class="overflow-bottom">
       <div
-        class="box shadow p-60 image-wrapper bg-full bg-image inverse-text rounded d-md-flex align-items-md-center justify-content-md-between"
+        class="box shadow p-60 mt-[10rem] md:mt-0 image-wrapper bg-full bg-image inverse-text rounded d-md-flex align-items-md-center justify-content-md-between"
         data-image-src="{% if include.image_src %} {{include.image_src}} {% else %}/assets/images/art/bg9.webp {% endif %}"
       >
         <h3 class="display-3 mb-0">
@@ -27,9 +27,9 @@
 <footer
   class="{% if include.extra_class %} {{include.extra_class}} {% else %} dark-wrapper inverse-text {% endif %}"
 >
-  <div class="container inner align-content-center">
+  <div class="container mt-10 align-content-center">
     <div class="row">
-      <div class="col-md-4 col-lg-4">
+      <div class="col-md-4 col-lg-3">
         <div class="widget">
           <a href="{{site.url}}">
             {% if include.light_logo %}
@@ -55,13 +55,12 @@
           <div class="space40"></div>
           <p>{{site.data.general_settings.about_us}}</p>
           <div class="space40"></div>
-          <p>{{site.data.general_settings.copyright_text}}</p>
         </div>
         <!-- /.widget -->
       </div>
 
       <!-- /column -->
-      <div class="col-md-4 col-lg-4 d-flex justify-content-center">
+      <div class="col-md-4 col-lg-3 d-flex justify-start md:justify-center">
         {% assign external_links = site.data.general_settings.external_links %}
         <div class="widget">
           {% if external_links.title %}
@@ -76,8 +75,30 @@
         <!-- /.widget -->
       </div>
       <!-- /column -->
+      <!-- /column -->
+      <div class="col-md-4 col-lg-3 d-flex">
+        <div class="widget">
+          {% if site.data.general_settings.social_accounts.title %}
+          <h3 class="widget-title">
+            {{site.data.general_settings.social_accounts.title}}
+          </h3>
+          {% endif %}
+          <ul class="social social-mute social-s ms-auto">
+            {% for social_info in
+            site.data.general_settings.social_accounts.links %}
+            <li>
+              <a href="{{social_info.url}}"
+                ><i class="{{social_info.icon}}"></i
+              ></a>
+            </li>
+            {% endfor %}
+          </ul>
+        </div>
+      </div>
+      <!-- /column -->
+
       <div class="space30 d-none d-md-block d-lg-none"></div>
-      <div class="col-md-12 col-lg-4">
+      <div class="col-md-12 col-lg-3">
         <div class="widget">
           {% if site.data.general_settings.footer_newsletter.title %}
           <h3 class="widget-title">
@@ -119,4 +140,8 @@
     <!--/.row -->
   </div>
   <!-- /.container -->
+
+  <p class="pb-[3rem] text-center">
+    {{site.data.general_settings.copyright_text}}
+  </p>
 </footer>

@@ -35,34 +35,36 @@ google_map: |
 social_accounts:
   title: "Follow Us"
   links:
-    - url: "#"
-      icon: "jam jam-twitter"
+    - url: "https://www.twitter.com/sportstechwest"
+      icon: "fab fa-twitter"
+
+    - url: "https://www.facebook.com/profile.php?id=100069855647783"
+      icon: "fab fa-facebook"
+
+    - url: "https://www.instagram.com/sportstechwest/"
+      icon: "fab fa-instagram"
+
+    - url: "https://github.com/rashadwest"
+      icon: "fab fa-github"
 
     - url: "#"
-      icon: "jam jam-facebook"
-
-    - url: "#"
-      icon: "jam jam-instagram"
-
-    - url: "#"
-      icon: "jam jam-vimeo"
-
-    - url: "#"
-      icon: "jam jam-youtube"
+      icon: "fab fa-youtube"
 
 external_links:
-  title: "Learn More"
+  title: "Navigation Links"
   links:
-    - url: "#"
-      text: "About Us"
-    - url: "#"
-      text: "Our Story"
-    - url: "#"
-      text: "Projects"
-    - url: "#"
-      text: "Pricing"
-    - url: "#"
-      text: "Features"
+    - url: "/"
+      text: "Home"
+    - url: "/about"
+      text: "About me"
+    - url: "/portfolios"
+      text: "My Portfolio"
+    - url: "/insights"
+      text: "Insights"
+    - url: "/mission"
+      text: "Missions"
+    - url: "/blogs"
+      text: "Blogs"
 
 external_links_02:
   title: "Need Help?"
