@@ -127,24 +127,6 @@
     } ,
   
     {
-      "title"    : "Post with Gallery",
-      "category" : "",
-      "tags"     : "technology, education",
-      "url"      : "/posts/post-with-gallery",
-      "date"     : "2022-09-28 15:37:13 +0100",
-      "desc"     : "Post with Gallery"
-    } ,
-  
-    {
-      "title"    : "Post with Carousel on main Image",
-      "category" : "",
-      "tags"     : "technology, education",
-      "url"      : "/posts/post-with-carousel",
-      "date"     : "2022-09-28 15:37:13 +0100",
-      "desc"     : "Post with Carousel on main Image"
-    } ,
-  
-    {
       "title"    : "Howard University",
       "category" : "",
       "tags"     : "",
@@ -163,66 +145,12 @@
     } ,
   
     {
-      "title"    : "Markdown post with code highlighting",
-      "category" : "",
-      "tags"     : "",
-      "url"      : "/posts/post-with-code-highlight",
-      "date"     : "2022-09-03 15:37:13 +0100",
-      "desc"     : "Markdown post with code highlighting"
-    } ,
-  
-    {
-      "title"    : "Boxed Post",
-      "category" : "",
-      "tags"     : "Architecture",
-      "url"      : "/posts/post-boxed",
-      "date"     : "2022-09-02 15:37:13 +0100",
-      "desc"     : "Boxed Post"
-    } ,
-  
-    {
-      "title"    : "Boxed Post with Sidebar",
-      "category" : "",
-      "tags"     : "Architecture",
-      "url"      : "/posts/post-boxed-sidebar",
-      "date"     : "2022-09-02 15:37:13 +0100",
-      "desc"     : "Boxed Post with Sidebar"
-    } ,
-  
-    {
       "title"    : "BTE Analytics Speaking1 Episode 19",
       "category" : "",
       "tags"     : "",
       "url"      : "/BTE_Analytics_Speaking1_Episode_19",
       "date"     : "2022-08-27 00:00:00 +0100",
       "desc"     : "BTE Analytics Speaking1 Episode 19"
-    } ,
-  
-    {
-      "title"    : "Markdown Post With Video",
-      "category" : "",
-      "tags"     : "",
-      "url"      : "/posts/post-with-video",
-      "date"     : "2022-08-04 15:37:13 +0100",
-      "desc"     : "Markdown Post With Video"
-    } ,
-  
-    {
-      "title"    : "Markdown Post with image",
-      "category" : "",
-      "tags"     : "technology, education",
-      "url"      : "/posts/post-with-image",
-      "date"     : "2022-08-02 15:37:13 +0100",
-      "desc"     : "Markdown Post with image"
-    } ,
-  
-    {
-      "title"    : "Markdown Post",
-      "category" : "",
-      "tags"     : "kramdown, wedding",
-      "url"      : "/posts/markdown-post",
-      "date"     : "2022-08-02 15:37:13 +0100",
-      "desc"     : "Markdown Post"
     } ,
   
     {
@@ -469,15 +397,6 @@
     } ,
   
     {
-      "title"    : "Simple Post With Sidebar",
-      "category" : "",
-      "tags"     : "Travel",
-      "url"      : "/posts/simple-post-with-sidebar",
-      "date"     : "2021-09-15 15:37:13 +0100",
-      "desc"     : "Simple Post With Sidebar"
-    } ,
-  
-    {
       "title"    : "Stephs Divine Timing",
       "category" : "",
       "tags"     : "",
@@ -586,33 +505,6 @@
     } ,
   
     {
-      "title"    : "Simple Post With No Sidebar",
-      "category" : "",
-      "tags"     : "technology, education",
-      "url"      : "/posts/simple-post-with-no-sidebar",
-      "date"     : "2020-10-08 15:37:13 +0100",
-      "desc"     : "Simple Post With No Sidebar"
-    } ,
-  
-    {
-      "title"    : "Ultricies fusce porta elit pharetra augue faucibus",
-      "category" : "",
-      "tags"     : "technology, education",
-      "url"      : "/engagement-our-statement",
-      "date"     : "2020-10-07 15:37:13 +0100",
-      "desc"     : "Ultricies fusce porta elit pharetra augue faucibus"
-    } ,
-  
-    {
-      "title"    : "Maecenas sed diam eget risus varius blandit sit amet non",
-      "category" : "",
-      "tags"     : "",
-      "url"      : "/maecenas-sed-diam",
-      "date"     : "2020-10-07 09:05:11 +0100",
-      "desc"     : "Maecenas sed diam eget risus varius blandit sit amet non"
-    } ,
-  
-    {
       "title"    : "2020-10-4-Real-time Analytics",
       "category" : "",
       "tags"     : "",
@@ -631,39 +523,12 @@
     } ,
   
     {
-      "title"    : "The Natural Places in Brazil",
-      "category" : "",
-      "tags"     : "Travel",
-      "url"      : "/the-natural-places-in-brazil",
-      "date"     : "2020-09-06 15:37:13 +0100",
-      "desc"     : "The Natural Places in Brazil"
-    } ,
-  
-    {
-      "title"    : "The Biggest Train Station in Europe",
-      "category" : "",
-      "tags"     : "Travel",
-      "url"      : "/24-the-biggest-train-station-in-europe",
-      "date"     : "2020-09-06 15:37:13 +0100",
-      "desc"     : "The Biggest Train Station in Europe"
-    } ,
-  
-    {
       "title"    : "Basketball Execution",
       "category" : "",
       "tags"     : "",
       "url"      : "/Basketball_Execution",
       "date"     : "2020-09-06 00:00:00 +0100",
       "desc"     : "Basketball Execution"
-    } ,
-  
-    {
-      "title"    : "24 Hours in the Village of Valencia",
-      "category" : "",
-      "tags"     : "Shopping",
-      "url"      : "/24-hours-in-the-village-of-valencia",
-      "date"     : "2020-09-05 15:37:13 +0100",
-      "desc"     : "24 Hours in the Village of Valencia"
     } ,
   
     {
@@ -676,30 +541,12 @@
     } ,
   
     {
-      "title"    : "My Love Affair with Cappadocia",
-      "category" : "",
-      "tags"     : "History",
-      "url"      : "/my-love-affair-with-cappadocia",
-      "date"     : "2020-09-04 15:37:13 +0100",
-      "desc"     : "My Love Affair with Cappadocia"
-    } ,
-  
-    {
       "title"    : "Player Development",
       "category" : "",
       "tags"     : "",
       "url"      : "/Player_Development",
       "date"     : "2020-09-04 00:00:00 +0100",
       "desc"     : "Player Development"
-    } ,
-  
-    {
-      "title"    : "A Dreamy Roadtrip in Australia",
-      "category" : "",
-      "tags"     : "ecommerce",
-      "url"      : "/a-dreamy-roadtrip-in-australia",
-      "date"     : "2020-09-03 15:37:13 +0100",
-      "desc"     : "A Dreamy Roadtrip in Australia"
     } ,
   
     {

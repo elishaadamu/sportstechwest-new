@@ -21,7 +21,7 @@ Parking in Cary? **Chaos**. Finding a spot was one thing, but getting to the act
 The first thing I noticed? **Carolina Blue** everywhere. About **90%** of the crowd was made up of UNC fans, and it’s not hard to see why. **UNC Women’s Soccer** isn’t just dominant—they’re **legendary**. Consider this: over **40 NCAA Tournament appearances**, **32 Final Fours**, and a mind-blowing **22 National Championships**. They have defined what it means to be the gold standard in college sports.
 
 <video width="50%" height="40%" controls>
-  <source src="{{site.baseurl}}/assets/img/blog-img/NCWS_video-1.mp4" type="video/mp4">
+  <source src="{{site.baseurl}}/assets/images/blog-img/NCWS_video-1.mp4" type="video/mp4">
 </video>
   <p style="font-style: italic; font-size: 0.9em; font-weight: bold; text-align: center;">Women’s National Championship game 2024</p>
 
@@ -45,8 +45,8 @@ Lastly, the game was intense but scrappy. Neither team had a clear upper hand an
 The 62% possession in the first half, followed by UNC flipping the script and scoring in the 62nd minute, perfectly illustrates the shift in momentum.
 
 <div class="image-gallery" style="text-align: center">
-  <img class="img-2" src="{{site.baseurl}}/assets/img/blog-img/NCWS_1.jpg" alt="NCWS_1" >
-  <img class="img-2" src="{{site.baseurl}}/assets/img/blog-img/NCWS_3.jpg" alt="NCWS_3" >
+  <img class="img-2" src="{{site.baseurl}}/assets/images/blog-img/NCWS_1.jpg" alt="NCWS_1" >
+  <img class="img-2" src="{{site.baseurl}}/assets/images/blog-img/NCWS_3.jpg" alt="NCWS_3" >
 </div>
 
 The shot was **perfect**. Struck clean, it sailed past the keeper and into the back of the net. That goal would seal the game and give UNC yet another **championship** to add to their historic legacy.
@@ -60,7 +60,7 @@ After the final whistle, the stadium erupted. Fans, alums, and even casual spect
 Unfortunately, my phone was nearly **dead**, so I couldn’t capture the postgame celebrations as much as I wanted to. That was a little frustrating, but being there in the moment made up for it.
 
 <div class="image-gallery" style="text-align: center">
-  <img class="img-1" src="{{site.baseurl}}/assets/img/blog-img/NCWS_2.jpg" alt="NCWS" >
+  <img class="img-1" src="{{site.baseurl}}/assets/images/blog-img/NCWS_2.jpg" alt="NCWS" >
 </div>
 
 ---
@@ -70,7 +70,7 @@ Unfortunately, my phone was nearly **dead**, so I couldn’t capture the postgam
 Getting back to my car was a whole new adventure. This time, I decided to take the **shortcut through the woods**. With my phone completely **dead**, I had to depend on the person in front of me and their flashlight to guide the way. Thankfully, I made it out without twisting an ankle or getting lost.
 
 <video width="50%" height="40%" controls>
-  <source src="{{site.baseurl}}/assets/img/blog-img/NCWS_video-2.mp4" type="video/mp4">
+  <source src="{{site.baseurl}}/assets/images/blog-img/NCWS_video-2.mp4" type="video/mp4">
 </video>
 
 Once I got to my car, the parking lot was **gridlocked**. With no phone to distract me, I turned on the **radio** and used the time to reflect. Sitting there, I couldn’t help but appreciate the experience: the game, the crowd, and what it meant to witness such a **historic program** in action.

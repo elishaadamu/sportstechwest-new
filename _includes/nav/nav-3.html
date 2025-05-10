@@ -13,26 +13,28 @@
       data-default-logo="{{ include.default_logo | default: 'white' }}"
     >
       <!-- White Logo -->
-      <img
-        src="{{site.data.general_settings.light_logo_1x}}"
-        srcset="
-          {{site.data.general_settings.light_logo_1x}} 1x,
-          {{site.data.general_settings.light_logo_2x}} 2x
-        "
-        class="logo-light {% if include.default_logo == 'black' %}d-none{% endif %}"
-        alt="{{site.data.general_settings.title}}"
-      />
+      <a href="{{site.url}}"
+        ><img
+          src="{{site.data.general_settings.light_logo_1x}}"
+          srcset="
+            {{site.data.general_settings.light_logo_1x}} 1x,
+            {{site.data.general_settings.light_logo_2x}} 2x
+          "
+          class="logo-light {% if include.default_logo == 'black' %}d-none{% endif %}"
+          alt="{{site.data.general_settings.title}}"
+      /></a>
 
-      <!-- Black Logo -->
-      <img
-        src="{{site.data.general_settings.black_logo_1x}}"
-        srcset="
-          {{site.data.general_settings.black_logo_1x}} 1x,
-          {{site.data.general_settings.black_logo_2x}} 2x
-        "
-        class="logo-dark {% unless include.default_logo == 'black' %}d-none{% endunless %}"
-        alt="{{site.data.general_settings.title}}"
-      />
+      <a href="{{site.url}}">
+        <!-- Black Logo -->
+        <img
+          src="{{site.data.general_settings.black_logo_1x}}"
+          srcset="
+            {{site.data.general_settings.black_logo_1x}} 1x,
+            {{site.data.general_settings.black_logo_2x}} 2x
+          "
+          class="logo-dark {% unless include.default_logo == 'black' %}d-none{% endunless %}"
+          alt="{{site.data.general_settings.title}}"
+      /></a>
     </div>
     <div class="navbar-collapse offcanvas-nav">
       <div class="offcanvas-header d-lg-none d-xl-none">
