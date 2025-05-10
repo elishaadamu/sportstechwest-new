@@ -6,10 +6,7 @@ main_menu:
     url: "/portfolios"
 
   - text: "About"
-    url: "/about/about"
-
-  - text: "Services"
-    url: "/services/index"
+    url: "/about"
 
   - text: "Insights"
     url: "#"
