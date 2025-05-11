@@ -2,7 +2,7 @@ portfolios_area:
   enable: true
   title: "My Portfolio"
   sub_title: "Check out some of my Projects and Achievements"
-  button_url: "/portfolios/masonry-portfolio"
+  button_url: "/portfolios"
   button_text: "View my Portfolios"
   categories:
     - title: "Gallery"
