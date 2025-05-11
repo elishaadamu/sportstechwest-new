@@ -10,7 +10,7 @@
 />
 <meta
   name="description"
-  content="{% if page.meta_description %} {{ page.meta_description }} {% elsif page.description %} {{ page.description}} {% else %}
+  content="{% if page.meta_description %} {{ page.meta_description }} {% elsif page.content | strip_html | truncatewords: 30 %} {{ page.content | strip_html | truncatewords: 30}} {% else %}
          {{ site.data.general_settings.description }}{% endif %}"
 />
 
@@ -23,11 +23,11 @@
 />
 <meta
   property="og:description"
-  content="{% if page.meta_description %} {{ page.meta_description }} {% elsif page.description %} {{ page.description}} {% else %}
+  content="{% if page.meta_description %} {{ page.meta_description }} {% elsif page.content | strip_html | truncatewords: 30 %} {{ page.content | strip_html | truncatewords: 30}} {% else %}
     {{ site.data.general_settings.description }}{% endif %}"
 />
-{% if page.image %}
-<meta property="og:image" content="{{ page.image | relative_url }}" />
+{% if page.thumbnail %}
+<meta property="og:image" content="{{ page.thumbnail | relative_url }}" />
 {% elsif site.data.general_settings.meta_og_image %}
 <meta
   property="og:image"
@@ -44,11 +44,11 @@
 />
 <meta
   property="twitter:description"
-  content="{% if page.meta_description %} {{ page.meta_description }} {% elsif page.description %} {{ page.description}} {% else %}
+  content="{% if page.meta_description %} {{ page.meta_description }} {% elsif page.content | strip_html | truncatewords: 30 %} {{ page.content | strip_html | truncatewords: 30}} {% else %}
     {{ site.data.general_settings.description }}{% endif %}"
 />
-{% if page.image %}
-<meta property="twitter:image" content="{{ page.image | relative_url }}" />
+{% if page.thumbnail %}
+<meta property="twitter:image" content="{{ page.thumbnail | relative_url }}" />
 {% elsif site.data.general_settings.meta_twitter_image %}
 <meta
   property="twitter:image"
