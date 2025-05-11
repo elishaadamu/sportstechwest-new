@@ -1,7 +1,11 @@
 ---
 layout: post
-thumbnail: "assets/img/blog-img/0003.webp"
+thumbnail: "assets/images/blog-img/0003.webp"
 title: "FETC Future Education"
+tags: FETC
+category: Education
+author: Rashad West
+badge_color: "bg-meander"
 ---
 
 # FETC Future of Education Tech Conference

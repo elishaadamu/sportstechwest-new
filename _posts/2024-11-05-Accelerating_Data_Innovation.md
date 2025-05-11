@@ -2,7 +2,11 @@
 layout: post
 title: "Accelerating Data Innovation: My Journey with Rolling Insights"
 thumbnail: "assets/images/thumbnails/BTE_Future11.webp"
-feature-img: "assets/img/header/BTE_Future11.webp"
+tags: Innovation
+category: Insight
+author: Rashad West
+trending: true
+badge_color: "bg-meander"
 ---
 
 ## Advancing Data and Analytics with the Rolling Insights Accelerator
@@ -13,8 +17,8 @@ player in the world of sports tech, and having them as our data partner is a gam
 particularly for providing individuals with meaningful insights that drive performance.
 
 <div class="image-gallery" style="text-align: center">
-  <img class="img-2" src="{{site.baseurl}}/assets/img/blog-img/BTE_Future6.webp" alt="BTE_Future6" >
-  <img class="img-2" src="{{site.baseurl}}/assets/img/blog-img/BTE_Future11.webp" alt="BTE_Future11" >
+  <img class="img-2" src="{{site.baseurl}}/assets/images/blog-img/BTE_Future6.webp" alt="BTE_Future6" >
+  <img class="img-2" src="{{site.baseurl}}/assets/images/blog-img/BTE_Future11.webp" alt="BTE_Future11" >
 </div>
 
 ## Fireside Chats with Leaders in Sports Innovation
@@ -35,7 +39,7 @@ to support athletes and fans. Collaborating with Rolling Insights gives us the t
 we need to continue growing and offering valuable analytics solutions to a wider range of sports
 stakeholders.
 
-![eBTE (efficiency score)]({{site.baseurl}}/assets/img/blog-img/eBTE (efficiency score).webp)
+![eBTE (efficiency score)]({{site.baseurl}}/assets/images/blog-img/eBTE (efficiency score).webp)
 
 ## Breakaway Accelerator: Empowering Early-Stage Sports Tech Companies
 
@@ -51,7 +55,7 @@ This partnership is a pivotal opportunity for BTE Analytics as we dive deeper in
 sports ecosystem, equipped with a data backbone that supports our growth across markets
 and elevates athlete-fan engagement through advanced analytics.
 
-![BTE Analytics_X_Rolling_Insights]({{site.baseurl}}/assets/img/blog-img/BTE Analytics_X_Rolling_Insights.webp)
+![BTE Analytics_X_Rolling_Insights]({{site.baseurl}}/assets/images/blog-img/BTE Analytics_X_Rolling_Insights.webp)
 
 ## Looking Ahead: A Commitment to Data-Driven Athlete Experiences
 

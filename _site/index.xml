@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.3.4">Jekyll</generator><link href="http://localhost:4000/index.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2025-05-10T22:33:16+01:00</updated><id>http://localhost:4000/index.xml</id><entry><title type="html">Analytics Culture: UNC Legacy “From No Control to Comeback”</title><link href="http://localhost:4000/National-Championship-Women's-Soccer" rel="alternate" type="text/html" title="Analytics Culture: UNC Legacy “From No Control to Comeback”" /><published>2025-01-20T00:00:00+01:00</published><updated>2025-01-20T00:00:00+01:00</updated><id>http://localhost:4000/National%20Championship%20Women&apos;s%20Soccer</id><content type="html" xml:base="http://localhost:4000/National-Championship-Women&apos;s-Soccer"><![CDATA[<h2 id="the-decision-to-go">The Decision to Go</h2>
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.3.4">Jekyll</generator><link href="http://localhost:4000/index.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2025-05-11T14:49:08+01:00</updated><id>http://localhost:4000/index.xml</id><entry><title type="html">Analytics Culture: UNC Legacy “From No Control to Comeback”</title><link href="http://localhost:4000/National-Championship-Women's-Soccer" rel="alternate" type="text/html" title="Analytics Culture: UNC Legacy “From No Control to Comeback”" /><published>2025-01-20T00:00:00+01:00</published><updated>2025-01-20T00:00:00+01:00</updated><id>http://localhost:4000/National%20Championship%20Women&apos;s%20Soccer</id><content type="html" xml:base="http://localhost:4000/National-Championship-Women&apos;s-Soccer"><![CDATA[<h2 id="the-decision-to-go">The Decision to Go</h2>
 
 <p>When I saw the Women’s National Championship game being broadcast on <a href="https://www.espn.com/espnw/"><strong>ESPN</strong></a>, it hit me. This wasn’t just any game. It was happening right in <strong>Cary, NC</strong>, just minutes from my hometown of <a href="https://en.wikipedia.org/wiki/Raleigh,_North_Carolina"><strong>Raleigh</strong></a>. How could I not go? <strong>UNC Women’s Soccer</strong> has a legacy worth witnessing in person, and I wanted to experience that energy firsthand.</p>
 
@@ -14,10 +14,21 @@
 
 <p>The first thing I noticed? <strong>Carolina Blue</strong> everywhere. About <strong>90%</strong> of the crowd was made up of UNC fans, and it’s not hard to see why. <strong>UNC Women’s Soccer</strong> isn’t just dominant—they’re <strong>legendary</strong>. Consider this: over <strong>40 NCAA Tournament appearances</strong>, <strong>32 Final Fours</strong>, and a mind-blowing <strong>22 National Championships</strong>. They have defined what it means to be the gold standard in college sports.</p>
 
-<video width="50%" height="40%" controls="">
-  <source src="/assets/images/blog-img/NCWS_video-1.mp4" type="video/mp4" />
-</video>
-<p style="font-style: italic; font-size: 0.9em; font-weight: bold; text-align: center;">Women’s National Championship game 2024</p>
+<div class="wrapper gray-wrapper">
+  <div class="container inner">
+    <div class="row">
+      <div class="col-lg-10 offset-lg-1">
+        <h2 class="section-title mb-40 text-center">Women’s National Championship game 2024</h2>
+        <video poster="/assets/media/poster/NCWS_poster-1.png" class="player" playsinline="" controls="" preload="none">
+          <source src="/assets/media/NCWS_video-1.mp4" type="video/mp4" />
+        </video>
+      </div>
+      <!-- /column -->
+    </div>
+    <!-- /.row -->
+  </div>
+  <!-- /.container -->
+</div>
 
 <p>Learn more about UNC Women’s Soccer’s legacy <a href="https://goheels.com/sports/womens-soccer">here</a>.</p>
 
@@ -63,9 +74,20 @@ Wake Forest controlled the first half with 62% possession, more shots, and more 
 
 <p>Getting back to my car was a whole new adventure. This time, I decided to take the <strong>shortcut through the woods</strong>. With my phone completely <strong>dead</strong>, I had to depend on the person in front of me and their flashlight to guide the way. Thankfully, I made it out without twisting an ankle or getting lost.</p>
 
-<video width="50%" height="40%" controls="">
-  <source src="/assets/images/blog-img/NCWS_video-2.mp4" type="video/mp4" />
-</video>
+<div class="wrapper light-wrapper">
+  <div class="container inner">
+    <div class="row">
+      <div class="col-lg-10 offset-lg-1">
+        <video poster="/assets/media/poster/NCWS_poster-2.png" class="player" playsinline="" controls="" preload="none">
+          <source src="/assets/media/NCWS_video-2.mp4" type="video/mp4" />
+        </video>
+      </div>
+      <!-- /column -->
+    </div>
+    <!-- /.row -->
+  </div>
+  <!-- /.container -->
+</div>
 
 <p>Once I got to my car, the parking lot was <strong>gridlocked</strong>. With no phone to distract me, I turned on the <strong>radio</strong> and used the time to reflect. Sitting there, I couldn’t help but appreciate the experience: the game, the crowd, and what it meant to witness such a <strong>historic program</strong> in action.</p>
 
@@ -77,11 +99,23 @@ Wake Forest controlled the first half with 62% possession, more shots, and more 
 
 <p><a href="https://justwomenssports.com/reads/north-carolina-unc-soccer-college-cup-dominance/">Learn more about UNC’s dominance in college soccer</a>.</p>
 
-<p><strong>Great game. Great vibes. Great memories.</strong></p>]]></content><author><name></name></author><summary type="html"><![CDATA[The Decision to Go]]></summary></entry><entry><title type="html">Analytics Culture: “The Game Within the Game”</title><link href="http://localhost:4000/Analytics-Culture-The-Game-Within-the-Game" rel="alternate" type="text/html" title="Analytics Culture: “The Game Within the Game”" /><published>2024-11-28T00:00:00+01:00</published><updated>2024-11-28T00:00:00+01:00</updated><id>http://localhost:4000/Analytics%20Culture-The-Game-Within-the-Game</id><content type="html" xml:base="http://localhost:4000/Analytics-Culture-The-Game-Within-the-Game"><![CDATA[<p>At <a href="https://sportstechwest.com/analytics-culture">BTE Analytics</a>, we’re not just about numbers. We’re about what makes you, you. Coming from my own background as a basketball player, I’ve always believed that what truly separates good players from great ones isn’t just the stats you see on paper. It’s the subtle stuff. The tendencies, the rhythm, the style. That’s the soul of the game.</p>
+<p><strong>Great game. Great vibes. Great memories.</strong></p>]]></content><author><name>Rashad West</name></author><category term="Analytics" /><category term="Culture" /><category term="sports" /><summary type="html"><![CDATA[The Decision to Go]]></summary></entry><entry><title type="html">Analytics Culture: “The Game Within the Game”</title><link href="http://localhost:4000/Analytics-Culture-The-Game-Within-the-Game" rel="alternate" type="text/html" title="Analytics Culture: “The Game Within the Game”" /><published>2024-11-28T00:00:00+01:00</published><updated>2024-11-28T00:00:00+01:00</updated><id>http://localhost:4000/Analytics%20Culture-The-Game-Within-the-Game</id><content type="html" xml:base="http://localhost:4000/Analytics-Culture-The-Game-Within-the-Game"><![CDATA[<p>At <a href="https://sportstechwest.com/analytics-culture">BTE Analytics</a>, we’re not just about numbers. We’re about what makes you, you. Coming from my own background as a basketball player, I’ve always believed that what truly separates good players from great ones isn’t just the stats you see on paper. It’s the subtle stuff. The tendencies, the rhythm, the style. That’s the soul of the game.</p>
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/lK-bje7vEi4?si=PbBGJL6bGYWz_-B8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen=""></iframe>
-
-<p style="font-style: italic; font-size: 0.9em; font-weight: bold; text-align: center;">NBA "The Art Of Dribbling" MOMENTS</p>
+<!-- /.wrapper -->
+<div class="wrapper light-wrapper">
+  <div class="container inner">
+    <div class="row">
+      <div class="col-lg-10 offset-lg-1">
+        <h2 class="section-title mb-40 text-center">NBA "The Art Of Dribbling" MOMENTS</h2>
+        <div class="player" data-plyr-provider="youtube" data-plyr-embed-id="lK-bje7vEi4?si=PbBGJL6bGYWz_-B8"></div>
+      </div>
+      <!-- /column -->
+    </div>
+    <!-- /.row -->
+  </div>
+  <!-- /.container -->
+</div>
+<!-- /.wrapper -->
 
 <p>When <a href="https://hoopheadspod.com/a-brief-history-of-basketball/">basketball</a> first started, players dribbled with soccer balls until <a href="https://en.wikipedia.org/wiki/Spalding_(company)#:~:text=However%2C%20many%20NBA%20players%20complained,backboard%2C%20and%20cut%20their%20fingers.">Spalding</a> manufactured the first official basketball for the sport, improving its design to allow better handling and dribbling. <a href="https://soccerballworld.com/history-of-the-soccer-ball/">Soccer balls</a> at the time were too flat to bounce well and too slick to grip, making dribbling nearly impossible. This innovation, a basketball designed for better grip, bounce, and control, transformed the way the game was played.</p>
 
@@ -163,15 +197,25 @@ It’s about being different and defining your legacy within the game.</p>
 
 <p>This blog post references content from the History Channel’s program <a href="https://www.history.com/shows/the-mega-brands-that-built-america">“The Mega-Brands That Built America.”</a> All historical material and imagery used are for educational and commentary purposes under fair use. Full credit is given to the History Channel, and viewers are encouraged to explore the original program for more details.</p>
 
-<p><i class="fab fa-instagram"></i> <span>Instagram link: <a href="https://www.instagram.com/p/CvckyveR9ym/ " target="_blank">https://www.instagram.com/p/CvckyveR9ym/&lt;/span&gt;</a></span></p>]]></content><author><name></name></author><summary type="html"><![CDATA[At BTE Analytics, we’re not just about numbers. We’re about what makes you, you. Coming from my own background as a basketball player, I’ve always believed that what truly separates good players from great ones isn’t just the stats you see on paper. It’s the subtle stuff. The tendencies, the rhythm, the style. That’s the soul of the game.]]></summary></entry><entry><title type="html">From the Court to the Tech World: My Unforgettable Experience at the Paris Olympics and What It Means for BTE Analytics</title><link href="http://localhost:4000/From-the-Court-to-the-Tech-World" rel="alternate" type="text/html" title="From the Court to the Tech World: My Unforgettable Experience at the Paris Olympics and What It Means for BTE Analytics" /><published>2024-11-20T00:00:00+01:00</published><updated>2024-11-20T00:00:00+01:00</updated><id>http://localhost:4000/From-the-Court-to-the-Tech-World</id><content type="html" xml:base="http://localhost:4000/From-the-Court-to-the-Tech-World"><![CDATA[<p>As a former <a href="https://en.wikipedia.org/wiki/Athlete">athlete</a> turned tech entrepreneur, I’ve had my share of unforgettable moments on and off the court. But my trip to the <a href="https://olympics.com/en/">Paris Olympics</a> this year was an extraordinary milestone. It was more than just an event it was a pivotal moment in my journey with <strong>BTE Analytics</strong> and our mission to revolutionize <a href="https://data.org/resources/what-is-data-equity-and-why-does-it-matter/#:~:text=the%20Ford%20Foundation.-,Data%20Equity%20is%20a%20set%20of%20principles%20and%20practices%20to,justice%2C%20equity%2C%20and%20inclusivity.">data equity</a> for athletes.</p>
+<p><i class="fab fa-instagram"></i> <span>Instagram link: <a href="https://www.instagram.com/p/CvckyveR9ym/" target="_blank">https://www.instagram.com/p/CvckyveR9ym/</a></span></p>]]></content><author><name>Rashad West</name></author><category term="[&quot;Analytics&quot;, &quot;Basketball&quot;]" /><category term="NBA" /><category term="History" /><summary type="html"><![CDATA[At BTE Analytics, we’re not just about numbers. We’re about what makes you, you. Coming from my own background as a basketball player, I’ve always believed that what truly separates good players from great ones isn’t just the stats you see on paper. It’s the subtle stuff. The tendencies, the rhythm, the style. That’s the soul of the game.]]></summary></entry><entry><title type="html">From the Court to the Tech World: My Unforgettable Experience at the Paris Olympics and What It Means for BTE Analytics</title><link href="http://localhost:4000/From-the-Court-to-the-Tech-World" rel="alternate" type="text/html" title="From the Court to the Tech World: My Unforgettable Experience at the Paris Olympics and What It Means for BTE Analytics" /><published>2024-11-20T00:00:00+01:00</published><updated>2024-11-20T00:00:00+01:00</updated><id>http://localhost:4000/From-the-Court-to-the-Tech-World</id><content type="html" xml:base="http://localhost:4000/From-the-Court-to-the-Tech-World"><![CDATA[<p>As a former <a href="https://en.wikipedia.org/wiki/Athlete">athlete</a> turned tech entrepreneur, I’ve had my share of unforgettable moments on and off the court. But my trip to the <a href="https://olympics.com/en/">Paris Olympics</a> this year was an extraordinary milestone. It was more than just an event it was a pivotal moment in my journey with <strong>BTE Analytics</strong> and our mission to revolutionize <a href="https://data.org/resources/what-is-data-equity-and-why-does-it-matter/#:~:text=the%20Ford%20Foundation.-,Data%20Equity%20is%20a%20set%20of%20principles%20and%20practices%20to,justice%2C%20equity%2C%20and%20inclusivity.">data equity</a> for athletes.</p>
 
 <p>Let me break it down for you.</p>
 
-<video width="50%" height="40%" controls="" poster="/assets/img/blog-img/paris-poster.png">
-  <source src="/assets/img/blog-img/paris-poster.webm" type="video/webm" />
-</video>
-<p style="font-style: italic; font-size: 0.9em; font-weight: bold; text-align: center;">Paris Olympics 2024</p>
-
+<div class="wrapper gray-wrapper">
+  <div class="container inner">
+    <div class="row">
+      <div class="col-lg-10 offset-lg-1">
+        <h2 class="section-title mb-40 text-center">Paris Olympics 2024</h2>
+        <video poster="/assets/media/poster/paris-poster.png" class="player" playsinline="" controls="" preload="none">
+          <source src="/assets/media/paris-poster.webm" type="video/webm" />
+        </video>
+      </div>
+      <!-- /column -->
+    </div>
+    <!-- /.row -->
+  </div>
+  <!-- /.container -->
+</div>
 <hr />
 
 <h3 id="breaking-bread-with-olympians">Breaking Bread with Olympians</h3>
@@ -181,9 +225,9 @@ It’s about being different and defining your legacy within the game.</p>
 <p>These conversations reinforced my belief in empowering athletes with tools to redefine success whether it’s through <a href="https://sporttech.io/">sports tech</a> or life off the field. Stories of triumph and challenges alike echoed the importance of our mission at <strong>BTE Analytics</strong>.</p>
 
 <div class="image-gallery" style="text-align: center">
-  <img class="img-3" src="/assets/img/blog-img/together-with-olympians-2.webp" alt="together-with-olympians" />
-  <img class="img-3" src="/assets/img/blog-img/together-with-olympians-1.webp" alt="together-with-olympians" />
-  <img class="img-3" src="/assets/img/blog-img/together-with-olympians-3.webp" alt="together-with-olympians" />
+  <img class="img-3" src="/assets/images/blog-img/together-with-olympians-2.webp" alt="together-with-olympians" />
+  <img class="img-3" src="/assets/images/blog-img/together-with-olympians-1.webp" alt="together-with-olympians" />
+  <img class="img-3" src="/assets/images/blog-img/together-with-olympians-3.webp" alt="together-with-olympians" />
 </div>
 <hr />
 
@@ -194,10 +238,10 @@ It’s about being different and defining your legacy within the game.</p>
 <p>It was a catalyst for discussions on <a href="https://www.gartner.com/en/information-technology">tech industry trends</a>, <a href="https://www.coursera.org/articles/go-to-market-strategy">go to market strategies</a>, and how innovative <a href="https://www.investopedia.com/terms/b/businessmodel.asp">business models</a> are transforming sports tech. These insights are already shaping the direction of <strong>BTE Analytics</strong>, helping us better serve athletes globally.</p>
 
 <div class="image-gallery" style="text-align: center">
-  <img class="img-4" src="/assets/img/blog-img/historian-moments-paris-1.webp" alt="historian-moments-paris" />
-  <img class="img-4" src="/assets/img/blog-img/historian-moments-paris-2.webp" alt="historian-moments-paris" />
-  <img class="img-4" src="/assets/img/blog-img/historian-moments-paris-3.webp" alt="historian-moments-paris" />
-  <img class="img-4" src="/assets/img/blog-img/historian-moments-paris-4.webp" alt="historian-moments-paris" />
+  <img class="img-4" src="/assets/images/blog-img/historian-moments-paris-1.webp" alt="historian-moments-paris" />
+  <img class="img-4" src="/assets/images/blog-img/historian-moments-paris-2.webp" alt="historian-moments-paris" />
+  <img class="img-4" src="/assets/images/blog-img/historian-moments-paris-3.webp" alt="historian-moments-paris" />
+  <img class="img-4" src="/assets/images/blog-img/historian-moments-paris-4.webp" alt="historian-moments-paris" />
 </div>
 <hr />
 
@@ -224,9 +268,9 @@ It’s about being different and defining your legacy within the game.</p>
 <p>Athletes need platforms like <strong>BTE Analytics</strong> that focus on their equity, their data, and their futures.</p>
 
 <div class="image-gallery" style="text-align: center">
-  <img class="img-4" src="/assets/img/blog-img/athletic-soul-1.webp" alt="athletic-soul" />
-  <img class="img-4" src="/assets/img/blog-img/athletic-soul-2.webp" alt="athletic-soul" />
-  <img class="img-4" src="/assets/img/blog-img/athletic-soul-3.webp" alt="athletic-soul" />
+  <img class="img-4" src="/assets/images/blog-img/athletic-soul-1.webp" alt="athletic-soul" />
+  <img class="img-4" src="/assets/images/blog-img/athletic-soul-2.webp" alt="athletic-soul" />
+  <img class="img-4" src="/assets/images/blog-img/athletic-soul-3.webp" alt="athletic-soul" />
 </div>
 
 <hr />
@@ -240,12 +284,12 @@ It’s about being different and defining your legacy within the game.</p>
 <hr />
 
 <div class="image-gallery" style="text-align: center">
-      <img class="" src="/assets/img/blog-img/bte.webp" alt="bte" />
+      <img class="" src="/assets/images/blog-img/bte.webp" alt="bte" />
 </div>
 
 <p>As I reflect on this unforgettable experience, I’m more motivated than ever. <strong>BTE Analytics</strong> is not just a tech company it’s a movement. And this trip to Paris reminded me why we do what we do.</p>
 
-<p>Stay tuned there’s more to come. Maybe next time, I’ll even share the story about that VC and the gold medal game. 😉</p>]]></content><author><name></name></author><summary type="html"><![CDATA[As a former athlete turned tech entrepreneur, I’ve had my share of unforgettable moments on and off the court. But my trip to the Paris Olympics this year was an extraordinary milestone. It was more than just an event it was a pivotal moment in my journey with BTE Analytics and our mission to revolutionize data equity for athletes.]]></summary></entry><entry><title type="html">Accelerating Data Innovation: My Journey with Rolling Insights</title><link href="http://localhost:4000/Accelerating_Data_Innovation" rel="alternate" type="text/html" title="Accelerating Data Innovation: My Journey with Rolling Insights" /><published>2024-11-05T00:00:00+01:00</published><updated>2024-11-05T00:00:00+01:00</updated><id>http://localhost:4000/Accelerating_Data_Innovation</id><content type="html" xml:base="http://localhost:4000/Accelerating_Data_Innovation"><![CDATA[<h2 id="advancing-data-and-analytics-with-the-rolling-insights-accelerator">Advancing Data and Analytics with the Rolling Insights Accelerator</h2>
+<p>Stay tuned there’s more to come. Maybe next time, I’ll even share the story about that VC and the gold medal game. 😉</p>]]></content><author><name>Rashad West</name></author><category term="[&quot;Analytics&quot;, &quot;BTE&quot;]" /><category term="Sports" /><summary type="html"><![CDATA[As a former athlete turned tech entrepreneur, I’ve had my share of unforgettable moments on and off the court. But my trip to the Paris Olympics this year was an extraordinary milestone. It was more than just an event it was a pivotal moment in my journey with BTE Analytics and our mission to revolutionize data equity for athletes.]]></summary></entry><entry><title type="html">Accelerating Data Innovation: My Journey with Rolling Insights</title><link href="http://localhost:4000/Accelerating_Data_Innovation" rel="alternate" type="text/html" title="Accelerating Data Innovation: My Journey with Rolling Insights" /><published>2024-11-05T00:00:00+01:00</published><updated>2024-11-05T00:00:00+01:00</updated><id>http://localhost:4000/Accelerating_Data_Innovation</id><content type="html" xml:base="http://localhost:4000/Accelerating_Data_Innovation"><![CDATA[<h2 id="advancing-data-and-analytics-with-the-rolling-insights-accelerator">Advancing Data and Analytics with the Rolling Insights Accelerator</h2>
 
 <p>Going through the <a href="https://rolling-insights.com/breakaway-accelerator/">Rolling Insights Accelerator</a>
 has been an incredible step forward for our work in data and analytics. This accelerator is a major
@@ -253,8 +297,8 @@ player in the world of sports tech, and having them as our data partner is a gam
 particularly for providing individuals with meaningful insights that drive performance.</p>
 
 <div class="image-gallery" style="text-align: center">
-  <img class="img-2" src="/assets/img/blog-img/BTE_Future6.webp" alt="BTE_Future6" />
-  <img class="img-2" src="/assets/img/blog-img/BTE_Future11.webp" alt="BTE_Future11" />
+  <img class="img-2" src="/assets/images/blog-img/BTE_Future6.webp" alt="BTE_Future6" />
+  <img class="img-2" src="/assets/images/blog-img/BTE_Future11.webp" alt="BTE_Future11" />
 </div>
 
 <h2 id="fireside-chats-with-leaders-in-sports-innovation">Fireside Chats with Leaders in Sports Innovation</h2>
@@ -275,7 +319,7 @@ to support athletes and fans. Collaborating with Rolling Insights gives us the t
 we need to continue growing and offering valuable analytics solutions to a wider range of sports
 stakeholders.</p>
 
-<p><img src="/assets/img/blog-img/eBTE (efficiency score).webp" alt="eBTE (efficiency score)" /></p>
+<p><img src="/assets/images/blog-img/eBTE (efficiency score).webp" alt="eBTE (efficiency score)" /></p>
 
 <h2 id="breakaway-accelerator-empowering-early-stage-sports-tech-companies">Breakaway Accelerator: Empowering Early-Stage Sports Tech Companies</h2>
 
@@ -291,21 +335,21 @@ This partnership is a pivotal opportunity for BTE Analytics as we dive deeper in
 sports ecosystem, equipped with a data backbone that supports our growth across markets
 and elevates athlete-fan engagement through advanced analytics.</p>
 
-<p><img src="/assets/img/blog-img/BTE Analytics_X_Rolling_Insights.webp" alt="BTE Analytics_X_Rolling_Insights" /></p>
+<p><img src="/assets/images/blog-img/BTE Analytics_X_Rolling_Insights.webp" alt="BTE Analytics_X_Rolling_Insights" /></p>
 
 <h2 id="looking-ahead-a-commitment-to-data-driven-athlete-experiences">Looking Ahead: A Commitment to Data-Driven Athlete Experiences</h2>
 
 <p>As we move forward, I’m excited about the possibilities that come from partnering with Rolling
 Insights to provide valuable <a href="https://rolling-insights.com/rolling-insights-datafeeds/historical-data/">data solutions</a>.
 This accelerator has reaffirmed my commitment to pushing boundaries and enhancing the athlete
-experience through data-driven insights.</p>]]></content><author><name></name></author><summary type="html"><![CDATA[Advancing Data and Analytics with the Rolling Insights Accelerator]]></summary></entry><entry><title type="html">Discovering New Realities: My Time at MIT XR Hackathon</title><link href="http://localhost:4000/Discovering_New_Realities" rel="alternate" type="text/html" title="Discovering New Realities: My Time at MIT XR Hackathon" /><published>2024-02-25T00:00:00+01:00</published><updated>2024-02-25T00:00:00+01:00</updated><id>http://localhost:4000/Discovering_New_Realities</id><content type="html" xml:base="http://localhost:4000/Discovering_New_Realities"><![CDATA[<h2 id="witnessing-the-growth-of-xr-at-mit">Witnessing the Growth of XR at MIT</h2>
+experience through data-driven insights.</p>]]></content><author><name>Rashad West</name></author><category term="Insight" /><category term="Innovation" /><summary type="html"><![CDATA[Advancing Data and Analytics with the Rolling Insights Accelerator]]></summary></entry><entry><title type="html">Discovering New Realities: My Time at MIT XR Hackathon</title><link href="http://localhost:4000/Discovering_New_Realities" rel="alternate" type="text/html" title="Discovering New Realities: My Time at MIT XR Hackathon" /><published>2024-02-25T00:00:00+01:00</published><updated>2024-02-25T00:00:00+01:00</updated><id>http://localhost:4000/Discovering_New_Realities</id><content type="html" xml:base="http://localhost:4000/Discovering_New_Realities"><![CDATA[<h2 id="witnessing-the-growth-of-xr-at-mit">Witnessing the Growth of XR at MIT</h2>
 
 <p>Being in <a href="https://www.bostonusa.com/">Boston</a> for the <a href="https://realityvirtuallyhack.com/">MIT XR Hackathon</a> was a powerful reminder of how far the <strong>XR field</strong> has come and the part I’ve been able to play in it. As one of the early contributors to this space, it felt special to see its evolution firsthand. Working alongside some of the best <strong>XR developers</strong> at the <a href="https://www.media.mit.edu/">MIT Media Lab</a> was incredible. The conversations I had were inspiring, especially with people who are not only innovating but actively reshaping how <strong>immersive technology</strong> is experienced.</p>
 
 <div class="image-gallery" style="text-align: center">
-  <img class="img-3" src="/assets/img/blog-img/20240301_124442.webp" alt="MIT-HACKATHON" />
-  <img class="img-3" src="/assets/img/blog-img/20240301_133436.webp" alt="MIT-HACKATHON" />
-  <img class="img-3" src="/assets/img/blog-img/20240302_164842.webp" alt="MIT-HACKATHON" />
+  <img class="img-3" src="/assets/images/blog-img/20240301_124442.webp" alt="MIT-HACKATHON" />
+  <img class="img-3" src="/assets/images/blog-img/20240301_133436.webp" alt="MIT-HACKATHON" />
+  <img class="img-3" src="/assets/images/blog-img/20240302_164842.webp" alt="MIT-HACKATHON" />
 </div>
 
 <h2 id="exploring-the-latest-advancements-in-xr-technology">Exploring the Latest Advancements in XR Technology</h2>
@@ -313,8 +357,8 @@ experience through data-driven insights.</p>]]></content><author><name></name></
 <p>Seeing the latest advancements in <strong>headsets</strong> and <strong>3D printing technology</strong> gave me new insights into where XR is headed. This experience motivated me more than ever to keep pushing forward in this field. On top of the tech and networking, I also had the chance to see my dad’s side of the family and reconnect with friends from my early days in XR, including familiar faces from the <a href="https://developers.meta.com/horizon/blog/introducing-start-and-launch-pad-support-for-horizon-worlds/">Oculus LaunchPad</a>. These events bring together both the professional and personal sides of my journey, making it all the more meaningful.</p>
 
 <div class="image-gallery" style="text-align: center">
-  <img class="img-2" src="/assets/img/blog-img/20240302_164704.webp" alt="MIT-HACKATHON" />
-  <img class="img-2" src="/assets/img/blog-img/20240302_164716.webp" alt="MIT-HACKATHON" />
+  <img class="img-2" src="/assets/images/blog-img/20240302_164704.webp" alt="MIT-HACKATHON" />
+  <img class="img-2" src="/assets/images/blog-img/20240302_164716.webp" alt="MIT-HACKATHON" />
 </div>
 
 <h2 id="building-new-relationships-in-the-xr-community">Building New Relationships in the XR Community</h2>
@@ -322,13 +366,13 @@ experience through data-driven insights.</p>]]></content><author><name></name></
 <p>I also formed new relationships in the <strong>XR community</strong> that I’m excited to grow. One of the most intriguing conversations was about an <strong>immersive innovation building</strong> at <a href="https://www.asu.edu/">Arizona State University</a>, which I hear is a standout in immersive experiences. I’m already planning a visit to experience it firsthand soon.</p>
 
 <div class="image-gallery" style="text-align: center">
-  <img class="img-2" src="/assets/img/blog-img/20240302_155109.webp" alt="MIT-HACKATHON" />
-  <img class="img-2" src="/assets/img/blog-img/20240302_164735.webp" alt="MIT-HACKATHON" />
+  <img class="img-2" src="/assets/images/blog-img/20240302_155109.webp" alt="MIT-HACKATHON" />
+  <img class="img-2" src="/assets/images/blog-img/20240302_164735.webp" alt="MIT-HACKATHON" />
 </div>
 
 <h2 id="renewed-drive-to-innovate-in-xr">Renewed Drive to Innovate in XR</h2>
 
-<p>The MIT XR Hackathon reminded me why I entered this field and renewed my drive to keep exploring, creating, and connecting. I’m looking forward to integrating everything I’ve gained here into my own projects and pushing the boundaries of what XR can offer.</p>]]></content><author><name></name></author><summary type="html"><![CDATA[Witnessing the Growth of XR at MIT]]></summary></entry><entry><title type="html">NBA All-Star Weekend in Indianapolis: Events, Challenges, and Unforgettable Connections</title><link href="http://localhost:4000/NBA_All_Star_Weekend_in_Indianapolis" rel="alternate" type="text/html" title="NBA All-Star Weekend in Indianapolis: Events, Challenges, and Unforgettable Connections" /><published>2024-02-18T00:00:00+01:00</published><updated>2024-02-18T00:00:00+01:00</updated><id>http://localhost:4000/NBA_All_Star_Weekend_in_Indianapolis</id><content type="html" xml:base="http://localhost:4000/NBA_All_Star_Weekend_in_Indianapolis"><![CDATA[<h2 id="a-memorable-weekend-with-sports-executives">A Memorable Weekend with Sports Executives</h2>
+<p>The MIT XR Hackathon reminded me why I entered this field and renewed my drive to keep exploring, creating, and connecting. I’m looking forward to integrating everything I’ve gained here into my own projects and pushing the boundaries of what XR can offer.</p>]]></content><author><name>Rashad West</name></author><category term="Discovery" /><category term="Hackathon" /><summary type="html"><![CDATA[Witnessing the Growth of XR at MIT]]></summary></entry><entry><title type="html">NBA All-Star Weekend in Indianapolis: Events, Challenges, and Unforgettable Connections</title><link href="http://localhost:4000/NBA_All_Star_Weekend_in_Indianapolis" rel="alternate" type="text/html" title="NBA All-Star Weekend in Indianapolis: Events, Challenges, and Unforgettable Connections" /><published>2024-02-18T00:00:00+01:00</published><updated>2024-02-18T00:00:00+01:00</updated><id>http://localhost:4000/NBA_All_Star_Weekend_in_Indianapolis</id><content type="html" xml:base="http://localhost:4000/NBA_All_Star_Weekend_in_Indianapolis"><![CDATA[<h2 id="a-memorable-weekend-with-sports-executives">A Memorable Weekend with Sports Executives</h2>
 
 <p>National Basketball Association (NBA) All-Star weekend in <a href="https://visitindy.com/">Indianapolis</a> was packed with unforgettable moments. I had the chance to attend exclusive events with <strong>sports executives</strong>, surrounded by people as passionate about the game as I am. It was an amazing weekend spent with my guys, <strong><a href="https://www.linkedin.com/in/derrickthomas32">DT</a></strong> and <strong><a href="https://www.linkedin.com/in/chad-easterling-a5419722">Chad</a></strong>, who made each moment even better. Indianapolis turned out to be the ideal spot for a memorable experience—but it had its challenges too.</p>
 
@@ -340,45 +384,67 @@ experience through data-driven insights.</p>]]></content><author><name></name></
 
 <p>Beyond that unexpected adventure, the weekend was filled with some of the best events and networking experiences. I made it to a <a href="https://www.hennessy.com/us/">Hennessy</a> party, the <a href="https://nbpa.com/">NBPA (National Basketball Players Association)</a> party, the <strong>NBA Dunk Contest</strong> and <strong>3-Point Contest</strong> afterparty, and an event hosted by <a href="https://en.wikipedia.org/wiki/Baron_Davis">Baron Davis</a> that felt like an all-in-one conference. Each of these gatherings brought together influential voices in the sports world, offering invaluable insights and opportunities to reconnect with friends from past events.</p>
 
-<video width="50%" height="40%" controls="" poster="/assets/img/blog-img/The Hennessey event-poster.webp">
-  <source src="/assets/img/blog-img/The Hennessey event.webm" type="video/webm" />
-</video>
-<p style="font-style: italic; font-size: 0.9em; font-weight: bold; text-align: center;">The Hennessey event.</p>
+<div class="wrapper gray-wrapper">
+  <div class="container inner">
+    <div class="row">
+      <div class="col-lg-10 offset-lg-1">
+        <h2 class="section-title mb-40 text-center">The Hennessey event</h2>
+        <video poster="/assets/media/poster/The Hennessey event.png" class="player" playsinline="" controls="" preload="none">
+          <source src="/assets/media/The Hennessey event.webm" type="video/webm" />
+        </video>
+      </div>
+      <!-- /column -->
+    </div>
+    <!-- /.row -->
+  </div>
+  <!-- /.container -->
+</div>
 
 <div class="image-gallery" style="text-align: center">
-  <img class="img-2" src="/assets/img/blog-img/nba-all-stars-1.webp" alt="nba-all-stars-1" />
-  <img class="img-2" src="/assets/img/blog-img/nba-all-stars-4.webp" alt="nba-all-stars-4" />
+  <img class="img-2" src="/assets/images/blog-img/nba-all-stars-1.webp" alt="nba-all-stars-1" />
+  <img class="img-2" src="/assets/images/blog-img/nba-all-stars-4.webp" alt="nba-all-stars-4" />
 </div>
 
 <h2 id="reuniting-with-friends-at-the-nbpa-event">Reuniting with Friends at the NBPA Event</h2>
 
 <p>One of the best moments was attending an <a href="https://nbpa.com/">NBPA</a> event, where I ran into a lot of familiar faces and got to catch up with friends. Being in a room full of people who share a love for sports and understand the business side of it made the night even more impactful.</p>
 
-<p><img src="/assets/img/blog-img/nba-all-stars-2.webp" alt="NBA all stars event" /></p>
+<p><img src="/assets/images/blog-img/nba-all-stars-2.webp" alt="NBA all stars event" /></p>
 
 <h2 id="reflecting-on-the-connections-and-memories-made">Reflecting on the Connections and Memories Made</h2>
 
 <p>All in all, Indianapolis brought together a mix of professional and social experiences that left me with plenty of new connections and memories to carry forward. This weekend wasn’t just about the NBA All-Star events; it was about building relationships that would last far beyond the game.</p>
 
-<p><img src="/assets/img/blog-img/nba-all-stars-3.webp" alt="NBA all stars event" /></p>
+<p><img src="/assets/images/blog-img/nba-all-stars-3.webp" alt="NBA all stars event" /></p>
 
 <div style="text-align: center">
   <p style="font-style: italic; font-weight: bold;"><a href="https://www.linkedin.com/in/paulroberson702" target="_blank">Photo with Paul Roberson</a> </p>
-</div>]]></content><author><name></name></author><summary type="html"><![CDATA[A Memorable Weekend with Sports Executives]]></summary></entry><entry><title type="html">Super Bowl Weekend in Las Vegas: Connections and Experiences</title><link href="http://localhost:4000/Super_Bowl_Weekend_in_Las_Vegas" rel="alternate" type="text/html" title="Super Bowl Weekend in Las Vegas: Connections and Experiences" /><published>2024-02-12T00:00:00+01:00</published><updated>2024-02-12T00:00:00+01:00</updated><id>http://localhost:4000/Super_Bowl_Weekend_in_Las_Vegas</id><content type="html" xml:base="http://localhost:4000/Super_Bowl_Weekend_in_Las_Vegas"><![CDATA[<h3 id="unforgettable-connections-with-nfl-legends">Unforgettable Connections with NFL Legends</h3>
+</div>]]></content><author><name>Rashad West</name></author><category term="All Stars" /><category term="NBA" /><summary type="html"><![CDATA[A Memorable Weekend with Sports Executives]]></summary></entry><entry><title type="html">Super Bowl Weekend in Las Vegas: Connections and Experiences</title><link href="http://localhost:4000/Super_Bowl_Weekend_in_Las_Vegas" rel="alternate" type="text/html" title="Super Bowl Weekend in Las Vegas: Connections and Experiences" /><published>2024-02-12T00:00:00+01:00</published><updated>2024-02-12T00:00:00+01:00</updated><id>http://localhost:4000/Super_Bowl_Weekend_in_Las_Vegas</id><content type="html" xml:base="http://localhost:4000/Super_Bowl_Weekend_in_Las_Vegas"><![CDATA[<h3 id="unforgettable-connections-with-nfl-legends">Unforgettable Connections with NFL Legends</h3>
 
 <p>Super Bowl weekend in Las Vegas was unforgettable—not just because of the big game but for the incredible networking opportunities and meaningful connections it brought. A highlight was spending time with NFL legends <a href="https://en.wikipedia.org/wiki/Ray_Lewis">Ray Lewis</a> and <a href="https://en.wikipedia.org/wiki/Charles_Woodson">Charles Woodson</a> at <strong>Eight</strong>, the upscale cigar lounge at <a href="https://www.rwlasvegas.com/">Resorts World Las Vegas</a>. Sharing that space with two athletes I’ve admired for years and connecting with them on a personal level was truly surreal.</p>
 
-<video width="50%" height="40%" controls="" poster="/assets/img/blog-img/poster-nba-all-stars.webp">
-  <source src="/assets/img/blog-img/nba-all-stars-video.webm" type="video/webm" />
-</video>
-<p style="font-style: italic; font-size: 0.9em; font-weight: bold; text-align: center;">Too Short - Marshawn Lynch event in Vegas at Eight</p>
+<div class="wrapper gray-wrapper">
+  <div class="container inner">
+    <div class="row">
+      <div class="col-lg-10 offset-lg-1">
+        <h2 class="section-title mb-40 text-center">Too Short - Marshawn Lynch event in Vegas at Eight</h2>
+        <video poster="/assets/media/poster/poster-nba-all-stars.png" class="player" playsinline="" controls="" preload="none">
+          <source src="/assets/media/nba-all-stars-video.webm" type="video/webm" />
+        </video>
+      </div>
+      <!-- /column -->
+    </div>
+    <!-- /.row -->
+  </div>
+  <!-- /.container -->
+</div>
 
 <h3 id="reconnecting-with-mitch-richmond">Reconnecting with Mitch Richmond</h3>
 
 <p>I also caught up with <a href="https://en.wikipedia.org/wiki/Mitch_Richmond">Mitch Richmond</a>, a conversation that reminded me of my journey. Mitch and I originally met on a flight from San Francisco to <a href="https://www.nba.com/summer-league">NBA Summer League</a>, and he’s always been easy to talk to, with a real understanding of my mission.</p>
 
 <div style="text-align: center">
-  <img src="/assets/img/blog-img/superbowl-1.webp" alt="Reconnecting with Mitch Richmond" />
+  <img src="/assets/images/blog-img/superbowl-1.webp" alt="Reconnecting with Mitch Richmond" />
   <p style="font-style: italic; font-size: 0.9em; font-weight:bold;">Reconnecting with Mitch Richmond</p>
 </div>
 
@@ -390,7 +456,7 @@ experience through data-driven insights.</p>]]></content><author><name></name></
 
 <p>Super Bowl weekend also brought together investors from various industries, allowing me to make new connections with those who see potential in <strong>sports technology</strong>.</p>
 
-<p><img src="/assets/img/blog-img/superbowl-2.webp" alt="superbowl-2" /></p>
+<p><img src="/assets/images/blog-img/superbowl-2.webp" alt="superbowl-2" /></p>
 
 <h3 id="quality-time-with-friends-from-hampton-university">Quality Time with Friends from Hampton University</h3>
 
@@ -401,13 +467,13 @@ experience through data-driven insights.</p>]]></content><author><name></name></
 <p>I attended gatherings hosted by <strong>The Players Impact Group</strong>, <a href="https://www.profootballhof.com/players/lawrence-taylor/">Lawrence Taylor</a>’s camp event, and pitch sessions at <strong>WeWork</strong> and other venues across Las Vegas. From <a href="https://www.nfl.com/players/marshawn-lynch/">Marshawn Lynch</a> and <a href="https://www.youtube.com/channel/UCT5WSvzLbxkwTvTwpPVkUFw">Too Short</a>’s event to the high energy at each pitch, the entire weekend was packed with inspiration and connection.</p>
 
 <div style="text-align: center">
-  <img src="/assets/img/blog-img/superbowl-result.webp" alt="Superbowl result, Febuary 11th 2024" />
+  <img src="/assets/images/blog-img/superbowl-result.webp" alt="Superbowl result, Febuary 11th 2024" />
   <p style="font-style: italic; font-size: 0.9em; font-weight:bold;">Superbowl result, Febuary 11th 2024</p>
 </div>
 
 <h3 id="reflecting-on-the-49ers-and-future-goals">Reflecting on the 49ers and Future Goals</h3>
 
-<p>The only downside? My childhood team, the <a href="https://www.49ers.com/">San Francisco 49ers</a>, didn’t make it to the game. Although I didn’t attend this year’s Super Bowl, I plan to go into it next year to get the full experience. This weekend reminded me just how powerful connections and experiences can be, pushing me forward in both life and work.</p>]]></content><author><name></name></author><summary type="html"><![CDATA[Unforgettable Connections with NFL Legends]]></summary></entry><entry><title type="html">FETC Future Education</title><link href="http://localhost:4000/FETC_Future_Education" rel="alternate" type="text/html" title="FETC Future Education" /><published>2024-02-05T00:00:00+01:00</published><updated>2024-02-05T00:00:00+01:00</updated><id>http://localhost:4000/FETC_Future_Education</id><content type="html" xml:base="http://localhost:4000/FETC_Future_Education"><![CDATA[<h1 id="fetc-future-of-education-tech-conference">FETC Future of Education Tech Conference</h1>
+<p>The only downside? My childhood team, the <a href="https://www.49ers.com/">San Francisco 49ers</a>, didn’t make it to the game. Although I didn’t attend this year’s Super Bowl, I plan to go into it next year to get the full experience. This weekend reminded me just how powerful connections and experiences can be, pushing me forward in both life and work.</p>]]></content><author><name>Rashad West</name></author><category term="[&quot;Experience&quot;, &quot;Connection&quot;]" /><category term="Superbowl" /><summary type="html"><![CDATA[Unforgettable Connections with NFL Legends]]></summary></entry><entry><title type="html">FETC Future Education</title><link href="http://localhost:4000/FETC_Future_Education" rel="alternate" type="text/html" title="FETC Future Education" /><published>2024-02-05T00:00:00+01:00</published><updated>2024-02-05T00:00:00+01:00</updated><id>http://localhost:4000/FETC_Future_Education</id><content type="html" xml:base="http://localhost:4000/FETC_Future_Education"><![CDATA[<h1 id="fetc-future-of-education-tech-conference">FETC Future of Education Tech Conference</h1>
 
 <p>Attending the Future of Education Technology Conference (FETC) and showcasing our innovative BTE BallCODE game was an exhilarating experience. This game uniquely combines analytics with coding in a gaming format, making learning accessible and engaging for everyone. Beyond our contribution, it was invigorating to witness a range of pioneering educational technologies.</p>
 
@@ -421,14 +487,14 @@ experience through data-driven insights.</p>]]></content><author><name></name></
 
 <p>AI in Education: Artificial Intelligence (AI) was another key theme, with discussions centered on its role in transforming educational practices. The conference featured keynotes on the future of AI in education, exploring how AI can be used to personalize learning, automate administrative tasks, and provide real-time insights into student performance. The focus was on building AI literacy among students, as demonstrated by MagicSchool AI’s platform, which aims to teach students responsible use of AI while unlocking new learning opportunities​​​​.</p>
 
-<p>These topics at FETC 2024 underscore the intersection of technology and education, highlighting the potential of esports, VR/AR, and AI to revolutionize the learning landscape. By integrating these technologies into educational frameworks, educators can provide students with engaging, relevant, and forward-thinking learning experiences.</p>]]></content><author><name></name></author><summary type="html"><![CDATA[FETC Future of Education Tech Conference]]></summary></entry><entry><title type="html">CES Sports AI XR</title><link href="http://localhost:4000/CES_Sports_AI_XR" rel="alternate" type="text/html" title="CES Sports AI XR" /><published>2024-01-21T00:00:00+01:00</published><updated>2024-01-21T00:00:00+01:00</updated><id>http://localhost:4000/CES_Sports_AI_XR</id><content type="html" xml:base="http://localhost:4000/CES_Sports_AI_XR"><![CDATA[<h1 id="ces_xr_ai_main_show">CES_XR_AI_Main_Show</h1>
+<p>These topics at FETC 2024 underscore the intersection of technology and education, highlighting the potential of esports, VR/AR, and AI to revolutionize the learning landscape. By integrating these technologies into educational frameworks, educators can provide students with engaging, relevant, and forward-thinking learning experiences.</p>]]></content><author><name>Rashad West</name></author><category term="Education" /><category term="FETC" /><summary type="html"><![CDATA[FETC Future of Education Tech Conference]]></summary></entry><entry><title type="html">CES Sports AI XR</title><link href="http://localhost:4000/CES_Sports_AI_XR" rel="alternate" type="text/html" title="CES Sports AI XR" /><published>2024-01-21T00:00:00+01:00</published><updated>2024-01-21T00:00:00+01:00</updated><id>http://localhost:4000/CES_Sports_AI_XR</id><content type="html" xml:base="http://localhost:4000/CES_Sports_AI_XR"><![CDATA[<h1 id="ces_xr_ai_main_show">CES_XR_AI_Main_Show</h1>
 
 <p>The advancements in XR (Extended Reality) at CES 2024 demonstrated a significant step forward in the field of augmented reality, particularly with the debut of products like the XREAL Air 2 Ultra AR glasses. These glasses are notable for their advanced features such as six degrees of freedom, Full HD visuals for each eye, and a comfortable, lightweight design. They signify a move towards making spatial computing and immersive experiences more accessible and practical for a wide range of applications, including sports and entertainment.</p>
 
 <p>In the realm of AI (Artificial Intelligence), the focus at CES 2024 was on the integration of AI into various devices and applications. This trend highlights the growing role of AI in enhancing user experiences across different technology platforms. Although specific sports tech innovations in AI were not detailed, the overall direction suggests a future where AI could play a crucial role in sports technology. This could include applications in performance analytics, personalizing training programs, and enhancing interactive experiences for both athletes and spectators. The advancements in AI reflect a broader trend towards smarter, more responsive technology solutions across multiple sectors.</p>
 
-<p><img src="http://localhost:4000/assets/img/blog-img/20240110_160544.webp?raw=true" alt="Sports Innovation" />
-<img src="http://localhost:4000/assets/img/blog-img/20240111_120909.webp?raw=true" alt="Sports Innovation" /></p>]]></content><author><name></name></author><summary type="html"><![CDATA[CES_XR_AI_Main_Show]]></summary></entry><entry><title type="html">CES Sports Innovation Lab Lounge</title><link href="http://localhost:4000/CES_Sports_Innovation_Lab_Lounge" rel="alternate" type="text/html" title="CES Sports Innovation Lab Lounge" /><published>2024-01-20T00:00:00+01:00</published><updated>2024-01-20T00:00:00+01:00</updated><id>http://localhost:4000/CES_Sports_Innovation_Lab_Lounge</id><content type="html" xml:base="http://localhost:4000/CES_Sports_Innovation_Lab_Lounge"><![CDATA[<h1 id="sports_innovation_lab_lounge">Sports_Innovation_Lab_Lounge</h1>
+<p><img src="http://localhost:4000/assets/images/blog-img/20240110_160544.webp?raw=true" alt="Sports Innovation" />
+<img src="http://localhost:4000/assets/images/blog-img/20240111_120909.webp?raw=true" alt="Sports Innovation" /></p>]]></content><author><name></name></author><summary type="html"><![CDATA[CES_XR_AI_Main_Show]]></summary></entry><entry><title type="html">CES Sports Innovation Lab Lounge</title><link href="http://localhost:4000/CES_Sports_Innovation_Lab_Lounge" rel="alternate" type="text/html" title="CES Sports Innovation Lab Lounge" /><published>2024-01-20T00:00:00+01:00</published><updated>2024-01-20T00:00:00+01:00</updated><id>http://localhost:4000/CES_Sports_Innovation_Lab_Lounge</id><content type="html" xml:base="http://localhost:4000/CES_Sports_Innovation_Lab_Lounge"><![CDATA[<h1 id="sports_innovation_lab_lounge">Sports_Innovation_Lab_Lounge</h1>
 
 <p>I am grateful for the invitation to the Sports Innovation Lab Lounge at CES in Las Vegas. I connected with some amazing individuals in the sports and entertainment industry.</p>
 

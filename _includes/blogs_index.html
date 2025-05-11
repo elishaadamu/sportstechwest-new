@@ -19,8 +19,7 @@
         data-autoplay-timeout="5000"
         data-responsive='{"0":{"items": "1"}, "768":{"items": "2"}, "992":{"items": "3"}}'
       >
-        {% for post in site.posts limit: 7 %} {% assign trending = post.trending
-        %} {% unless trending %}
+        {% for post in site.posts limit: 7 %}
         <div class="item">
           {% if post.thumbnail %}
           <figure class="overlay overlay1 rounded mb-30">
@@ -56,7 +55,7 @@
             {% endif %}
           </div>
         </div>
-        {% endunless %} {% endfor %}
+        {% endfor %}
       </div>
     </div>
   </div>

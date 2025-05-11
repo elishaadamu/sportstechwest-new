@@ -2,13 +2,30 @@
 layout: post
 title: "Analytics Culture: “The Game Within the Game”"
 thumbnail: "assets/images/thumbnails/basketball-history.webp"
+trending: true
+tags: NBA History
+category: [Analytics, Basketball]
+author: Rashad West
+badge_color: "bg-meander"
 ---
 
 At [BTE Analytics](https://sportstechwest.com/analytics-culture), we’re not just about numbers. We’re about what makes you, you. Coming from my own background as a basketball player, I’ve always believed that what truly separates good players from great ones isn’t just the stats you see on paper. It’s the subtle stuff. The tendencies, the rhythm, the style. That’s the soul of the game.
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/lK-bje7vEi4?si=PbBGJL6bGYWz_-B8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-
-<p style="font-style: italic; font-size: 0.9em; font-weight: bold; text-align: center;">NBA "The Art Of Dribbling" MOMENTS</p>
+<!-- /.wrapper -->
+<div class="wrapper light-wrapper">
+  <div class="container inner">
+    <div class="row">
+      <div class="col-lg-10 offset-lg-1">
+        <h2 class="section-title mb-40 text-center">NBA "The Art Of Dribbling" MOMENTS</h2>
+        <div class="player" data-plyr-provider="youtube" data-plyr-embed-id="lK-bje7vEi4?si=PbBGJL6bGYWz_-B8"></div>
+      </div>
+      <!-- /column -->
+    </div>
+    <!-- /.row -->
+  </div>
+  <!-- /.container -->
+</div>
+<!-- /.wrapper -->
 
 When [basketball](https://hoopheadspod.com/a-brief-history-of-basketball/) first started, players dribbled with soccer balls until [Spalding](<https://en.wikipedia.org/wiki/Spalding_(company)#:~:text=However%2C%20many%20NBA%20players%20complained,backboard%2C%20and%20cut%20their%20fingers.>) manufactured the first official basketball for the sport, improving its design to allow better handling and dribbling. [Soccer balls](https://soccerballworld.com/history-of-the-soccer-ball/) at the time were too flat to bounce well and too slick to grip, making dribbling nearly impossible. This innovation, a basketball designed for better grip, bounce, and control, transformed the way the game was played.
 
@@ -90,5 +107,4 @@ It’s about being different and defining your legacy within the game.
 
 This blog post references content from the History Channel’s program [“The Mega-Brands That Built America.”](https://www.history.com/shows/the-mega-brands-that-built-america) All historical material and imagery used are for educational and commentary purposes under fair use. Full credit is given to the History Channel, and viewers are encouraged to explore the original program for more details.
 
-<i class="fab fa-instagram"></i> <span>Instagram link: <a href="https://www.instagram.com/p/CvckyveR9ym/
-" target="_blank">https://www.instagram.com/p/CvckyveR9ym/</span>
+<i class="fab fa-instagram"></i> <span>Instagram link: <a href="https://www.instagram.com/p/CvckyveR9ym/" target="_blank">https://www.instagram.com/p/CvckyveR9ym/</a></span>

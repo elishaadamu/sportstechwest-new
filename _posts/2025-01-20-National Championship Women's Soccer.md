@@ -2,6 +2,13 @@
 layout: post
 title: "Analytics Culture: UNC Legacy “From No Control to Comeback”"
 thumbnail: "assets/images/thumbnails/Ncws.jpeg"
+badge_color: "bg-meander"
+trending: true
+simple_nav: true
+date: 2025-01-20
+tags: sports
+categories: [Analytics, Culture]
+author: "Rashad West"
 ---
 
 ## The Decision to Go
@@ -20,10 +27,21 @@ Parking in Cary? **Chaos**. Finding a spot was one thing, but getting to the act
 
 The first thing I noticed? **Carolina Blue** everywhere. About **90%** of the crowd was made up of UNC fans, and it’s not hard to see why. **UNC Women’s Soccer** isn’t just dominant—they’re **legendary**. Consider this: over **40 NCAA Tournament appearances**, **32 Final Fours**, and a mind-blowing **22 National Championships**. They have defined what it means to be the gold standard in college sports.
 
-<video width="50%" height="40%" controls>
-  <source src="{{site.baseurl}}/assets/images/blog-img/NCWS_video-1.mp4" type="video/mp4">
-</video>
-  <p style="font-style: italic; font-size: 0.9em; font-weight: bold; text-align: center;">Women’s National Championship game 2024</p>
+<div class="wrapper gray-wrapper">
+  <div class="container inner">
+    <div class="row">
+      <div class="col-lg-10 offset-lg-1">
+        <h2 class="section-title mb-40 text-center">Women’s National Championship game 2024</h2>
+        <video  poster="{{relative_url}}/assets/media/poster/NCWS_poster-1.png" class="player" playsinline controls preload="none">
+          <source  src="{{relative_url}}/assets/media/NCWS_video-1.mp4" type="video/mp4">
+        </video>
+      </div>
+      <!-- /column -->
+    </div>
+    <!-- /.row -->
+  </div>
+  <!-- /.container -->
+</div>
 
 Learn more about UNC Women’s Soccer’s legacy [here](https://goheels.com/sports/womens-soccer).
 
@@ -69,9 +87,20 @@ Unfortunately, my phone was nearly **dead**, so I couldn’t capture the postgam
 
 Getting back to my car was a whole new adventure. This time, I decided to take the **shortcut through the woods**. With my phone completely **dead**, I had to depend on the person in front of me and their flashlight to guide the way. Thankfully, I made it out without twisting an ankle or getting lost.
 
-<video width="50%" height="40%" controls>
-  <source src="{{site.baseurl}}/assets/images/blog-img/NCWS_video-2.mp4" type="video/mp4">
-</video>
+<div class="wrapper light-wrapper">
+  <div class="container inner">
+    <div class="row">
+      <div class="col-lg-10 offset-lg-1">
+        <video  poster="{{relative_url}}/assets/media/poster/NCWS_poster-2.png" class="player" playsinline controls preload="none">
+          <source src="{{relative_url}}/assets/media/NCWS_video-2.mp4" type="video/mp4">
+        </video>
+      </div>
+      <!-- /column -->
+    </div>
+    <!-- /.row -->
+  </div>
+  <!-- /.container -->
+</div>
 
 Once I got to my car, the parking lot was **gridlocked**. With no phone to distract me, I turned on the **radio** and used the time to reflect. Sitting there, I couldn’t help but appreciate the experience: the game, the crowd, and what it meant to witness such a **historic program** in action.
 
