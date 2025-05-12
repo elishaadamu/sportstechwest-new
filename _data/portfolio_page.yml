@@ -13,6 +13,14 @@ portfolios_area:
       filter: "analytics_culture"
 
   portfolios:
+    - title: "AI Business Fundamentals"
+      sub_title: "certificate in AI Business Fundamentals"
+      sm_image: "/assets/images/certificates/AI_Biz_Funda.png"
+      big_image: "/assets/images/certificates/AI_Biz_Funda.png"
+      url: "#"
+      filters:
+        - certificates
+
     - title: "AI Ethics"
       sub_title: "certificate in AI Ethics"
       sm_image: "/assets/images/certificates/AI Ethics.webp"
@@ -20,6 +28,7 @@ portfolios_area:
       url: "#"
       filters:
         - certificates
+
     - title: "AI Fundamentals"
       sub_title: "certificate in AI Fundamentals"
       sm_image: "/assets/images/certificates/AI Fundamentals.webp"
@@ -27,6 +36,23 @@ portfolios_area:
       url: "#"
       filters:
         - certificates
+
+    - title: "AI Fundamentals"
+      sub_title: "certificate in AI Fundamentals"
+      sm_image: "/assets/images/certificates/AI Fundamentals.png"
+      big_image: "/assets/images/certificates/AI Fundamentals.png"
+      url: "#"
+      filters:
+        - certificates
+
+    - title: "AI Strategy"
+      sub_title: "certificate in AI Strategy"
+      sm_image: "/assets/images/certificates/AI Strategy.png"
+      big_image: "/assets/images/certificates/AI Strategy.png"
+      url: "#"
+      filters:
+        - certificates
+
     - title: "Data Manipulation with pandas"
       sub_title: "certificate in Data Manipulation with pandas"
       sm_image: "/assets/images/certificates/Data Manipulation with pandas.webp"
@@ -34,6 +60,7 @@ portfolios_area:
       url: "#"
       filters:
         - certificates
+
     - title: "Generative AI Concepts"
       sub_title: "certificate in Generative AI Concepts"
       sm_image: "/assets/images/certificates/Generative AI Concepts.webp"
@@ -41,6 +68,7 @@ portfolios_area:
       url: "#"
       filters:
         - certificates
+
     - title: "Implementing AI Solutions in Business"
       sub_title: "certificate in Implementing AI Solutions in Business"
       sm_image: "/assets/images/certificates/Implementing AI Solutions in Business.png"
@@ -48,6 +76,143 @@ portfolios_area:
       url: "#"
       filters:
         - certificates
+
+    - title: "Intermediate Python"
+      sub_title: "certificate in Intermediate Python"
+      sm_image: "/assets/images/certificates/Intermediate Python.webp"
+      big_image: "/assets/images/certificates/Intermediate Python.webp"
+      url: "#"
+      filters:
+        - certificates
+
+    - title: "Introduction to ChatGPT"
+      sub_title: "certificate in Introduction to ChatGPT"
+      sm_image: "/assets/images/certificates/Introduction to ChatGPT.webp"
+      big_image: "/assets/images/certificates/Introduction to ChatGPT.webp"
+      url: "#"
+      filters:
+        - certificates
+
+    - title: "Introduction to Data Literacy"
+      sub_title: "certificate in Introduction to Data Literacy"
+      sm_image: "/assets/images/certificates/Introduction to Data Literacy.webp"
+      big_image: "/assets/images/certificates/Introduction to Data Literacy.webp"
+      url: "#"
+      filters:
+        - certificates
+
+    - title: "Introduction to Data Visualization with Matplotlib"
+      sub_title: "certificate in Introduction to Data Visualization with Matplotlib"
+      sm_image: "/assets/images/certificates/Introduction to Data Visualization with Matplotlib.webp"
+      big_image: "/assets/images/certificates/Introduction to Data Visualization with Matplotlib.webp"
+      url: "#"
+      filters:
+        - certificates
+
+    - title: "Introduction to Data Visualization with seaborn"
+      sub_title: "certificate in Introduction to Data Visualization with seaborn"
+      sm_image: "/assets/images/certificates/Introduction to Data Visualization with seaborn.webp"
+      big_image: "/assets/images/certificates/Introduction to Data Visualization with seaborn.webp"
+      url: "#"
+      filters:
+        - certificates
+
+    - title: "Introduction to Python"
+      sub_title: "certificate in Introduction to Python"
+      sm_image: "/assets/images/certificates/Introduction to Python.webp"
+      big_image: "/assets/images/certificates/Introduction to Python.webp"
+      url: "#"
+      filters:
+        - certificates
+
+    - title: "Introduction to SQL"
+      sub_title: "certificate in Introduction to SQL"
+      sm_image: "/assets/images/certificates/Introduction to SQL.webp"
+      big_image: "/assets/images/certificates/Introduction to SQL.webp"
+      url: "#"
+      filters:
+        - certificates
+
+    - title: "Large Language Models (LLMs) Concepts"
+      sub_title: "certificate in Large Language Models (LLMs) Concepts"
+      sm_image: "/assets/images/certificates/Large Language Models (LLMs) Concepts.webp"
+      big_image: "/assets/images/certificates/Large Language Models (LLMs) Concepts.webp"
+      url: "#"
+      filters:
+        - certificates
+
+    - title: "Large Language Models for Business"
+      sub_title: "certificate in Large Language Models for Business"
+      sm_image: "/assets/images/certificates/LL_Biz_Model.png"
+      big_image: "/assets/images/certificates/LL_Biz_Model.png"
+      url: "#"
+      filters:
+        - certificates
+
+    - title: "Marketing Analytics for Business"
+      sub_title: "certificate in Marketing Analytics for Business"
+      sm_image: "/assets/images/certificates/Marketing Analytics for Business.png"
+      big_image: "/assets/images/certificates/Marketing Analytics for Business.png"
+      url: "#"
+      filters:
+        - certificates
+
+    - title: "Monetizing AI Strategy"
+      sub_title: "certificate in Monetizing AI Strategy"
+      sm_image: "/assets/images/certificates/Monetizing AI.png"
+      big_image: "/assets/images/certificates/Monetizing AI.png"
+      url: "#"
+      filters:
+        - certificates
+
+    - title: "Understanding Data Engineering"
+      sub_title: "certificate in Understanding Data Engineering"
+      sm_image: "/assets/images/certificates/Understanding Data Engineering.webp"
+      big_image: "/assets/images/certificates/Understanding Data Engineering.webp"
+      url: "#"
+      filters:
+        - certificates
+
+    - title: "Understanding Data Science"
+      sub_title: "certificate in Understanding Data Science"
+      sm_image: "/assets/images/certificates/Understanding Data Science.webp"
+      big_image: "/assets/images/certificates/Understanding Data Science.webp"
+      url: "#"
+      filters:
+        - certificates
+
+    - title: "Understanding Data Visualization"
+      sub_title: "certificate in Understanding Data Visualization"
+      sm_image: "/assets/images/certificates/Understanding Data Visualization.webp"
+      big_image: "/assets/images/certificates/Understanding Data Visualization.webp"
+      url: "#"
+      filters:
+        - certificates
+
+    - title: "Understanding Machine Learning"
+      sub_title: "certificate in Understanding Machine Learning"
+      sm_image: "/assets/images/certificates/Understanding Machine Learning.webp"
+      big_image: "/assets/images/certificates/Understanding Machine Learning.webp"
+      url: "#"
+      filters:
+        - certificates
+
+    - title: "Understanding Prompt Engineering"
+      sub_title: "certificate in Understanding Prompt Engineering"
+      sm_image: "/assets/images/certificates/understanding-prompt-engineering.webp"
+      big_image: "/assets/images/certificates/understanding-prompt-engineering.webp"
+      url: "#"
+      filters:
+        - certificates
+
+    - title: "Working with OpenAI API"
+      sub_title: "certificate in Working with OpenAI API"
+      sm_image: "/assets/images/certificates/Working_with_OpenAI_API.png"
+      big_image: "/assets/images/certificates/Working_with_OpenAI_API.png"
+      url: "#"
+      filters:
+        - certificates
+
     - title: "Superbowl"
       sub_title: "Super Bowl Weekend in Las Vegas"
       sm_image: "/assets/images/gallery/superbowl-2.webp"
