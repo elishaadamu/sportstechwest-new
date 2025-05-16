@@ -56,7 +56,7 @@ how_it_works:
       icon: "icofont-data"
 
     - title: "Other CS Coursework"
-      description: "<ul>
+      description: "<ul >
   <li>- 💻 General Assembly: Introduction to Ruby on Rails (weekend course)</li>
   <li>- 📱 General Assembly: Introduction to iOS Development (weekend course)</li>
   <li>- 🎮 Unity C# Game Development 2D</li>
@@ -67,7 +67,7 @@ how_it_works:
       icon: "icofont-network-tower"
 
     - title: "Certifications"
-      description: "<ul>
+      description: "<ul >
   <li>- 🎥 Google, VR & 360 Video Certification</li>
   <li>- 📲 NIL Certification (Front Office Sports, Instagram, Facebook)</li>
   <li>- 🪙 Crypto in Sports Essentials (Front Office Sports, Coinbase)</li>
@@ -92,6 +92,11 @@ testimonials:
       image: "/assets/images/clients/Mac-Wilkinson.png"
       name: "Mac Wilkerson"
       designation: "Founder of Moolathan and Former Professional Basketball player"
+      
+    - quote: |
+        Meeting went well and I love the platform
+      name: "Corey Crowder"
+
 
 pricing_table:
   enable: true
@@ -143,19 +148,25 @@ past_projects:
 interview:
   title: How I can support you to thrive in your business or career…
   images:
-    - image_title: Me at a classroom with students
-      image: classroom.jpg
+    - image_title: BTE_Analytics Moveahead Partnership
+      image: BTE_Analytics_Moveahead_Partnership (1).png
     - image_title: Techstars DC
       image: Techstars_DC.webp
-    - image_title: Lectures with Students 
-      image: Speaker1.webp
-    - image_title: Lecture with Students 
-      image: Speaker2.webp
+    - image_title: CJ MCCollom Pelicans 
+      image: CJ_MCCollom_Pelicans (1).png
+    - image_title: MIT SSAC Sports Analytics Conference
+      image: MIT_SSAC_Sports_Analytics_Conference.jpg
 
   join_us: https://sparc.world/RashadWest/calendar/Emerging-Tech
 
 
 ---
+
+<style>
+  .content-wrapper ul li {
+    font-size: 16px !important;
+  }
+</style>
 
 {% if page.about_area.enable %}
 <!-- <div class="wrapper light-wrapper">
@@ -301,12 +312,25 @@ interview:
             <blockquote class="icon larger">
               <p>"{{feedback.quote}}"</p>
               <div class="blockquote-details justify-content-center">
+                {% if feedback.image %}
                 <div class="img-blob blob1">
                   <img src="{{feedback.image}}" alt="{{feedback.name}}" />
                 </div>
+                {% else %}
+                <div class="img-blob blob1">
+                  <img
+                    src="/assets/images/clients/dummy-user.png"
+                    alt="Dummy User"
+                  />
+                </div>
+                {% endif %}
                 <div class="info">
                   <h6 class="mb-0">{{feedback.name}}</h6>
+                  {% if feedback.designation %}
                   <span class="meta mb-0">{{feedback.designation}}</span>
+                  {% else %}
+                  <span class="meta mb-0">No Designation</span>
+                  {% endif %}
                 </div>
               </div>
             </blockquote>
@@ -376,6 +400,7 @@ interview:
           <li>📊 Rolling Insights</li>
           <li>🏛️ NCIDEA (HQ) Labs</li>
           <li>🎮 Oculus/Facebook LaunchPad</li>
+          <li>⚒️ Analytics workshops at College</li>
         </ul>
 
         <div class="space10"></div>
@@ -483,7 +508,7 @@ interview:
           <li>🕶️ Creator, North Carolina Small Business Fund VR Workshop</li>
           <li>📅 Organizer, Black Wall Street Tech Futures event</li>
           <li>👥 Leadership Team, Catalyst Network Foundation</li>
-          <li>⚒️ Analytics workshops at college's</li>
+          <li>🎓 Keynote at Microsoft ManCode event</li>
           <li>
             🏕️ Board Member, Greater Development of All Youth (G.D.A.Y Camps)
           </li>

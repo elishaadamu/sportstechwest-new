@@ -14,10 +14,18 @@
                       <div class="img-blob blob1">
                         <img src="{{feedback.image}}" alt="{{feedback.name}}"/>
                       </div>
+                      {% else %}
+                      <div class="img-blob blob1">
+                        <img src="/assets/images/clients/dummy-user.png" alt="Dummy User"/>
+                      </div>
                       {% endif %}
                       <div class="info">
                         <h6 class="mb-0">{{feedback.name}}</h6>
+                        {% if feedback.designation %}
                         <span class="meta mb-0">{{feedback.designation}}</span>
+                        {% else %}
+                        <span class="meta mb-0">No Designation</span>
+                        {% endif %}
                       </div>
                     </div>
                   </blockquote>
