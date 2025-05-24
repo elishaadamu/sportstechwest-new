@@ -221,13 +221,7 @@ footer .widget img {
     filter: invert(1);
   }
   .nav-link.active {
-    text-decoration: underline;
     font-weight: bold; /* Optional: makes it more visible */
-  }
-  .nav-link:hover {
-    text-decoration: underline;
-
-    transition: text-decoration 1s;
   }
 </style>
 <!--  Nav Name :Classic Header -->
@@ -270,7 +264,23 @@ footer .widget img {
     <div class="navbar-hamburger d-lg-none d-xl-none ms-auto">
         <button class="hamburger animate plain" data-toggle="offcanvas-nav"><span></span></button>
     </div>
-</li>  
+</li>   <li class="dropdown search-dropdown position-static nav-item">
+    <a href="#" role="button" class="collapse-toggle" data-toggle="collapse" data-target=".search-dropdown-menu"
+        aria-haspopup="true" aria-expanded="false"><i class="jam jam-search"></i></a>
+    <div class="dropdown-menu search-dropdown-menu w-100 collapse">
+        <div class="form-wrapper">
+            <form class="inverse-text">
+                <input type="text" id="search-input" class="form-control" placeholder="Search blog posts.." />
+            </form>
+            <!-- /.search-form -->
+            <i class="dropdown-close jam jam-close"></i>
+        </div>
+        <!-- /.form-wrapper -->
+        <ul id="results-container" class="position-static"></ul>
+    </div>
+</li>
+<li class="nav-item"><button class="plain" data-toggle="offcanvas-info"><i class="jam jam-info"></i></button>
+</li> 
       </ul>
       <!-- /.navbar-nav -->
     </div>
