@@ -53,6 +53,14 @@ portfolios_area:
       filters:
         - certificates
 
+    - title: "Atlete Marketing Essentials"
+      sub_title: "certificate in Atlete Marketing Essentials"
+      sm_image: "/assets/images/certificates/athlete_marketing.png"
+      big_image: "/assets/images/certificates/athlete_marketing.png"
+      url: "#"
+      filters:
+        - certificates
+
     - title: "Data Manipulation with pandas"
       sub_title: "certificate in Data Manipulation with pandas"
       sm_image: "/assets/images/certificates/Data Manipulation with pandas.webp"

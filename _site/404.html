@@ -223,6 +223,15 @@ footer .widget img {
   .logo-light {
     filter: invert(1);
   }
+  .nav-link.active {
+    text-decoration: underline;
+    font-weight: bold; /* Optional: makes it more visible */
+  }
+  .nav-link:hover {
+    text-decoration: underline;
+
+    transition: text-decoration 1s;
+  }
 </style>
 <!--  Nav Name :Classic Header -->
 <nav
@@ -290,29 +299,45 @@ footer .widget img {
         data-sm-skip-collapsible-behavior="true"
       >
           
-        <li class="nav-item dropdown">
-          <a class="nav-link dropdown-toggle" href="/"
-            >Home</a
+        <li class="nav-item">
+          <a
+            class="nav-link "
+            href="/"
           >
+            Home
+          </a>
         </li>
+
            
-        <li class="nav-item dropdown">
-          <a class="nav-link dropdown-toggle" href="/portfolios"
-            >Portfolios</a
+        <li class="nav-item">
+          <a
+            class="nav-link "
+            href="/portfolios"
           >
+            Portfolios
+          </a>
         </li>
+
            
-        <li class="nav-item dropdown">
-          <a class="nav-link dropdown-toggle" href="/about"
-            >About</a
+        <li class="nav-item">
+          <a
+            class="nav-link "
+            href="/about"
           >
+            About
+          </a>
         </li>
+
            
-        <li class="nav-item dropdown">
-          <a class="nav-link dropdown-toggle" href="/blogs"
-            >Blog</a
+        <li class="nav-item">
+          <a
+            class="nav-link "
+            href="/blogs"
           >
+            Blog
+          </a>
         </li>
+
          
       </ul>
       <!-- /.navbar-nav -->

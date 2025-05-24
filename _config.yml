@@ -1,6 +1,6 @@
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://adamuinuwa.cv/" # the base hostname & protocol for your site, e.g. http://example.com
-permalink: "/:title"
+permalink: "/blog/:title/"
 
 email: sportstechwest@sportstechwest.com
 
