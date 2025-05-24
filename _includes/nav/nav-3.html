@@ -1,13 +1,25 @@
 <style>
-  .navbar-brand img {
+  .navbar.fixed.transparent .logo-dark {
+    filter: invert(0) !important;
+  }
+  .navbar.fixed.transparent .logo-light {
+    filter: invert(1) !important;
+  }
+  .logo-dark,
+  .logo-light {
     filter: invert(1);
   }
   .nav-link.active {
     text-decoration: underline;
     font-weight: bold; /* Optional: makes it more visible */
   }
+  .nav-link:hover {
+    text-decoration: underline;
+
+    transition: text-decoration 1s;
+  }
 </style>
-<!--  Nav Name :Classic Dark Header -->
+<!--  Nav Name :Classic Header -->
 <nav
   class="navbar {% if include.extra_class %} {{include.extra_class}} {% endif %} dark-wrapper inverse-text navbar-hover-opacity navbar-expand-lg nav-uppercase "
 >
@@ -40,6 +52,16 @@
           alt="{{site.data.general_settings.title}}"
       /></a>
     </div>
+
+    <div class="navbar-other ms-auto order-lg-3">
+      <ul class="navbar-nav flex-row align-items-center" data-sm-skip="true">
+        {% include nav/_hamburger.html %} {% if include.btn_header %} {% include
+        nav/_btn-header.html %} {% endif %} {% if include.drop_search %} {%
+        include nav/_drop-search.html %} {% endif %}
+      </ul>
+      <!-- /.navbar-nav -->
+    </div>
+    <!-- /.navbar-other -->
     <div class="navbar-collapse offcanvas-nav">
       <div class="offcanvas-header d-lg-none d-xl-none">
         <a href="{{site.url}}">
@@ -50,6 +72,7 @@
               {{site.data.general_settings.light_logo_2x}} 2x
             "
             alt="{{site.data.general_settings.title}}"
+            style="width: 120px; filter: invert(1)"
         /></a>
         <button class="plain offcanvas-close offcanvas-nav-close">
           <i class="jam jam-close"></i>
@@ -62,10 +85,14 @@
         {% for menu in site.data.navigation.main_menu %} {% assign check_menu =
         menu.menu_type %} {% case check_menu %} {% when "simple" %}
         <li class="nav-item">
-          <a class="nav-link" href="{{site.baseurl}}{{menu.url}}"
-            >{{menu.text}}</a
+          <a
+            class="nav-link {% if page.url == menu.url %}active{% endif %}"
+            href="{{site.baseurl}}{{menu.url}}"
           >
+            {{menu.text}}
+          </a>
         </li>
+
         {% when "megamenu" %}
         <li class="nav-item">
           <a class="nav-link" href="{{menu.url}}">{{menu.text}}</a>
@@ -157,6 +184,7 @@
     />
   </a>
   <div class="space30"></div>
+  <!-- 
   <p>{{site.data.general_settings.description}}</p>
   <div class="space20"></div>
   <div class="widget">
@@ -170,7 +198,7 @@
       {{site.data.general_settings.phone_number}}
     </address>
   </div>
-  <!-- /.widget -->
+  /.widget -->
   <div class="widget">
     {% if site.data.general_settings.external_links.title %}
     <h3 class="widget-title">
